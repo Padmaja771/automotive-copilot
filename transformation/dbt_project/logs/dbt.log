@@ -1,0 +1,646 @@
+[0m16:52:47.255704 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1092a99d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109320810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1093202d0>]}
+
+
+============================== 16:52:47.258045 | 4b23784e-0d02-44b7-9d4a-d6c94c892f63 ==============================
+[0m16:52:47.258045 [info ] [MainThread]: Running with dbt=1.10.8
+[0m16:52:47.258286 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/Users/padmaja/Desktop/Padmaja/projects/automotive-copilot/dbt/logs', 'debug': 'False', 'profiles_dir': '.', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:52:48.180485 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4b23784e-0d02-44b7-9d4a-d6c94c892f63', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1103b54d0>]}
+[0m16:52:48.198610 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '4b23784e-0d02-44b7-9d4a-d6c94c892f63', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10669b0d0>]}
+[0m16:52:48.199205 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m16:52:48.275438 [debug] [MainThread]: checksum: 265d66e81f90af29a7a28579c9b54d938c94f4a57c57be5f853267ae509b5fcb, vars: {}, profile: , target: , version: 1.10.8
+[0m16:52:48.275844 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m16:52:48.276027 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '4b23784e-0d02-44b7-9d4a-d6c94c892f63', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110413b90>]}
+[0m16:52:48.663649 [warn ] [MainThread]: [[33mWARNING[0m][MissingArgumentsPropertyInGenericTestDeprecation]: Deprecated
+functionality
+Found top-level arguments to test `unique`. Arguments to generic tests should be
+nested under the `arguments` property.`
+[0m16:52:48.664169 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '4b23784e-0d02-44b7-9d4a-d6c94c892f63', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1107c2210>]}
+[0m16:52:48.715690 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '4b23784e-0d02-44b7-9d4a-d6c94c892f63', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11087c790>]}
+[0m16:52:48.781752 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/padmaja/Desktop/Padmaja/projects/automotive-copilot/dbt/target/manifest.json
+[0m16:52:48.785051 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/padmaja/Desktop/Padmaja/projects/automotive-copilot/dbt/target/semantic_manifest.json
+[0m16:52:48.794332 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '4b23784e-0d02-44b7-9d4a-d6c94c892f63', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1135cdfd0>]}
+[0m16:52:48.794592 [info ] [MainThread]: Found 2 models, 5 data tests, 1 source, 463 macros
+[0m16:52:48.794793 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4b23784e-0d02-44b7-9d4a-d6c94c892f63', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110ba3450>]}
+[0m16:52:48.795549 [info ] [MainThread]: 
+[0m16:52:48.795749 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m16:52:48.795885 [info ] [MainThread]: 
+[0m16:52:48.796086 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m16:52:48.797710 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_AI_PROJECT_DB'
+[0m16:52:48.802448 [debug] [ThreadPool]: Using snowflake connection "list_AI_PROJECT_DB"
+[0m16:52:48.802624 [debug] [ThreadPool]: On list_AI_PROJECT_DB: /* {"app": "dbt", "dbt_version": "1.10.8", "profile_name": "automotive_copilot", "target_name": "dev", "connection_name": "list_AI_PROJECT_DB"} */
+show terse schemas in database AI_PROJECT_DB
+    limit 10000
+[0m16:52:48.802736 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m16:52:50.652396 [debug] [ThreadPool]: SQL status: SUCCESS 3 in 1.850 seconds
+[0m16:52:50.653958 [debug] [ThreadPool]: On list_AI_PROJECT_DB: Close
+[0m16:52:50.791243 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_AI_PROJECT_DB, now create_AI_PROJECT_DB_DBT_MODELS)
+[0m16:52:50.791929 [debug] [ThreadPool]: Creating schema "database: "AI_PROJECT_DB"
+schema: "DBT_MODELS"
+"
+[0m16:52:50.795939 [debug] [ThreadPool]: Using snowflake connection "create_AI_PROJECT_DB_DBT_MODELS"
+[0m16:52:50.796309 [debug] [ThreadPool]: On create_AI_PROJECT_DB_DBT_MODELS: /* {"app": "dbt", "dbt_version": "1.10.8", "profile_name": "automotive_copilot", "target_name": "dev", "connection_name": "create_AI_PROJECT_DB_DBT_MODELS"} */
+create schema if not exists AI_PROJECT_DB.DBT_MODELS
+[0m16:52:50.796542 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m16:52:51.787835 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.991 seconds
+[0m16:52:51.789029 [debug] [ThreadPool]: On create_AI_PROJECT_DB_DBT_MODELS: Close
+[0m16:52:51.913743 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_AI_PROJECT_DB_DBT_MODELS, now list_AI_PROJECT_DB_DBT_MODELS)
+[0m16:52:51.919696 [debug] [ThreadPool]: Using snowflake connection "list_AI_PROJECT_DB_DBT_MODELS"
+[0m16:52:51.919883 [debug] [ThreadPool]: On list_AI_PROJECT_DB_DBT_MODELS: /* {"app": "dbt", "dbt_version": "1.10.8", "profile_name": "automotive_copilot", "target_name": "dev", "connection_name": "list_AI_PROJECT_DB_DBT_MODELS"} */
+show terse objects in AI_PROJECT_DB.DBT_MODELS limit 10000
+[0m16:52:51.919996 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m16:52:53.639105 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 1.719 seconds
+[0m16:52:53.640977 [debug] [ThreadPool]: On list_AI_PROJECT_DB_DBT_MODELS: Close
+[0m16:52:53.768558 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4b23784e-0d02-44b7-9d4a-d6c94c892f63', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113691790>]}
+[0m16:52:53.774479 [debug] [Thread-1 (]: Began running node model.automotive_copilot.stg_pending_files
+[0m16:52:53.774751 [info ] [Thread-1 (]: 1 of 2 START sql view model DBT_MODELS.stg_pending_files ....................... [RUN]
+[0m16:52:53.774941 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_AI_PROJECT_DB_DBT_MODELS, now model.automotive_copilot.stg_pending_files)
+[0m16:52:53.775067 [debug] [Thread-1 (]: Began compiling node model.automotive_copilot.stg_pending_files
+[0m16:52:53.778343 [debug] [Thread-1 (]: Writing injected SQL for node "model.automotive_copilot.stg_pending_files"
+[0m16:52:53.778816 [debug] [Thread-1 (]: Began executing node model.automotive_copilot.stg_pending_files
+[0m16:52:53.789335 [debug] [Thread-1 (]: Writing runtime sql for node "model.automotive_copilot.stg_pending_files"
+[0m16:52:53.790074 [debug] [Thread-1 (]: Using snowflake connection "model.automotive_copilot.stg_pending_files"
+[0m16:52:53.790217 [debug] [Thread-1 (]: On model.automotive_copilot.stg_pending_files: /* {"app": "dbt", "dbt_version": "1.10.8", "profile_name": "automotive_copilot", "target_name": "dev", "node_id": "model.automotive_copilot.stg_pending_files"} */
+create or replace   view AI_PROJECT_DB.DBT_MODELS.stg_pending_files
+  
+   as (
+    
+
+WITH source AS (
+    SELECT * FROM AI_PROJECT_DB.STAGING.PENDING_INGESTION
+)
+
+SELECT
+    ingestion_id,
+    filename AS source_file,
+    vin_reference,
+    s3_key,
+    file_size_mb,
+    status,
+    received_at
+FROM source
+WHERE status = 'PENDING'
+  );
+[0m16:52:53.790351 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m16:52:55.172599 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.382 seconds
+[0m16:52:55.183840 [debug] [Thread-1 (]: On model.automotive_copilot.stg_pending_files: Close
+[0m16:52:55.363852 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4b23784e-0d02-44b7-9d4a-d6c94c892f63', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11b8b3250>]}
+[0m16:52:55.364557 [info ] [Thread-1 (]: 1 of 2 OK created sql view model DBT_MODELS.stg_pending_files .................. [[32mSUCCESS 1[0m in 1.59s]
+[0m16:52:55.364986 [debug] [Thread-1 (]: Finished running node model.automotive_copilot.stg_pending_files
+[0m16:52:55.365565 [debug] [Thread-3 (]: Began running node model.automotive_copilot.parsed_vehicle_manuals
+[0m16:52:55.366010 [info ] [Thread-3 (]: 2 of 2 START sql table model DBT_MODELS.parsed_vehicle_manuals ................. [RUN]
+[0m16:52:55.366442 [debug] [Thread-3 (]: Acquiring new snowflake connection 'model.automotive_copilot.parsed_vehicle_manuals'
+[0m16:52:55.366620 [debug] [Thread-3 (]: Began compiling node model.automotive_copilot.parsed_vehicle_manuals
+[0m16:52:55.368081 [debug] [Thread-3 (]: Writing injected SQL for node "model.automotive_copilot.parsed_vehicle_manuals"
+[0m16:52:55.368437 [debug] [Thread-3 (]: Began executing node model.automotive_copilot.parsed_vehicle_manuals
+[0m16:52:55.376014 [debug] [Thread-3 (]: Writing runtime sql for node "model.automotive_copilot.parsed_vehicle_manuals"
+[0m16:52:55.376739 [debug] [Thread-3 (]: Using snowflake connection "model.automotive_copilot.parsed_vehicle_manuals"
+[0m16:52:55.376903 [debug] [Thread-3 (]: On model.automotive_copilot.parsed_vehicle_manuals: /* {"app": "dbt", "dbt_version": "1.10.8", "profile_name": "automotive_copilot", "target_name": "dev", "node_id": "model.automotive_copilot.parsed_vehicle_manuals"} */
+create or replace transient table AI_PROJECT_DB.DBT_MODELS.parsed_vehicle_manuals
+         as
+        (
+
+WITH pending_files AS (
+    SELECT * FROM AI_PROJECT_DB.DBT_MODELS.stg_pending_files
+)
+
+SELECT 
+    pf.source_file,
+    pf.vin_reference,
+    f.value::string AS chunk_text,
+    f.index AS chunk_index,
+    CURRENT_TIMESTAMP() AS extracted_at
+FROM pending_files pf,
+     TABLE(SNOWFLAKE.CORTEX.PARSE_DOCUMENT(
+         '@AI_PROJECT_DB.STAGING.S3_MANUALS_STAGE',
+         pf.source_file,
+         {'mode': 'LAYOUT'}
+     )) doc,
+     LATERAL FLATTEN(INPUT => doc.content) f
+        );
+[0m16:52:55.377036 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m16:52:56.300042 [debug] [Thread-3 (]: Snowflake adapter: Snowflake query id: 01c3ee80-0005-3388-000b-58020040f092
+[0m16:52:56.300698 [debug] [Thread-3 (]: Snowflake adapter: Snowflake error: 002143 (42601): SQL compilation error:
+Unknown user-defined table function SNOWFLAKE.CORTEX.PARSE_DOCUMENT
+[0m16:52:56.301169 [debug] [Thread-3 (]: On model.automotive_copilot.parsed_vehicle_manuals: Close
+[0m16:52:56.816750 [debug] [Thread-3 (]: Database Error in model parsed_vehicle_manuals (models/marts/parsed_vehicle_manuals.sql)
+  002143 (42601): SQL compilation error:
+  Unknown user-defined table function SNOWFLAKE.CORTEX.PARSE_DOCUMENT
+  compiled code at target/run/automotive_copilot/models/marts/parsed_vehicle_manuals.sql
+[0m16:52:56.817270 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4b23784e-0d02-44b7-9d4a-d6c94c892f63', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11b9a8690>]}
+[0m16:52:56.817750 [error] [Thread-3 (]: 2 of 2 ERROR creating sql table model DBT_MODELS.parsed_vehicle_manuals ........ [[31mERROR[0m in 1.45s]
+[0m16:52:56.818160 [debug] [Thread-3 (]: Finished running node model.automotive_copilot.parsed_vehicle_manuals
+[0m16:52:56.818544 [debug] [Thread-7 (]: Marking all children of 'model.automotive_copilot.parsed_vehicle_manuals' to be skipped because of status 'error'.  Reason: Database Error in model parsed_vehicle_manuals (models/marts/parsed_vehicle_manuals.sql)
+  002143 (42601): SQL compilation error:
+  Unknown user-defined table function SNOWFLAKE.CORTEX.PARSE_DOCUMENT
+  compiled code at target/run/automotive_copilot/models/marts/parsed_vehicle_manuals.sql.
+[0m16:52:56.819349 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m16:52:56.819473 [debug] [MainThread]: Connection 'model.automotive_copilot.stg_pending_files' was properly closed.
+[0m16:52:56.819568 [debug] [MainThread]: Connection 'model.automotive_copilot.parsed_vehicle_manuals' was properly closed.
+[0m16:52:56.819675 [info ] [MainThread]: 
+[0m16:52:56.819791 [info ] [MainThread]: Finished running 1 table model, 1 view model in 0 hours 0 minutes and 8.02 seconds (8.02s).
+[0m16:52:56.820047 [debug] [MainThread]: Command end result
+[0m16:52:56.830019 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/padmaja/Desktop/Padmaja/projects/automotive-copilot/dbt/target/manifest.json
+[0m16:52:56.830888 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/padmaja/Desktop/Padmaja/projects/automotive-copilot/dbt/target/semantic_manifest.json
+[0m16:52:56.833144 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/padmaja/Desktop/Padmaja/projects/automotive-copilot/dbt/target/run_results.json
+[0m16:52:56.833279 [info ] [MainThread]: 
+[0m16:52:56.833425 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m16:52:56.833537 [info ] [MainThread]: 
+[0m16:52:56.833670 [error] [MainThread]: [31mFailure in model parsed_vehicle_manuals (models/marts/parsed_vehicle_manuals.sql)[0m
+[0m16:52:56.833795 [error] [MainThread]:   Database Error in model parsed_vehicle_manuals (models/marts/parsed_vehicle_manuals.sql)
+  002143 (42601): SQL compilation error:
+  Unknown user-defined table function SNOWFLAKE.CORTEX.PARSE_DOCUMENT
+  compiled code at target/run/automotive_copilot/models/marts/parsed_vehicle_manuals.sql
+[0m16:52:56.833890 [info ] [MainThread]: 
+[0m16:52:56.834003 [info ] [MainThread]:   compiled code at target/compiled/automotive_copilot/models/marts/parsed_vehicle_manuals.sql
+[0m16:52:56.834100 [info ] [MainThread]: 
+[0m16:52:56.834244 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=2
+[0m16:52:56.834452 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- MissingArgumentsPropertyInGenericTestDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m16:52:57.013727 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 9.7863655, "process_in_blocks": "0", "process_kernel_time": 0.460171, "process_mem_max_rss": "254722048", "process_out_blocks": "0", "process_user_time": 1.811897}
+[0m16:52:57.014271 [debug] [MainThread]: Command `dbt run` failed at 16:52:57.014198 after 9.79 seconds
+[0m16:52:57.014620 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109320810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109323a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1050a15d0>]}
+[0m16:52:57.014928 [debug] [MainThread]: Flushing usage events
+[0m16:52:57.350529 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:47:27.957973 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10da2d850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c9f0d10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10da97e90>]}
+
+
+============================== 17:47:27.960637 | f2182b63-7206-4c35-9b34-9c8463f79449 ==============================
+[0m17:47:27.960637 [info ] [MainThread]: Running with dbt=1.10.8
+[0m17:47:27.960863 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '.', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/padmaja/Desktop/Padmaja/projects/automotive-copilot/transformation/dbt_project/logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt run', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m17:47:27.962867 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'SNOWFLAKE_ACCOUNT'
+[0m17:47:27.968453 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.03719721, "process_in_blocks": "0", "process_kernel_time": 0.122354, "process_mem_max_rss": "112820224", "process_out_blocks": "0", "process_user_time": 0.456732}
+[0m17:47:27.968690 [debug] [MainThread]: Command `dbt run` failed at 17:47:27.968651 after 0.04 seconds
+[0m17:47:27.968965 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10dab4d10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d6d7250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10da2c510>]}
+[0m17:47:27.969233 [debug] [MainThread]: Flushing usage events
+[0m17:47:28.309793 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:47:53.336763 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b4a59d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e13ded0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e169210>]}
+
+
+============================== 17:47:53.338954 | fe525550-333a-4ac6-a529-95b45f051dba ==============================
+[0m17:47:53.338954 [info ] [MainThread]: Running with dbt=1.10.8
+[0m17:47:53.339180 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '.', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/padmaja/Desktop/Padmaja/projects/automotive-copilot/transformation/dbt_project/logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt run', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:47:54.037676 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'fe525550-333a-4ac6-a529-95b45f051dba', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114447ed0>]}
+[0m17:47:54.056326 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'fe525550-333a-4ac6-a529-95b45f051dba', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d2b9010>]}
+[0m17:47:54.056945 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m17:47:54.123166 [debug] [MainThread]: checksum: 265d66e81f90af29a7a28579c9b54d938c94f4a57c57be5f853267ae509b5fcb, vars: {}, profile: , target: , version: 1.10.8
+[0m17:47:54.182306 [debug] [MainThread]: Partial parsing enabled: 4 files deleted, 6 files added, 0 files changed.
+[0m17:47:54.182584 [debug] [MainThread]: Partial parsing: added file: automotive_copilot://models/silver/slv_telematics.sql
+[0m17:47:54.182725 [debug] [MainThread]: Partial parsing: added file: automotive_copilot://models/bronze/source.yml
+[0m17:47:54.182835 [debug] [MainThread]: Partial parsing: added file: automotive_copilot://models/bronze/stg_pending_files.sql
+[0m17:47:54.182940 [debug] [MainThread]: Partial parsing: added file: automotive_copilot://models/gold/gld_dealership_errors.sql
+[0m17:47:54.183039 [debug] [MainThread]: Partial parsing: added file: automotive_copilot://models/gold/parsed_vehicle_manuals.sql
+[0m17:47:54.183150 [debug] [MainThread]: Partial parsing: added file: automotive_copilot://models/gold/schema.yml
+[0m17:47:54.183321 [debug] [MainThread]: Partial parsing: deleted file: automotive_copilot://models/staging/stg_pending_files.sql
+[0m17:47:54.183423 [debug] [MainThread]: Partial parsing: deleted file: automotive_copilot://models/marts/parsed_vehicle_manuals.sql
+[0m17:47:54.314135 [warn ] [MainThread]: [[33mWARNING[0m][MissingArgumentsPropertyInGenericTestDeprecation]: Deprecated
+functionality
+Found top-level arguments to test `unique`. Arguments to generic tests should be
+nested under the `arguments` property.`
+[0m17:47:54.314400 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'fe525550-333a-4ac6-a529-95b45f051dba', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11841df10>]}
+[0m17:47:54.345413 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.automotive_copilot.marts
+- models.automotive_copilot.staging
+[0m17:47:54.348679 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'fe525550-333a-4ac6-a529-95b45f051dba', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x115683550>]}
+[0m17:47:54.375206 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/padmaja/Desktop/Padmaja/projects/automotive-copilot/transformation/dbt_project/target/manifest.json
+[0m17:47:54.376859 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/padmaja/Desktop/Padmaja/projects/automotive-copilot/transformation/dbt_project/target/semantic_manifest.json
+[0m17:47:54.386811 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'fe525550-333a-4ac6-a529-95b45f051dba', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11855ab50>]}
+[0m17:47:54.387031 [info ] [MainThread]: Found 4 models, 5 data tests, 1 source, 463 macros
+[0m17:47:54.387155 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'fe525550-333a-4ac6-a529-95b45f051dba', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x115774710>]}
+[0m17:47:54.387866 [info ] [MainThread]: 
+[0m17:47:54.387996 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m17:47:54.388092 [info ] [MainThread]: 
+[0m17:47:54.388268 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m17:47:54.389806 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_AI_PROJECT_DB'
+[0m17:47:54.394649 [debug] [ThreadPool]: Using snowflake connection "list_AI_PROJECT_DB"
+[0m17:47:54.394881 [debug] [ThreadPool]: On list_AI_PROJECT_DB: /* {"app": "dbt", "dbt_version": "1.10.8", "profile_name": "automotive_copilot", "target_name": "dev", "connection_name": "list_AI_PROJECT_DB"} */
+show terse schemas in database AI_PROJECT_DB
+    limit 10000
+[0m17:47:54.395048 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:47:55.716928 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 1.322 seconds
+[0m17:47:55.718291 [debug] [ThreadPool]: On list_AI_PROJECT_DB: Close
+[0m17:47:55.904138 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_AI_PROJECT_DB, now list_AI_PROJECT_DB_DBT_MODELS)
+[0m17:47:55.907459 [debug] [ThreadPool]: Using snowflake connection "list_AI_PROJECT_DB_DBT_MODELS"
+[0m17:47:55.907648 [debug] [ThreadPool]: On list_AI_PROJECT_DB_DBT_MODELS: /* {"app": "dbt", "dbt_version": "1.10.8", "profile_name": "automotive_copilot", "target_name": "dev", "connection_name": "list_AI_PROJECT_DB_DBT_MODELS"} */
+show terse objects in AI_PROJECT_DB.DBT_MODELS limit 10000
+[0m17:47:55.907762 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:47:57.033572 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 1.126 seconds
+[0m17:47:57.035491 [debug] [ThreadPool]: On list_AI_PROJECT_DB_DBT_MODELS: Close
+[0m17:47:57.460581 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'fe525550-333a-4ac6-a529-95b45f051dba', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x115902d50>]}
+[0m17:47:57.465296 [debug] [Thread-1 (]: Began running node model.automotive_copilot.slv_telematics
+[0m17:47:57.465643 [debug] [Thread-2 (]: Began running node model.automotive_copilot.stg_pending_files
+[0m17:47:57.466083 [info ] [Thread-1 (]: 1 of 4 START sql view model DBT_MODELS.slv_telematics .......................... [RUN]
+[0m17:47:57.466436 [info ] [Thread-2 (]: 2 of 4 START sql view model DBT_MODELS.stg_pending_files ....................... [RUN]
+[0m17:47:57.466765 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_AI_PROJECT_DB_DBT_MODELS, now model.automotive_copilot.slv_telematics)
+[0m17:47:57.467135 [debug] [Thread-2 (]: Acquiring new snowflake connection 'model.automotive_copilot.stg_pending_files'
+[0m17:47:57.467713 [debug] [Thread-1 (]: Began compiling node model.automotive_copilot.slv_telematics
+[0m17:47:57.468069 [debug] [Thread-2 (]: Began compiling node model.automotive_copilot.stg_pending_files
+[0m17:47:57.470989 [debug] [Thread-1 (]: Writing injected SQL for node "model.automotive_copilot.slv_telematics"
+[0m17:47:57.472789 [debug] [Thread-2 (]: Writing injected SQL for node "model.automotive_copilot.stg_pending_files"
+[0m17:47:57.473642 [debug] [Thread-1 (]: Began executing node model.automotive_copilot.slv_telematics
+[0m17:47:57.479682 [debug] [Thread-2 (]: Began executing node model.automotive_copilot.stg_pending_files
+[0m17:47:57.485379 [debug] [Thread-1 (]: Writing runtime sql for node "model.automotive_copilot.slv_telematics"
+[0m17:47:57.486582 [debug] [Thread-2 (]: Writing runtime sql for node "model.automotive_copilot.stg_pending_files"
+[0m17:47:57.487164 [debug] [Thread-2 (]: Using snowflake connection "model.automotive_copilot.stg_pending_files"
+[0m17:47:57.487484 [debug] [Thread-1 (]: Using snowflake connection "model.automotive_copilot.slv_telematics"
+[0m17:47:57.487622 [debug] [Thread-2 (]: On model.automotive_copilot.stg_pending_files: /* {"app": "dbt", "dbt_version": "1.10.8", "profile_name": "automotive_copilot", "target_name": "dev", "node_id": "model.automotive_copilot.stg_pending_files"} */
+create or replace   view AI_PROJECT_DB.DBT_MODELS.stg_pending_files
+  
+   as (
+    
+
+WITH source AS (
+    SELECT * FROM AI_PROJECT_DB.STAGING.PENDING_INGESTION
+)
+
+SELECT
+    ingestion_id,
+    filename AS source_file,
+    vin_reference,
+    s3_key,
+    file_size_mb,
+    status,
+    received_at
+FROM source
+WHERE status = 'PENDING'
+  );
+[0m17:47:57.487770 [debug] [Thread-1 (]: On model.automotive_copilot.slv_telematics: /* {"app": "dbt", "dbt_version": "1.10.8", "profile_name": "automotive_copilot", "target_name": "dev", "node_id": "model.automotive_copilot.slv_telematics"} */
+create or replace   view AI_PROJECT_DB.DBT_MODELS.slv_telematics
+  
+   as (
+    
+
+-- SILVER LAYER: Data Cleansing and Standardization
+-- We take the raw telemetry and filter out anomalies so the BI team gets clean data.
+
+WITH raw_data AS (
+    SELECT 
+        VIN AS vin_reference,
+        ENGINE_TEMP AS engine_temperature_celsius,
+        ERROR_CODE AS diagnostic_error_code
+    FROM AI_PROJECT_DB.STAGING.BRONZE_TELEMATICS
+)
+
+SELECT *
+FROM raw_data
+-- Guardrail: Ensure realistic engine temperatures and filter out null P-Codes
+WHERE engine_temperature_celsius BETWEEN -50 AND 250
+  AND diagnostic_error_code != 'NONE'
+  );
+[0m17:47:57.487898 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m17:47:57.488011 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m17:47:58.218204 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.730 seconds
+[0m17:47:58.229112 [debug] [Thread-2 (]: On model.automotive_copilot.stg_pending_files: Close
+[0m17:47:58.369036 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'fe525550-333a-4ac6-a529-95b45f051dba', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x120479c90>]}
+[0m17:47:58.369715 [info ] [Thread-2 (]: 2 of 4 OK created sql view model DBT_MODELS.stg_pending_files .................. [[32mSUCCESS 1[0m in 0.90s]
+[0m17:47:58.370115 [debug] [Thread-2 (]: Finished running node model.automotive_copilot.stg_pending_files
+[0m17:47:58.370523 [debug] [Thread-4 (]: Began running node model.automotive_copilot.parsed_vehicle_manuals
+[0m17:47:58.370829 [info ] [Thread-4 (]: 3 of 4 START sql table model DBT_MODELS.parsed_vehicle_manuals ................. [RUN]
+[0m17:47:58.371180 [debug] [Thread-4 (]: Acquiring new snowflake connection 'model.automotive_copilot.parsed_vehicle_manuals'
+[0m17:47:58.371417 [debug] [Thread-4 (]: Began compiling node model.automotive_copilot.parsed_vehicle_manuals
+[0m17:47:58.373415 [debug] [Thread-4 (]: Writing injected SQL for node "model.automotive_copilot.parsed_vehicle_manuals"
+[0m17:47:58.373916 [debug] [Thread-4 (]: Began executing node model.automotive_copilot.parsed_vehicle_manuals
+[0m17:47:58.381046 [debug] [Thread-4 (]: Writing runtime sql for node "model.automotive_copilot.parsed_vehicle_manuals"
+[0m17:47:58.381674 [debug] [Thread-4 (]: Using snowflake connection "model.automotive_copilot.parsed_vehicle_manuals"
+[0m17:47:58.381822 [debug] [Thread-4 (]: On model.automotive_copilot.parsed_vehicle_manuals: /* {"app": "dbt", "dbt_version": "1.10.8", "profile_name": "automotive_copilot", "target_name": "dev", "node_id": "model.automotive_copilot.parsed_vehicle_manuals"} */
+create or replace transient table AI_PROJECT_DB.DBT_MODELS.parsed_vehicle_manuals
+         as
+        (
+
+WITH pending_files AS (
+    SELECT * FROM AI_PROJECT_DB.DBT_MODELS.stg_pending_files
+)
+
+SELECT 
+    pf.source_file,
+    pf.vin_reference,
+    f.value::string AS chunk_text,
+    f.index AS chunk_index,
+    CURRENT_TIMESTAMP() AS extracted_at
+FROM pending_files pf,
+     TABLE(SNOWFLAKE.CORTEX.PARSE_DOCUMENT(
+         '@AI_PROJECT_DB.STAGING.S3_MANUALS_STAGE',
+         pf.source_file,
+         {'mode': 'LAYOUT'}
+     )) doc,
+     LATERAL FLATTEN(INPUT => doc.content) f
+        );
+[0m17:47:58.381951 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m17:47:58.579407 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.091 seconds
+[0m17:47:58.581341 [debug] [Thread-1 (]: On model.automotive_copilot.slv_telematics: Close
+[0m17:47:58.717063 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'fe525550-333a-4ac6-a529-95b45f051dba', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x120570c10>]}
+[0m17:47:58.717895 [info ] [Thread-1 (]: 1 of 4 OK created sql view model DBT_MODELS.slv_telematics ..................... [[32mSUCCESS 1[0m in 1.25s]
+[0m17:47:58.718672 [debug] [Thread-1 (]: Finished running node model.automotive_copilot.slv_telematics
+[0m17:47:58.719201 [debug] [Thread-2 (]: Began running node model.automotive_copilot.gld_dealership_errors
+[0m17:47:58.719616 [info ] [Thread-2 (]: 4 of 4 START sql table model DBT_MODELS.gld_dealership_errors .................. [RUN]
+[0m17:47:58.719992 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.automotive_copilot.stg_pending_files, now model.automotive_copilot.gld_dealership_errors)
+[0m17:47:58.720288 [debug] [Thread-2 (]: Began compiling node model.automotive_copilot.gld_dealership_errors
+[0m17:47:58.722919 [debug] [Thread-2 (]: Writing injected SQL for node "model.automotive_copilot.gld_dealership_errors"
+[0m17:47:58.723601 [debug] [Thread-2 (]: Began executing node model.automotive_copilot.gld_dealership_errors
+[0m17:47:58.725359 [debug] [Thread-2 (]: Writing runtime sql for node "model.automotive_copilot.gld_dealership_errors"
+[0m17:47:58.725941 [debug] [Thread-2 (]: Using snowflake connection "model.automotive_copilot.gld_dealership_errors"
+[0m17:47:58.726101 [debug] [Thread-2 (]: On model.automotive_copilot.gld_dealership_errors: /* {"app": "dbt", "dbt_version": "1.10.8", "profile_name": "automotive_copilot", "target_name": "dev", "node_id": "model.automotive_copilot.gld_dealership_errors"} */
+create or replace transient table AI_PROJECT_DB.DBT_MODELS.gld_dealership_errors
+         as
+        (
+
+-- GOLD LAYER: Aggregated Business-Level Facts
+-- This table is ready for the Dealership Dashboard and Cortex AI routing.
+
+WITH silver_telematics AS (
+    SELECT * FROM AI_PROJECT_DB.DBT_MODELS.slv_telematics
+)
+
+SELECT 
+    vin_reference,
+    COUNT(diagnostic_error_code) AS total_critical_errors,
+    MAX(engine_temperature_celsius) AS max_engine_temp_recorded,
+    CURRENT_TIMESTAMP() AS last_aggregated_at
+FROM silver_telematics
+GROUP BY vin_reference
+        );
+[0m17:47:58.726315 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m17:47:59.018943 [debug] [Thread-4 (]: Snowflake adapter: Snowflake query id: 01c3eeb7-0005-3186-000b-580200418006
+[0m17:47:59.019364 [debug] [Thread-4 (]: Snowflake adapter: Snowflake error: 002143 (42601): SQL compilation error:
+Unknown user-defined table function SNOWFLAKE.CORTEX.PARSE_DOCUMENT
+[0m17:47:59.019745 [debug] [Thread-4 (]: On model.automotive_copilot.parsed_vehicle_manuals: Close
+[0m17:47:59.167592 [debug] [Thread-4 (]: Database Error in model parsed_vehicle_manuals (models/gold/parsed_vehicle_manuals.sql)
+  002143 (42601): SQL compilation error:
+  Unknown user-defined table function SNOWFLAKE.CORTEX.PARSE_DOCUMENT
+  compiled code at target/run/automotive_copilot/models/gold/parsed_vehicle_manuals.sql
+[0m17:47:59.168100 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'fe525550-333a-4ac6-a529-95b45f051dba', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1207971d0>]}
+[0m17:47:59.168565 [error] [Thread-4 (]: 3 of 4 ERROR creating sql table model DBT_MODELS.parsed_vehicle_manuals ........ [[31mERROR[0m in 0.80s]
+[0m17:47:59.168952 [debug] [Thread-4 (]: Finished running node model.automotive_copilot.parsed_vehicle_manuals
+[0m17:47:59.169328 [debug] [Thread-7 (]: Marking all children of 'model.automotive_copilot.parsed_vehicle_manuals' to be skipped because of status 'error'.  Reason: Database Error in model parsed_vehicle_manuals (models/gold/parsed_vehicle_manuals.sql)
+  002143 (42601): SQL compilation error:
+  Unknown user-defined table function SNOWFLAKE.CORTEX.PARSE_DOCUMENT
+  compiled code at target/run/automotive_copilot/models/gold/parsed_vehicle_manuals.sql.
+[0m17:48:00.390006 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 1.664 seconds
+[0m17:48:00.392565 [debug] [Thread-2 (]: On model.automotive_copilot.gld_dealership_errors: Close
+[0m17:48:00.529804 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'fe525550-333a-4ac6-a529-95b45f051dba', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1207c2850>]}
+[0m17:48:00.530579 [info ] [Thread-2 (]: 4 of 4 OK created sql table model DBT_MODELS.gld_dealership_errors ............. [[32mSUCCESS 1[0m in 1.81s]
+[0m17:48:00.531095 [debug] [Thread-2 (]: Finished running node model.automotive_copilot.gld_dealership_errors
+[0m17:48:00.532200 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:48:00.532500 [debug] [MainThread]: Connection 'model.automotive_copilot.slv_telematics' was properly closed.
+[0m17:48:00.532723 [debug] [MainThread]: Connection 'model.automotive_copilot.gld_dealership_errors' was properly closed.
+[0m17:48:00.532926 [debug] [MainThread]: Connection 'model.automotive_copilot.parsed_vehicle_manuals' was properly closed.
+[0m17:48:00.533204 [info ] [MainThread]: 
+[0m17:48:00.533455 [info ] [MainThread]: Finished running 2 table models, 2 view models in 0 hours 0 minutes and 6.14 seconds (6.14s).
+[0m17:48:00.534091 [debug] [MainThread]: Command end result
+[0m17:48:00.543384 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/padmaja/Desktop/Padmaja/projects/automotive-copilot/transformation/dbt_project/target/manifest.json
+[0m17:48:00.544294 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/padmaja/Desktop/Padmaja/projects/automotive-copilot/transformation/dbt_project/target/semantic_manifest.json
+[0m17:48:00.546421 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/padmaja/Desktop/Padmaja/projects/automotive-copilot/transformation/dbt_project/target/run_results.json
+[0m17:48:00.546543 [info ] [MainThread]: 
+[0m17:48:00.546678 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m17:48:00.546787 [info ] [MainThread]: 
+[0m17:48:00.546918 [error] [MainThread]: [31mFailure in model parsed_vehicle_manuals (models/gold/parsed_vehicle_manuals.sql)[0m
+[0m17:48:00.547040 [error] [MainThread]:   Database Error in model parsed_vehicle_manuals (models/gold/parsed_vehicle_manuals.sql)
+  002143 (42601): SQL compilation error:
+  Unknown user-defined table function SNOWFLAKE.CORTEX.PARSE_DOCUMENT
+  compiled code at target/run/automotive_copilot/models/gold/parsed_vehicle_manuals.sql
+[0m17:48:00.547137 [info ] [MainThread]: 
+[0m17:48:00.547246 [info ] [MainThread]:   compiled code at target/compiled/automotive_copilot/models/gold/parsed_vehicle_manuals.sql
+[0m17:48:00.547338 [info ] [MainThread]: 
+[0m17:48:00.547439 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=4
+[0m17:48:00.547636 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- MissingArgumentsPropertyInGenericTestDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m17:48:00.550109 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 7.2376785, "process_in_blocks": "0", "process_kernel_time": 0.329856, "process_mem_max_rss": "249593856", "process_out_blocks": "0", "process_user_time": 1.410314}
+[0m17:48:00.550319 [debug] [MainThread]: Command `dbt run` failed at 17:48:00.550285 after 7.24 seconds
+[0m17:48:00.550474 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e0d1150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a055450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109fdd050>]}
+[0m17:48:00.550614 [debug] [MainThread]: Flushing usage events
+[0m17:48:00.736474 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:00:09.410918 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d342110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d34fe50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d34fe90>]}
+
+
+============================== 18:00:09.413337 | e6763053-e4f4-41b7-8677-0c52a6259683 ==============================
+[0m18:00:09.413337 [info ] [MainThread]: Running with dbt=1.10.8
+[0m18:00:09.413595 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '.', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/Users/padmaja/Desktop/Padmaja/projects/automotive-copilot/transformation/dbt_project/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m18:00:10.082414 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e6763053-e4f4-41b7-8677-0c52a6259683', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11443e590>]}
+[0m18:00:10.102052 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'e6763053-e4f4-41b7-8677-0c52a6259683', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c4bd050>]}
+[0m18:00:10.102626 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m18:00:10.174755 [debug] [MainThread]: checksum: 265d66e81f90af29a7a28579c9b54d938c94f4a57c57be5f853267ae509b5fcb, vars: {}, profile: , target: , version: 1.10.8
+[0m18:00:10.229866 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m18:00:10.230088 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m18:00:10.232089 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.automotive_copilot.staging
+- models.automotive_copilot.marts
+[0m18:00:10.246626 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'e6763053-e4f4-41b7-8677-0c52a6259683', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1147cfb90>]}
+[0m18:00:10.274656 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/padmaja/Desktop/Padmaja/projects/automotive-copilot/transformation/dbt_project/target/manifest.json
+[0m18:00:10.275761 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/padmaja/Desktop/Padmaja/projects/automotive-copilot/transformation/dbt_project/target/semantic_manifest.json
+[0m18:00:10.285801 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e6763053-e4f4-41b7-8677-0c52a6259683', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1143b12d0>]}
+[0m18:00:10.286024 [info ] [MainThread]: Found 4 models, 5 data tests, 1 source, 463 macros
+[0m18:00:10.286157 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e6763053-e4f4-41b7-8677-0c52a6259683', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114411b90>]}
+[0m18:00:10.286849 [info ] [MainThread]: 
+[0m18:00:10.286980 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m18:00:10.287076 [info ] [MainThread]: 
+[0m18:00:10.287255 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m18:00:10.288757 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_AI_PROJECT_DB'
+[0m18:00:10.293929 [debug] [ThreadPool]: Using snowflake connection "list_AI_PROJECT_DB"
+[0m18:00:10.294114 [debug] [ThreadPool]: On list_AI_PROJECT_DB: /* {"app": "dbt", "dbt_version": "1.10.8", "profile_name": "automotive_copilot", "target_name": "dev", "connection_name": "list_AI_PROJECT_DB"} */
+show terse schemas in database AI_PROJECT_DB
+    limit 10000
+[0m18:00:10.294233 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m18:00:13.238570 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 2.944 seconds
+[0m18:00:13.240194 [debug] [ThreadPool]: On list_AI_PROJECT_DB: Close
+[0m18:00:13.414269 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_AI_PROJECT_DB, now list_AI_PROJECT_DB_DBT_MODELS)
+[0m18:00:13.420378 [debug] [ThreadPool]: Using snowflake connection "list_AI_PROJECT_DB_DBT_MODELS"
+[0m18:00:13.420558 [debug] [ThreadPool]: On list_AI_PROJECT_DB_DBT_MODELS: /* {"app": "dbt", "dbt_version": "1.10.8", "profile_name": "automotive_copilot", "target_name": "dev", "connection_name": "list_AI_PROJECT_DB_DBT_MODELS"} */
+show terse objects in AI_PROJECT_DB.DBT_MODELS limit 10000
+[0m18:00:13.420664 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m18:00:14.315249 [debug] [ThreadPool]: SQL status: SUCCESS 3 in 0.894 seconds
+[0m18:00:14.317276 [debug] [ThreadPool]: On list_AI_PROJECT_DB_DBT_MODELS: Close
+[0m18:00:14.897546 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e6763053-e4f4-41b7-8677-0c52a6259683', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112876f50>]}
+[0m18:00:14.902196 [debug] [Thread-1 (]: Began running node model.automotive_copilot.slv_telematics
+[0m18:00:14.902520 [debug] [Thread-2 (]: Began running node model.automotive_copilot.stg_pending_files
+[0m18:00:14.902891 [info ] [Thread-1 (]: 1 of 4 START sql view model DBT_MODELS.slv_telematics .......................... [RUN]
+[0m18:00:14.903106 [info ] [Thread-2 (]: 2 of 4 START sql view model DBT_MODELS.stg_pending_files ....................... [RUN]
+[0m18:00:14.903350 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.automotive_copilot.slv_telematics'
+[0m18:00:14.903543 [debug] [Thread-2 (]: Acquiring new snowflake connection 'model.automotive_copilot.stg_pending_files'
+[0m18:00:14.903678 [debug] [Thread-1 (]: Began compiling node model.automotive_copilot.slv_telematics
+[0m18:00:14.903799 [debug] [Thread-2 (]: Began compiling node model.automotive_copilot.stg_pending_files
+[0m18:00:14.906548 [debug] [Thread-1 (]: Writing injected SQL for node "model.automotive_copilot.slv_telematics"
+[0m18:00:14.907544 [debug] [Thread-2 (]: Writing injected SQL for node "model.automotive_copilot.stg_pending_files"
+[0m18:00:14.908097 [debug] [Thread-1 (]: Began executing node model.automotive_copilot.slv_telematics
+[0m18:00:14.908255 [debug] [Thread-2 (]: Began executing node model.automotive_copilot.stg_pending_files
+[0m18:00:14.918279 [debug] [Thread-1 (]: Writing runtime sql for node "model.automotive_copilot.slv_telematics"
+[0m18:00:14.919493 [debug] [Thread-2 (]: Writing runtime sql for node "model.automotive_copilot.stg_pending_files"
+[0m18:00:14.920024 [debug] [Thread-1 (]: Using snowflake connection "model.automotive_copilot.slv_telematics"
+[0m18:00:14.920225 [debug] [Thread-1 (]: On model.automotive_copilot.slv_telematics: /* {"app": "dbt", "dbt_version": "1.10.8", "profile_name": "automotive_copilot", "target_name": "dev", "node_id": "model.automotive_copilot.slv_telematics"} */
+create or replace   view AI_PROJECT_DB.DBT_MODELS.slv_telematics
+  
+   as (
+    
+
+-- SILVER LAYER: Data Cleansing and Standardization
+-- We take the raw telemetry and filter out anomalies so the BI team gets clean data.
+
+WITH raw_data AS (
+    SELECT 
+        VIN AS vin_reference,
+        ENGINE_TEMP AS engine_temperature_celsius,
+        ERROR_CODE AS diagnostic_error_code
+    FROM AI_PROJECT_DB.STAGING.BRONZE_TELEMATICS
+)
+
+SELECT *
+FROM raw_data
+-- Guardrail: Ensure realistic engine temperatures and filter out null P-Codes
+WHERE engine_temperature_celsius BETWEEN -50 AND 250
+  AND diagnostic_error_code != 'NONE'
+  );
+[0m18:00:14.920395 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m18:00:14.920706 [debug] [Thread-2 (]: Using snowflake connection "model.automotive_copilot.stg_pending_files"
+[0m18:00:14.920857 [debug] [Thread-2 (]: On model.automotive_copilot.stg_pending_files: /* {"app": "dbt", "dbt_version": "1.10.8", "profile_name": "automotive_copilot", "target_name": "dev", "node_id": "model.automotive_copilot.stg_pending_files"} */
+create or replace   view AI_PROJECT_DB.DBT_MODELS.stg_pending_files
+  
+   as (
+    
+
+WITH source AS (
+    SELECT * FROM AI_PROJECT_DB.STAGING.PENDING_INGESTION
+)
+
+SELECT
+    ingestion_id,
+    filename AS source_file,
+    vin_reference,
+    s3_key,
+    file_size_mb,
+    status,
+    received_at
+FROM source
+WHERE status = 'PENDING'
+  );
+[0m18:00:14.921193 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m18:00:16.647819 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.727 seconds
+[0m18:00:16.660240 [debug] [Thread-1 (]: On model.automotive_copilot.slv_telematics: Close
+[0m18:00:16.725132 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 1.804 seconds
+[0m18:00:16.726355 [debug] [Thread-2 (]: On model.automotive_copilot.stg_pending_files: Close
+[0m18:00:16.807022 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e6763053-e4f4-41b7-8677-0c52a6259683', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11f7a6b90>]}
+[0m18:00:16.807655 [info ] [Thread-1 (]: 1 of 4 OK created sql view model DBT_MODELS.slv_telematics ..................... [[32mSUCCESS 1[0m in 1.90s]
+[0m18:00:16.808066 [debug] [Thread-1 (]: Finished running node model.automotive_copilot.slv_telematics
+[0m18:00:16.808484 [debug] [Thread-4 (]: Began running node model.automotive_copilot.gld_dealership_errors
+[0m18:00:16.808855 [info ] [Thread-4 (]: 3 of 4 START sql table model DBT_MODELS.gld_dealership_errors .................. [RUN]
+[0m18:00:16.809223 [debug] [Thread-4 (]: Acquiring new snowflake connection 'model.automotive_copilot.gld_dealership_errors'
+[0m18:00:16.809600 [debug] [Thread-4 (]: Began compiling node model.automotive_copilot.gld_dealership_errors
+[0m18:00:16.811101 [debug] [Thread-4 (]: Writing injected SQL for node "model.automotive_copilot.gld_dealership_errors"
+[0m18:00:16.811416 [debug] [Thread-4 (]: Began executing node model.automotive_copilot.gld_dealership_errors
+[0m18:00:16.820098 [debug] [Thread-4 (]: Writing runtime sql for node "model.automotive_copilot.gld_dealership_errors"
+[0m18:00:16.820890 [debug] [Thread-4 (]: Using snowflake connection "model.automotive_copilot.gld_dealership_errors"
+[0m18:00:16.821045 [debug] [Thread-4 (]: On model.automotive_copilot.gld_dealership_errors: /* {"app": "dbt", "dbt_version": "1.10.8", "profile_name": "automotive_copilot", "target_name": "dev", "node_id": "model.automotive_copilot.gld_dealership_errors"} */
+create or replace transient table AI_PROJECT_DB.DBT_MODELS.gld_dealership_errors
+         as
+        (
+
+-- GOLD LAYER: Aggregated Business-Level Facts
+-- This table is ready for the Dealership Dashboard and Cortex AI routing.
+
+WITH silver_telematics AS (
+    SELECT * FROM AI_PROJECT_DB.DBT_MODELS.slv_telematics
+)
+
+SELECT 
+    vin_reference,
+    COUNT(diagnostic_error_code) AS total_critical_errors,
+    MAX(engine_temperature_celsius) AS max_engine_temp_recorded,
+    CURRENT_TIMESTAMP() AS last_aggregated_at
+FROM silver_telematics
+GROUP BY vin_reference
+        );
+[0m18:00:16.821172 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m18:00:16.879456 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e6763053-e4f4-41b7-8677-0c52a6259683', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1148d0650>]}
+[0m18:00:16.879822 [info ] [Thread-2 (]: 2 of 4 OK created sql view model DBT_MODELS.stg_pending_files .................. [[32mSUCCESS 1[0m in 1.98s]
+[0m18:00:16.880132 [debug] [Thread-2 (]: Finished running node model.automotive_copilot.stg_pending_files
+[0m18:00:16.880392 [debug] [Thread-1 (]: Began running node model.automotive_copilot.parsed_vehicle_manuals
+[0m18:00:16.880571 [info ] [Thread-1 (]: 4 of 4 START sql table model DBT_MODELS.parsed_vehicle_manuals ................. [RUN]
+[0m18:00:16.880732 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.automotive_copilot.slv_telematics, now model.automotive_copilot.parsed_vehicle_manuals)
+[0m18:00:16.880851 [debug] [Thread-1 (]: Began compiling node model.automotive_copilot.parsed_vehicle_manuals
+[0m18:00:16.882105 [debug] [Thread-1 (]: Writing injected SQL for node "model.automotive_copilot.parsed_vehicle_manuals"
+[0m18:00:16.882423 [debug] [Thread-1 (]: Began executing node model.automotive_copilot.parsed_vehicle_manuals
+[0m18:00:16.883354 [debug] [Thread-1 (]: Writing runtime sql for node "model.automotive_copilot.parsed_vehicle_manuals"
+[0m18:00:16.883804 [debug] [Thread-1 (]: Using snowflake connection "model.automotive_copilot.parsed_vehicle_manuals"
+[0m18:00:16.883944 [debug] [Thread-1 (]: On model.automotive_copilot.parsed_vehicle_manuals: /* {"app": "dbt", "dbt_version": "1.10.8", "profile_name": "automotive_copilot", "target_name": "dev", "node_id": "model.automotive_copilot.parsed_vehicle_manuals"} */
+create or replace transient table AI_PROJECT_DB.DBT_MODELS.parsed_vehicle_manuals
+         as
+        (
+
+WITH pending_files AS (
+    SELECT * FROM AI_PROJECT_DB.DBT_MODELS.stg_pending_files
+)
+
+SELECT 
+    pf.source_file,
+    pf.vin_reference,
+    f.value::string AS chunk_text,
+    f.index AS chunk_index,
+    CURRENT_TIMESTAMP() AS extracted_at
+FROM pending_files pf,
+     TABLE(SNOWFLAKE.CORTEX.PARSE_DOCUMENT(
+         '@AI_PROJECT_DB.STAGING.S3_MANUALS_STAGE',
+         pf.source_file,
+         {'mode': 'LAYOUT'}
+     )) doc,
+     LATERAL FLATTEN(INPUT => doc.content) f
+        );
+[0m18:00:16.884068 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m18:00:17.498229 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01c3eec4-0005-2f22-000b-58020040c0e2
+[0m18:00:17.498610 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 002143 (42601): SQL compilation error:
+Unknown user-defined table function SNOWFLAKE.CORTEX.PARSE_DOCUMENT
+[0m18:00:17.498961 [debug] [Thread-1 (]: On model.automotive_copilot.parsed_vehicle_manuals: Close
+[0m18:00:17.648235 [debug] [Thread-1 (]: Database Error in model parsed_vehicle_manuals (models/gold/parsed_vehicle_manuals.sql)
+  002143 (42601): SQL compilation error:
+  Unknown user-defined table function SNOWFLAKE.CORTEX.PARSE_DOCUMENT
+  compiled code at target/run/automotive_copilot/models/gold/parsed_vehicle_manuals.sql
+[0m18:00:17.648742 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e6763053-e4f4-41b7-8677-0c52a6259683', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1148d1910>]}
+[0m18:00:17.649257 [error] [Thread-1 (]: 4 of 4 ERROR creating sql table model DBT_MODELS.parsed_vehicle_manuals ........ [[31mERROR[0m in 0.77s]
+[0m18:00:17.649606 [debug] [Thread-1 (]: Finished running node model.automotive_copilot.parsed_vehicle_manuals
+[0m18:00:17.649792 [debug] [Thread-7 (]: Marking all children of 'model.automotive_copilot.parsed_vehicle_manuals' to be skipped because of status 'error'.  Reason: Database Error in model parsed_vehicle_manuals (models/gold/parsed_vehicle_manuals.sql)
+  002143 (42601): SQL compilation error:
+  Unknown user-defined table function SNOWFLAKE.CORTEX.PARSE_DOCUMENT
+  compiled code at target/run/automotive_copilot/models/gold/parsed_vehicle_manuals.sql.
+[0m18:00:20.116310 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 3.295 seconds
+[0m18:00:20.118768 [debug] [Thread-4 (]: On model.automotive_copilot.gld_dealership_errors: Close
+[0m18:00:20.256064 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e6763053-e4f4-41b7-8677-0c52a6259683', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1146d6450>]}
+[0m18:00:20.256920 [info ] [Thread-4 (]: 3 of 4 OK created sql table model DBT_MODELS.gld_dealership_errors ............. [[32mSUCCESS 1[0m in 3.45s]
+[0m18:00:20.257454 [debug] [Thread-4 (]: Finished running node model.automotive_copilot.gld_dealership_errors
+[0m18:00:20.258601 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m18:00:20.258848 [debug] [MainThread]: Connection 'list_AI_PROJECT_DB_DBT_MODELS' was properly closed.
+[0m18:00:20.259083 [debug] [MainThread]: Connection 'model.automotive_copilot.parsed_vehicle_manuals' was properly closed.
+[0m18:00:20.259314 [debug] [MainThread]: Connection 'model.automotive_copilot.stg_pending_files' was properly closed.
+[0m18:00:20.259753 [debug] [MainThread]: Connection 'model.automotive_copilot.gld_dealership_errors' was properly closed.
+[0m18:00:20.260116 [info ] [MainThread]: 
+[0m18:00:20.260374 [info ] [MainThread]: Finished running 2 table models, 2 view models in 0 hours 0 minutes and 9.97 seconds (9.97s).
+[0m18:00:20.261136 [debug] [MainThread]: Command end result
+[0m18:00:20.270648 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/padmaja/Desktop/Padmaja/projects/automotive-copilot/transformation/dbt_project/target/manifest.json
+[0m18:00:20.271491 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/padmaja/Desktop/Padmaja/projects/automotive-copilot/transformation/dbt_project/target/semantic_manifest.json
+[0m18:00:20.274012 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/padmaja/Desktop/Padmaja/projects/automotive-copilot/transformation/dbt_project/target/run_results.json
+[0m18:00:20.274147 [info ] [MainThread]: 
+[0m18:00:20.274289 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m18:00:20.274402 [info ] [MainThread]: 
+[0m18:00:20.274539 [error] [MainThread]: [31mFailure in model parsed_vehicle_manuals (models/gold/parsed_vehicle_manuals.sql)[0m
+[0m18:00:20.274666 [error] [MainThread]:   Database Error in model parsed_vehicle_manuals (models/gold/parsed_vehicle_manuals.sql)
+  002143 (42601): SQL compilation error:
+  Unknown user-defined table function SNOWFLAKE.CORTEX.PARSE_DOCUMENT
+  compiled code at target/run/automotive_copilot/models/gold/parsed_vehicle_manuals.sql
+[0m18:00:20.274767 [info ] [MainThread]: 
+[0m18:00:20.274956 [info ] [MainThread]:   compiled code at target/compiled/automotive_copilot/models/gold/parsed_vehicle_manuals.sql
+[0m18:00:20.275101 [info ] [MainThread]: 
+[0m18:00:20.275267 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=4
+[0m18:00:20.278116 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 10.894529, "process_in_blocks": "0", "process_kernel_time": 0.340169, "process_mem_max_rss": "243744768", "process_out_blocks": "0", "process_user_time": 1.277279}
+[0m18:00:20.278394 [debug] [MainThread]: Command `dbt run` failed at 18:00:20.278356 after 10.89 seconds
+[0m18:00:20.278573 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c60af50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c60ad50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1147f8710>]}
+[0m18:00:20.278729 [debug] [MainThread]: Flushing usage events
+[0m18:00:20.614797 [debug] [MainThread]: An error was encountered while trying to flush usage events

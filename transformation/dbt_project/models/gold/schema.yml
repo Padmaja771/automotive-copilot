@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: parsed_vehicle_manuals
+    description: "The AI-parsed chunks from uploaded vehicle manuals. Acts as the knowledge base for our RAG Agent."
+    columns:
+      - name: source_file
+        description: "The name of the original PDF uploaded to S3."
+        tests:
+          - not_null
+      - name: vin_reference
+        description: "The Vehicle Identification Number extracted from the filename."
+        tests:
+          - not_null
+      - name: chunk_text
+        description: "The vectorized text chunk returned by Snowflake Cortex AI."
+        tests:
+          - not_null
+      - name: chunk_index
+        description: "The sequence index of the text block."
+        tests:
+          - not_null
+          - unique:
+              # A chunk index must be unique per source file
+              group_by: [source_file]

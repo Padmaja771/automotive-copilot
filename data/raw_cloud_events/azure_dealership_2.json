@@ -1,0 +1,4 @@
+[
+    {"vin": "VIN_AZURE_001", "engine_temp_c": 130, "error_code": "U0100", "cloud_source": "AZURE_BLOB"},
+    {"vin": "VIN_AZURE_002", "engine_temp_c": 85, "error_code": "NONE", "cloud_source": "AZURE_BLOB"}
+]

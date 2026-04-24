@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: staging
+    database: AI_PROJECT_DB
+    schema: STAGING
+    tables:
+      - name: PENDING_INGESTION

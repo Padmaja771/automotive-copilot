@@ -1,0 +1,5 @@
+[
+    {"vin": "VIN_AWS_001", "engine_temp_c": 115, "error_code": "P0420", "cloud_source": "AWS_S3"},
+    {"vin": "VIN_AWS_002", "engine_temp_c": "ERROR", "error_code": "NONE", "cloud_source": "AWS_S3"},
+    {"vin": "VIN_AWS_003", "engine_temp_c": 92, "error_code": "P0300", "cloud_source": "AWS_S3"}
+]

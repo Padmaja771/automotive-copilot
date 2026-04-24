@@ -18,7 +18,7 @@ CREATE OR REPLACE CORTEX SEARCH SERVICE VEHICLE_DOCS_SEARCH
             vin,
             data_type,
             content_text 
-        FROM VEHICLE_INTELLIGENCE_DATA
+        FROM AI_PROJECT_DB.STAGING.VEHICLE_INTELLIGENCE_DATA
     );
 
 -- Give the index 10 seconds to build, then test it out:

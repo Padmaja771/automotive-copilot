@@ -1,0 +1,2165 @@
+[2026-04-24T21:44:08.226+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2026-04-24T21:44:08.226+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2026-04-24T21:44:08.226+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-04-24T21:44:08.227+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-04-24T21:44:08.229+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-24T21:44:09.089+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          181  0.02s             0           0
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.82s           2026-04-24T21:44:09
+================================================================================
+[2026-04-24T21:44:39.277+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.24s           2026-04-24T21:44:09
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    186  0.00s             1           0  0.82s           2026-04-24T21:44:09
+================================================================================
+[2026-04-24T21:45:09.530+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          199  0.00s             1           0  0.08s           2026-04-24T21:44:39
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    196  0.01s             1           0  0.05s           2026-04-24T21:44:39
+================================================================================
+[2026-04-24T21:45:39.797+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          209  0.00s             1           0  0.08s           2026-04-24T21:45:09
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    206  0.03s             1           0  0.05s           2026-04-24T21:45:09
+================================================================================
+[2026-04-24T21:46:10.092+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          219  0.00s             1           0  0.09s           2026-04-24T21:45:39
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    216  0.01s             1           0  0.08s           2026-04-24T21:45:39
+================================================================================
+[2026-04-24T21:46:40.351+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          229  0.00s             1           0  0.08s           2026-04-24T21:46:10
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    226  0.01s             1           0  0.05s           2026-04-24T21:46:10
+================================================================================
+[2026-04-24T21:47:10.650+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          239  0.00s             1           0  0.09s           2026-04-24T21:46:40
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    236  0.01s             1           0  0.06s           2026-04-24T21:46:40
+================================================================================
+[2026-04-24T21:47:40.938+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          249  0.00s             1           0  0.11s           2026-04-24T21:47:10
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    246  0.01s             1           0  0.07s           2026-04-24T21:47:10
+================================================================================
+[2026-04-24T21:48:11.223+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          259  0.00s             1           0  0.08s           2026-04-24T21:47:41
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    256  0.01s             1           0  0.05s           2026-04-24T21:47:40
+================================================================================
+[2026-04-24T21:48:41.491+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          269  0.00s             1           0  0.08s           2026-04-24T21:48:11
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    266  0.01s             1           0  0.05s           2026-04-24T21:48:11
+================================================================================
+[2026-04-24T21:49:08.730+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-04-24T21:49:08.737+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-24T21:49:11.765+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          279  0.00s             1           0  0.10s           2026-04-24T21:48:41
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    276  0.01s             1           0  0.07s           2026-04-24T21:48:41
+================================================================================
+[2026-04-24T21:49:42.034+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          289  0.00s             1           0  0.08s           2026-04-24T21:49:11
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    286  0.01s             1           0  0.05s           2026-04-24T21:49:11
+================================================================================
+[2026-04-24T21:50:12.316+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          299  0.00s             1           0  0.09s           2026-04-24T21:49:42
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    296  0.01s             1           0  0.05s           2026-04-24T21:49:42
+================================================================================
+[2026-04-24T21:50:42.581+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          309  0.00s             1           0  0.09s           2026-04-24T21:50:12
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    306  0.00s             1           0  0.05s           2026-04-24T21:50:12
+================================================================================
+[2026-04-24T21:51:12.844+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          319  0.00s             1           0  0.08s           2026-04-24T21:50:42
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    316  0.01s             1           0  0.04s           2026-04-24T21:50:42
+================================================================================
+[2026-04-24T21:51:43.101+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          329  0.00s             1           0  0.08s           2026-04-24T21:51:12
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    326  0.01s             1           0  0.05s           2026-04-24T21:51:12
+================================================================================
+[2026-04-24T21:52:13.363+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          338  0.00s             1           0  0.08s           2026-04-24T21:51:43
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    336  0.01s             1           0  0.04s           2026-04-24T21:51:43
+================================================================================
+[2026-04-24T21:52:43.658+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          349  0.00s             1           0  0.11s           2026-04-24T21:52:13
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    346  0.01s             1           0  0.08s           2026-04-24T21:52:13
+================================================================================
+[2026-04-24T21:53:13.955+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          359  0.00s             1           0  0.09s           2026-04-24T21:52:43
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    356  0.01s             1           0  0.06s           2026-04-24T21:52:43
+================================================================================
+[2026-04-24T21:53:44.227+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          369  0.00s             1           0  0.09s           2026-04-24T21:53:14
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    366  0.01s             1           0  0.05s           2026-04-24T21:53:14
+================================================================================
+[2026-04-24T21:54:09.462+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-04-24T21:54:09.468+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-24T21:54:14.520+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          379  0.00s             1           0  0.08s           2026-04-24T21:53:44
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    376  0.01s             1           0  0.05s           2026-04-24T21:53:44
+================================================================================
+[2026-04-24T21:54:44.791+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          389  0.00s             1           0  0.08s           2026-04-24T21:54:14
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    386  0.01s             1           0  0.05s           2026-04-24T21:54:14
+================================================================================
+[2026-04-24T21:55:15.073+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          399  0.00s             1           0  0.08s           2026-04-24T21:54:44
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    396  0.00s             1           0  0.05s           2026-04-24T21:54:44
+================================================================================
+[2026-04-24T21:55:45.356+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          409  0.00s             1           0  0.08s           2026-04-24T21:55:15
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    406  0.01s             1           0  0.05s           2026-04-24T21:55:15
+================================================================================
+[2026-04-24T21:56:15.603+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          419  0.00s             1           0  0.08s           2026-04-24T21:55:45
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    416  0.00s             1           0  0.05s           2026-04-24T21:55:45
+================================================================================
+[2026-04-24T21:56:45.851+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          429  0.00s             1           0  0.07s           2026-04-24T21:56:15
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    426  0.00s             1           0  0.04s           2026-04-24T21:56:15
+================================================================================
+[2026-04-24T21:57:16.164+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          439  0.00s             1           0  0.12s           2026-04-24T21:56:45
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    436  0.01s             1           0  0.08s           2026-04-24T21:56:45
+================================================================================
+[2026-04-24T21:57:46.458+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          449  0.00s             1           0  0.07s           2026-04-24T21:57:16
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    446  0.01s             1           0  0.04s           2026-04-24T21:57:16
+================================================================================
+[2026-04-24T21:58:16.733+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          459  0.00s             1           0  0.09s           2026-04-24T21:57:46
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    456  0.01s             1           0  0.06s           2026-04-24T21:57:46
+================================================================================
+[2026-04-24T21:58:46.950+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          469  0.00s             1           0  0.08s           2026-04-24T21:58:16
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    466  0.01s             1           0  0.05s           2026-04-24T21:58:16
+================================================================================
+[2026-04-24T21:59:10.150+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-04-24T21:59:10.156+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-24T21:59:17.219+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          479  0.00s             1           0  0.07s           2026-04-24T21:58:47
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    476  0.01s             1           0  0.05s           2026-04-24T21:58:46
+================================================================================
+[2026-04-24T21:59:47.515+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          489  0.00s             1           0  0.08s           2026-04-24T21:59:17
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    486  0.01s             1           0  0.05s           2026-04-24T21:59:17
+================================================================================
+[2026-04-24T22:00:17.785+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          499  0.00s             1           0  0.08s           2026-04-24T21:59:47
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    496  0.01s             1           0  0.05s           2026-04-24T21:59:47
+================================================================================
+[2026-04-24T22:00:48.047+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          509  0.00s             1           0  0.08s           2026-04-24T22:00:17
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    506  0.01s             1           0  0.05s           2026-04-24T22:00:17
+================================================================================
+[2026-04-24T22:01:18.318+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          519  0.00s             1           0  0.08s           2026-04-24T22:00:48
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    516  0.01s             1           0  0.05s           2026-04-24T22:00:48
+================================================================================
+[2026-04-24T22:01:48.586+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          528  0.00s             1           0  0.08s           2026-04-24T22:01:18
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    526  0.01s             1           0  0.05s           2026-04-24T22:01:18
+================================================================================
+[2026-04-24T22:02:18.852+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          539  0.00s             1           0  0.08s           2026-04-24T22:01:48
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    536  0.01s             1           0  0.05s           2026-04-24T22:01:48
+================================================================================
+[2026-04-24T22:02:49.152+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          549  0.00s             1           0  0.08s           2026-04-24T22:02:18
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    546  0.01s             1           0  0.05s           2026-04-24T22:02:18
+================================================================================
+[2026-04-24T22:03:19.449+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          559  0.00s             1           0  0.08s           2026-04-24T22:02:49
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    556  0.01s             1           0  0.05s           2026-04-24T22:02:49
+================================================================================
+[2026-04-24T22:03:49.735+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          569  0.00s             1           0  0.08s           2026-04-24T22:03:19
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    566  0.01s             1           0  0.05s           2026-04-24T22:03:19
+================================================================================
+[2026-04-24T22:04:10.934+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-04-24T22:04:10.939+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-24T22:04:20.007+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          579  0.00s             1           0  0.08s           2026-04-24T22:03:49
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    576  0.01s             1           0  0.05s           2026-04-24T22:03:49
+================================================================================
+[2026-04-24T22:04:50.307+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          589  0.00s             1           0  0.08s           2026-04-24T22:04:20
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    586  0.01s             1           0  0.05s           2026-04-24T22:04:20
+================================================================================
+[2026-04-24T22:05:20.603+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          599  0.00s             1           0  0.08s           2026-04-24T22:04:50
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    596  0.01s             1           0  0.05s           2026-04-24T22:04:50
+================================================================================
+[2026-04-24T22:05:50.869+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          609  0.00s             1           0  0.09s           2026-04-24T22:05:20
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    606  0.01s             1           0  0.06s           2026-04-24T22:05:20
+================================================================================
+[2026-04-24T22:06:21.136+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          619  0.00s             1           0  0.08s           2026-04-24T22:05:50
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    616  0.01s             1           0  0.04s           2026-04-24T22:05:50
+================================================================================
+[2026-04-24T22:06:51.417+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          629  0.00s             1           0  0.08s           2026-04-24T22:06:21
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    626  0.01s             1           0  0.05s           2026-04-24T22:06:21
+================================================================================
+[2026-04-24T22:07:21.676+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          639  0.00s             1           0  0.08s           2026-04-24T22:06:51
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    636  0.01s             1           0  0.04s           2026-04-24T22:06:51
+================================================================================
+[2026-04-24T22:07:51.972+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          649  0.00s             1           0  0.09s           2026-04-24T22:07:21
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    646  0.01s             1           0  0.05s           2026-04-24T22:07:21
+================================================================================
+[2026-04-24T22:08:22.261+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          659  0.00s             1           0  0.09s           2026-04-24T22:07:52
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    656  0.01s             1           0  0.06s           2026-04-24T22:07:52
+================================================================================
+[2026-04-24T22:08:52.544+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          669  0.00s             1           0  0.08s           2026-04-24T22:08:22
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    666  0.01s             1           0  0.05s           2026-04-24T22:08:22
+================================================================================
+[2026-04-24T22:09:11.741+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-04-24T22:09:11.748+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-24T22:09:22.843+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          679  0.00s             1           0  0.08s           2026-04-24T22:08:52
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    676  0.01s             1           0  0.05s           2026-04-24T22:08:52
+================================================================================
+[2026-04-24T22:09:53.136+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          689  0.00s             1           0  0.13s           2026-04-24T22:09:22
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    686  0.01s             1           0  0.09s           2026-04-24T22:09:22
+================================================================================
+[2026-04-24T22:10:23.423+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          699  0.00s             1           0  0.08s           2026-04-24T22:09:53
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    696  0.01s             1           0  0.05s           2026-04-24T22:09:53
+================================================================================
+[2026-04-24T22:10:53.710+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          708  0.00s             1           0  0.08s           2026-04-24T22:10:23
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    706  0.01s             1           0  0.04s           2026-04-24T22:10:23
+================================================================================
+[2026-04-24T22:11:23.995+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          719  0.00s             1           0  0.20s           2026-04-24T22:10:53
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    716  0.01s             1           0  0.07s           2026-04-24T22:10:53
+================================================================================
+[2026-04-24T22:11:54.235+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          729  0.00s             1           0  0.14s           2026-04-24T22:11:24
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    726  0.01s             1           0  0.04s           2026-04-24T22:11:24
+================================================================================
+[2026-04-24T22:12:24.498+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          739  0.00s             1           0  0.08s           2026-04-24T22:11:54
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    736  0.01s             1           0  0.05s           2026-04-24T22:11:54
+================================================================================
+[2026-04-24T22:12:54.776+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py          749  0.00s             1           0  0.08s           2026-04-24T22:12:24
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py    746  0.01s             1           0  0.05s           2026-04-24T22:12:24
+================================================================================
+[2026-04-24T22:14:31.886+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-04-24T22:14:31.888+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-24T22:14:39.007+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.09s           2026-04-24T22:14:31
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:14:31
+================================================================================
+[2026-04-24T22:15:09.291+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.17s           2026-04-24T22:15:02
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T22:15:02
+================================================================================
+[2026-04-24T22:15:39.618+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.24s           2026-04-24T22:15:32
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.10s           2026-04-24T22:15:32
+================================================================================
+[2026-04-24T22:16:09.864+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:16:02
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:16:02
+================================================================================
+[2026-04-24T22:16:40.156+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.10s           2026-04-24T22:16:33
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T22:16:33
+================================================================================
+[2026-04-24T22:17:10.404+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:17:03
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:17:03
+================================================================================
+[2026-04-24T22:17:40.649+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:17:33
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:17:33
+================================================================================
+[2026-04-24T22:18:10.909+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:18:03
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:18:03
+================================================================================
+[2026-04-24T22:18:41.189+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:18:34
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:18:34
+================================================================================
+[2026-04-24T22:19:11.474+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:19:04
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:19:04
+================================================================================
+[2026-04-24T22:19:32.616+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-04-24T22:19:32.620+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-24T22:19:41.752+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.09s           2026-04-24T22:19:34
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T22:19:34
+================================================================================
+[2026-04-24T22:20:12.036+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:20:05
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:20:04
+================================================================================
+[2026-04-24T22:20:42.349+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.15s           2026-04-24T22:20:35
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T22:20:35
+================================================================================
+[2026-04-24T22:21:12.594+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.15s           2026-04-24T22:21:05
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T22:21:05
+================================================================================
+[2026-04-24T22:21:42.833+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:21:35
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:21:35
+================================================================================
+[2026-04-24T22:22:13.079+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:22:06
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.04s           2026-04-24T22:22:06
+================================================================================
+[2026-04-24T22:22:43.369+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.09s           2026-04-24T22:22:36
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T22:22:36
+================================================================================
+[2026-04-24T22:23:13.654+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.10s           2026-04-24T22:23:06
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.07s           2026-04-24T22:23:06
+================================================================================
+[2026-04-24T22:23:43.905+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.14s           2026-04-24T22:23:36
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:23:36
+================================================================================
+[2026-04-24T22:24:14.183+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.14s           2026-04-24T22:24:07
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:24:07
+================================================================================
+[2026-04-24T22:24:33.331+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-04-24T22:24:33.335+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-24T22:24:44.460+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:24:37
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.04s           2026-04-24T22:24:37
+================================================================================
+[2026-04-24T22:25:14.717+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:25:07
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:25:07
+================================================================================
+[2026-04-24T22:25:44.988+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:25:37
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T22:25:37
+================================================================================
+[2026-04-24T22:26:15.265+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:26:08
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:26:08
+================================================================================
+[2026-04-24T22:26:45.522+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.14s           2026-04-24T22:26:38
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:26:38
+================================================================================
+[2026-04-24T22:27:15.807+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.09s           2026-04-24T22:27:08
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T22:27:08
+================================================================================
+[2026-04-24T22:27:46.072+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:27:39
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:27:39
+================================================================================
+[2026-04-24T22:28:16.347+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:28:09
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.04s           2026-04-24T22:28:09
+================================================================================
+[2026-04-24T22:28:46.605+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:28:39
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:28:39
+================================================================================
+[2026-04-24T22:29:16.813+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.14s           2026-04-24T22:29:09
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:29:09
+================================================================================
+[2026-04-24T22:29:33.933+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-04-24T22:29:33.937+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-24T22:29:47.079+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.14s           2026-04-24T22:29:40
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.04s           2026-04-24T22:29:40
+================================================================================
+[2026-04-24T22:30:17.362+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:30:10
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:30:10
+================================================================================
+[2026-04-24T22:30:47.629+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.09s           2026-04-24T22:30:40
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T22:30:40
+================================================================================
+[2026-04-24T22:31:17.904+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.09s           2026-04-24T22:31:10
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T22:31:10
+================================================================================
+[2026-04-24T22:31:48.144+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:31:41
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:31:41
+================================================================================
+[2026-04-24T22:32:18.420+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.15s           2026-04-24T22:32:11
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T22:32:11
+================================================================================
+[2026-04-24T22:32:48.685+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.14s           2026-04-24T22:32:41
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:32:41
+================================================================================
+[2026-04-24T22:33:18.947+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:33:11
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:33:11
+================================================================================
+[2026-04-24T22:33:49.216+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:33:42
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:33:42
+================================================================================
+[2026-04-24T22:34:19.476+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:34:12
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.04s           2026-04-24T22:34:12
+================================================================================
+[2026-04-24T22:34:34.571+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-04-24T22:34:34.576+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-24T22:34:49.740+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.15s           2026-04-24T22:34:42
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:34:42
+================================================================================
+[2026-04-24T22:35:20.008+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.20s           2026-04-24T22:35:13
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.08s           2026-04-24T22:35:12
+================================================================================
+[2026-04-24T22:35:50.258+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:35:43
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:35:43
+================================================================================
+[2026-04-24T22:36:20.536+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.09s           2026-04-24T22:36:13
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T22:36:13
+================================================================================
+[2026-04-24T22:36:50.798+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:36:43
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:36:43
+================================================================================
+[2026-04-24T22:37:21.051+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:37:14
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:37:14
+================================================================================
+[2026-04-24T22:37:51.339+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.16s           2026-04-24T22:37:44
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T22:37:44
+================================================================================
+[2026-04-24T22:38:21.595+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.14s           2026-04-24T22:38:14
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:38:14
+================================================================================
+[2026-04-24T22:38:51.854+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:38:44
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:38:44
+================================================================================
+[2026-04-24T22:39:22.152+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.09s           2026-04-24T22:39:15
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T22:39:15
+================================================================================
+[2026-04-24T22:39:35.247+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-04-24T22:39:35.251+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-24T22:39:52.439+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:39:45
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.04s           2026-04-24T22:39:45
+================================================================================
+[2026-04-24T22:40:22.714+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.09s           2026-04-24T22:40:15
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:40:15
+================================================================================
+[2026-04-24T22:40:53.007+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.15s           2026-04-24T22:40:46
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:40:45
+================================================================================
+[2026-04-24T22:41:23.278+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.15s           2026-04-24T22:41:16
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T22:41:16
+================================================================================
+[2026-04-24T22:41:53.534+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.07s           2026-04-24T22:41:46
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:41:46
+================================================================================
+[2026-04-24T22:42:23.798+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:42:16
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:42:16
+================================================================================
+[2026-04-24T22:42:54.062+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:42:47
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:42:47
+================================================================================
+[2026-04-24T22:43:24.341+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.14s           2026-04-24T22:43:17
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:43:17
+================================================================================
+[2026-04-24T22:43:54.614+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.14s           2026-04-24T22:43:47
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:43:47
+================================================================================
+[2026-04-24T22:44:24.887+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.17s           2026-04-24T22:44:17
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T22:44:17
+================================================================================
+[2026-04-24T22:44:35.978+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-04-24T22:44:35.981+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-24T22:44:55.181+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.09s           2026-04-24T22:44:48
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:44:48
+================================================================================
+[2026-04-24T22:45:25.407+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.09s           2026-04-24T22:45:18
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:45:18
+================================================================================
+[2026-04-24T22:45:55.674+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.09s           2026-04-24T22:45:48
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:45:48
+================================================================================
+[2026-04-24T22:46:25.960+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.16s           2026-04-24T22:46:19
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T22:46:18
+================================================================================
+[2026-04-24T22:46:56.215+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.14s           2026-04-24T22:46:49
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:46:49
+================================================================================
+[2026-04-24T22:47:26.472+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:47:19
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:47:19
+================================================================================
+[2026-04-24T22:47:56.702+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:47:49
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:47:49
+================================================================================
+[2026-04-24T22:48:26.949+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:48:19
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:48:19
+================================================================================
+[2026-04-24T22:48:57.209+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.09s           2026-04-24T22:48:50
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T22:48:50
+================================================================================
+[2026-04-24T22:49:27.460+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.14s           2026-04-24T22:49:20
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:49:20
+================================================================================
+[2026-04-24T22:49:36.524+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-04-24T22:49:36.528+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-24T22:49:57.731+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.13s           2026-04-24T22:49:50
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.04s           2026-04-24T22:49:50
+================================================================================
+[2026-04-24T22:50:28.001+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T22:50:20
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:50:20
+================================================================================
+[2026-04-24T22:50:58.277+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.09s           2026-04-24T22:50:51
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T22:50:51
+================================================================================
+[2026-04-24T22:51:28.534+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.07s           2026-04-24T22:51:21
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.04s           2026-04-24T22:51:21
+================================================================================
+[2026-04-24T22:51:58.812+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.15s           2026-04-24T22:51:51
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:51:51
+================================================================================
+[2026-04-24T22:52:29.197+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.13s           2026-04-24T22:52:22
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.13s           2026-04-24T22:52:22
+================================================================================
+[2026-04-24T22:52:59.428+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.12s           2026-04-24T22:52:52
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.13s           2026-04-24T22:52:52
+================================================================================
+[2026-04-24T22:53:29.714+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.12s           2026-04-24T22:53:22
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.12s           2026-04-24T22:53:22
+================================================================================
+[2026-04-24T22:53:59.926+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.07s           2026-04-24T22:53:52
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.07s           2026-04-24T22:53:52
+================================================================================
+[2026-04-24T22:54:30.178+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T22:54:23
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:54:23
+================================================================================
+[2026-04-24T22:54:37.226+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-04-24T22:54:37.229+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-24T22:55:00.531+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.11s           2026-04-24T22:54:53
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.14s           2026-04-24T22:54:53
+================================================================================
+[2026-04-24T22:55:30.775+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.12s           2026-04-24T22:55:23
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.13s           2026-04-24T22:55:23
+================================================================================
+[2026-04-24T22:56:01.107+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.12s           2026-04-24T22:55:54
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.12s           2026-04-24T22:55:54
+================================================================================
+[2026-04-24T22:56:31.431+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.12s           2026-04-24T22:56:24
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.13s           2026-04-24T22:56:24
+================================================================================
+[2026-04-24T22:57:01.712+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T22:56:54
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:56:54
+================================================================================
+[2026-04-24T22:57:31.915+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.06s           2026-04-24T22:57:24
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T22:57:24
+================================================================================
+[2026-04-24T22:58:02.130+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T22:57:55
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T22:57:55
+================================================================================
+[2026-04-24T22:58:32.399+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T22:58:25
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:58:25
+================================================================================
+[2026-04-24T22:59:02.616+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T22:58:55
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T22:58:55
+================================================================================
+[2026-04-24T22:59:32.909+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T22:59:25
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T22:59:25
+================================================================================
+[2026-04-24T22:59:37.949+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-04-24T22:59:37.955+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-24T23:00:03.194+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T22:59:56
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T22:59:56
+================================================================================
+[2026-04-24T23:00:33.418+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.06s           2026-04-24T23:00:26
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T23:00:26
+================================================================================
+[2026-04-24T23:01:03.654+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:00:56
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T23:00:56
+================================================================================
+[2026-04-24T23:01:33.903+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:01:26
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T23:01:26
+================================================================================
+[2026-04-24T23:02:04.162+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:01:57
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T23:01:57
+================================================================================
+[2026-04-24T23:02:34.414+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:02:27
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T23:02:27
+================================================================================
+[2026-04-24T23:03:04.650+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.06s           2026-04-24T23:02:57
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T23:02:57
+================================================================================
+[2026-04-24T23:03:34.939+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.06s           2026-04-24T23:03:27
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T23:03:27
+================================================================================
+[2026-04-24T23:04:05.231+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.06s           2026-04-24T23:03:58
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T23:03:58
+================================================================================
+[2026-04-24T23:04:35.444+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.06s           2026-04-24T23:04:28
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T23:04:28
+================================================================================
+[2026-04-24T23:04:38.460+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-04-24T23:04:38.462+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-24T23:05:05.726+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:04:58
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T23:04:58
+================================================================================
+[2026-04-24T23:05:35.993+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.06s           2026-04-24T23:05:28
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.07s           2026-04-24T23:05:28
+================================================================================
+[2026-04-24T23:06:06.246+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:05:59
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T23:05:59
+================================================================================
+[2026-04-24T23:06:36.541+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.06s           2026-04-24T23:06:29
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.07s           2026-04-24T23:06:29
+================================================================================
+[2026-04-24T23:07:06.817+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:06:59
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T23:06:59
+================================================================================
+[2026-04-24T23:07:37.061+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:07:30
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T23:07:30
+================================================================================
+[2026-04-24T23:08:07.296+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:08:00
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T23:08:00
+================================================================================
+[2026-04-24T23:08:37.596+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.06s           2026-04-24T23:08:30
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T23:08:30
+================================================================================
+[2026-04-24T23:09:07.865+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:09:00
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T23:09:00
+================================================================================
+[2026-04-24T23:10:34.926+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-04-24T23:10:40.997+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-24T23:10:41.065+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2026-04-24T23:16:30.649+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2026-04-24T23:16:30.650+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2026-04-24T23:16:30.650+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-04-24T23:16:30.650+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-04-24T23:16:30.652+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-24T23:16:31.634+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         1863  0.01s             0           0
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.80s           2026-04-24T23:16:31
+================================================================================
+[2026-04-24T23:17:01.835+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         1871  0.00s             1           0  0.05s           2026-04-24T23:16:31
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   1868  0.01s             1           0  0.80s           2026-04-24T23:16:31
+================================================================================
+[2026-04-24T23:17:32.112+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         1881  0.00s             1           0  0.06s           2026-04-24T23:17:01
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   1878  0.01s             1           0  0.07s           2026-04-24T23:17:01
+================================================================================
+[2026-04-24T23:18:02.369+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         1891  0.00s             1           0  0.04s           2026-04-24T23:17:32
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   1888  0.01s             1           0  0.05s           2026-04-24T23:17:32
+================================================================================
+[2026-04-24T23:18:32.648+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         1901  0.00s             1           0  0.05s           2026-04-24T23:18:02
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   1898  0.01s             1           0  0.06s           2026-04-24T23:18:02
+================================================================================
+[2026-04-24T23:19:02.916+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         1911  0.00s             1           0  0.05s           2026-04-24T23:18:32
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   1908  0.01s             1           0  0.05s           2026-04-24T23:18:32
+================================================================================
+[2026-04-24T23:19:33.164+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         1920  0.00s             1           0  0.05s           2026-04-24T23:19:02
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   1918  0.01s             1           0  0.05s           2026-04-24T23:19:02
+================================================================================
+[2026-04-24T23:20:03.457+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         1931  0.00s             1           0  0.05s           2026-04-24T23:19:33
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   1928  0.01s             1           0  0.06s           2026-04-24T23:19:33
+================================================================================
+[2026-04-24T23:20:33.728+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         1940  0.00s             1           0  0.04s           2026-04-24T23:20:03
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   1938  0.01s             1           0  0.05s           2026-04-24T23:20:03
+================================================================================
+[2026-04-24T23:21:04.007+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         1950  0.00s             1           0  0.07s           2026-04-24T23:20:33
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   1948  0.01s             1           0  0.08s           2026-04-24T23:20:33
+================================================================================
+[2026-04-24T23:21:31.261+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-04-24T23:21:31.265+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-24T23:21:34.304+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         1961  0.00s             1           0  0.05s           2026-04-24T23:21:04
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   1958  0.01s             1           0  0.05s           2026-04-24T23:21:04
+================================================================================
+[2026-04-24T23:22:04.586+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         1970  0.00s             1           0  0.05s           2026-04-24T23:21:34
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   1968  0.01s             1           0  0.05s           2026-04-24T23:21:34
+================================================================================
+[2026-04-24T23:22:34.874+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         1980  0.00s             1           0  0.05s           2026-04-24T23:22:04
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   1978  0.01s             1           0  0.05s           2026-04-24T23:22:04
+================================================================================
+[2026-04-24T23:23:05.211+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         1991  0.00s             1           0  0.05s           2026-04-24T23:22:34
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   1988  0.01s             1           0  0.06s           2026-04-24T23:22:34
+================================================================================
+[2026-04-24T23:23:35.500+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         2001  0.00s             1           0  0.05s           2026-04-24T23:23:05
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   1998  0.01s             1           0  0.05s           2026-04-24T23:23:05
+================================================================================
+[2026-04-24T23:24:05.773+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         2011  0.00s             1           0  0.04s           2026-04-24T23:23:35
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   2008  0.01s             1           0  0.05s           2026-04-24T23:23:35
+================================================================================
+[2026-04-24T23:24:36.008+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         2021  0.00s             1           0  0.08s           2026-04-24T23:24:05
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   2018  0.01s             1           0  0.08s           2026-04-24T23:24:05
+================================================================================
+[2026-04-24T23:25:06.285+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         2031  0.00s             1           0  0.04s           2026-04-24T23:24:36
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   2028  0.01s             1           0  0.05s           2026-04-24T23:24:36
+================================================================================
+[2026-04-24T23:25:36.550+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         2041  0.00s             1           0  0.05s           2026-04-24T23:25:06
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   2038  0.01s             1           0  0.05s           2026-04-24T23:25:06
+================================================================================
+[2026-04-24T23:26:06.747+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         2051  0.00s             1           0  0.05s           2026-04-24T23:25:36
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   2048  0.01s             1           0  0.05s           2026-04-24T23:25:36
+================================================================================
+[2026-04-24T23:26:31.969+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-04-24T23:26:31.973+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-24T23:26:37.024+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         2061  0.00s             1           0  0.04s           2026-04-24T23:26:06
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   2058  0.01s             1           0  0.05s           2026-04-24T23:26:06
+================================================================================
+[2026-04-24T23:27:07.255+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         2071  0.00s             1           0  0.05s           2026-04-24T23:26:37
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   2068  0.01s             1           0  0.06s           2026-04-24T23:26:37
+================================================================================
+[2026-04-24T23:27:37.547+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         2081  0.00s             1           0  0.05s           2026-04-24T23:27:07
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   2078  0.01s             1           0  0.06s           2026-04-24T23:27:07
+================================================================================
+[2026-04-24T23:28:07.838+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         2091  0.00s             1           0  0.04s           2026-04-24T23:27:37
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   2088  0.01s             1           0  0.05s           2026-04-24T23:27:37
+================================================================================
+[2026-04-24T23:28:38.115+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         2101  0.00s             1           0  0.05s           2026-04-24T23:28:07
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   2098  0.01s             1           0  0.05s           2026-04-24T23:28:07
+================================================================================
+[2026-04-24T23:29:08.383+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         2111  0.00s             1           0  0.04s           2026-04-24T23:28:38
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   2108  0.00s             1           0  0.05s           2026-04-24T23:28:38
+================================================================================
+[2026-04-24T23:29:38.638+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         2121  0.00s             1           0  0.04s           2026-04-24T23:29:08
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   2118  0.01s             1           0  0.04s           2026-04-24T23:29:08
+================================================================================
+[2026-04-24T23:30:08.906+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         2131  0.00s             1           0  0.04s           2026-04-24T23:29:38
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   2128  0.01s             1           0  0.04s           2026-04-24T23:29:38
+================================================================================
+[2026-04-24T23:30:39.171+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         2141  0.00s             1           0  0.05s           2026-04-24T23:30:08
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   2138  0.01s             1           0  0.05s           2026-04-24T23:30:08
+================================================================================
+[2026-04-24T23:31:09.451+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         2151  0.00s             1           0  0.05s           2026-04-24T23:30:39
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   2148  0.01s             1           0  0.05s           2026-04-24T23:30:39
+================================================================================
+[2026-04-24T23:31:32.667+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-04-24T23:31:32.670+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-24T23:31:39.743+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         2161  0.00s             1           0  0.05s           2026-04-24T23:31:09
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   2158  0.01s             1           0  0.05s           2026-04-24T23:31:09
+================================================================================
+[2026-04-24T23:32:09.985+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         2171  0.00s             1           0  0.05s           2026-04-24T23:31:39
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   2168  0.01s             1           0  0.05s           2026-04-24T23:31:39
+================================================================================
+[2026-04-24T23:32:40.305+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         2181  0.00s             1           0  0.05s           2026-04-24T23:32:10
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   2178  0.01s             1           0  0.05s           2026-04-24T23:32:10
+================================================================================
+[2026-04-24T23:33:10.641+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         2191  0.00s             1           0  0.04s           2026-04-24T23:32:40
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   2188  0.01s             1           0  0.05s           2026-04-24T23:32:40
+================================================================================
+[2026-04-24T23:33:40.941+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         2201  0.00s             1           0  0.05s           2026-04-24T23:33:10
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   2198  0.01s             1           0  0.05s           2026-04-24T23:33:10
+================================================================================
+[2026-04-24T23:34:11.290+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         2211  0.00s             1           0  0.05s           2026-04-24T23:33:40
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   2208  0.01s             1           0  0.05s           2026-04-24T23:33:40
+================================================================================
+[2026-04-24T23:34:41.604+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         2221  0.00s             1           0  0.05s           2026-04-24T23:34:11
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   2218  0.01s             1           0  0.05s           2026-04-24T23:34:11
+================================================================================
+[2026-04-24T23:35:11.930+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         2231  0.00s             1           0  0.04s           2026-04-24T23:34:41
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   2228  0.01s             1           0  0.05s           2026-04-24T23:34:41
+================================================================================
+[2026-04-24T23:35:42.273+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         2241  0.00s             1           0  0.05s           2026-04-24T23:35:11
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   2238  0.01s             1           0  0.05s           2026-04-24T23:35:11
+================================================================================
+[2026-04-24T23:36:12.641+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         2251  0.00s             1           0  0.04s           2026-04-24T23:35:42
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   2248  0.01s             1           0  0.05s           2026-04-24T23:35:42
+================================================================================
+[2026-04-24T23:36:32.833+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-04-24T23:36:32.839+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-24T23:36:42.919+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py         2261  0.00s             1           0  0.05s           2026-04-24T23:36:12
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py   2258  0.01s             1           0  0.06s           2026-04-24T23:36:12
+================================================================================
+[2026-04-24T23:37:31.612+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:37:19
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T23:37:19
+================================================================================
+[2026-04-24T23:39:53.209+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.06s           2026-04-24T23:39:40
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T23:39:40
+================================================================================
+[2026-04-24T23:40:37.687+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:40:24
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T23:40:24
+================================================================================
+[2026-04-24T23:41:07.976+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:40:54
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T23:40:54
+================================================================================
+[2026-04-24T23:43:30.584+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-04-24T23:43:30.586+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-24T23:43:44.842+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:43:30
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T23:43:30
+================================================================================
+[2026-04-24T23:44:42.349+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:44:28
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T23:44:28
+================================================================================
+[2026-04-24T23:45:12.560+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:44:58
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T23:44:58
+================================================================================
+[2026-04-24T23:45:42.834+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:45:28
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T23:45:28
+================================================================================
+[2026-04-24T23:46:13.094+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:45:59
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T23:45:59
+================================================================================
+[2026-04-24T23:46:43.319+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.06s           2026-04-24T23:46:29
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.07s           2026-04-24T23:46:29
+================================================================================
+[2026-04-24T23:47:13.651+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.11s           2026-04-24T23:46:59
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.12s           2026-04-24T23:46:59
+================================================================================
+[2026-04-24T23:47:43.905+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:47:29
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T23:47:29
+================================================================================
+[2026-04-24T23:48:14.169+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.06s           2026-04-24T23:48:00
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T23:48:00
+================================================================================
+[2026-04-24T23:48:31.353+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-04-24T23:48:31.356+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-24T23:48:44.444+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.08s           2026-04-24T23:48:30
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.08s           2026-04-24T23:48:30
+================================================================================
+[2026-04-24T23:49:14.707+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:49:00
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T23:49:00
+================================================================================
+[2026-04-24T23:49:44.978+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:49:30
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T23:49:30
+================================================================================
+[2026-04-24T23:50:15.272+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:50:01
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T23:50:01
+================================================================================
+[2026-04-24T23:50:45.536+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:50:31
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T23:50:31
+================================================================================
+[2026-04-24T23:51:15.738+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:51:01
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T23:51:01
+================================================================================
+[2026-04-24T23:51:46.013+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:51:31
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T23:51:31
+================================================================================
+[2026-04-24T23:52:16.278+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:52:02
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.05s           2026-04-24T23:52:02
+================================================================================
+[2026-04-24T23:52:46.565+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.07s           2026-04-24T23:52:32
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.08s           2026-04-24T23:52:32
+================================================================================
+[2026-04-24T23:53:16.840+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:53:02
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T23:53:02
+================================================================================
+[2026-04-24T23:53:31.921+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-04-24T23:53:31.924+0000] {manager.py:762} INFO - There are 2 files in /opt/airflow/dags
+[2026-04-24T23:53:47.109+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:53:32
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T23:53:32
+================================================================================
+[2026-04-24T23:54:17.388+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.07s           2026-04-24T23:54:03
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.07s           2026-04-24T23:54:03
+================================================================================
+[2026-04-24T23:54:47.692+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/automotive_pipeline_dag.py                                 1           0  0.05s           2026-04-24T23:54:33
+/opt/airflow/dags/ai_vehicle_ingestion_pipeline.py                           1           0  0.06s           2026-04-24T23:54:33
+================================================================================

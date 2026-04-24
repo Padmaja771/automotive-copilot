@@ -1,0 +1,13 @@
+automotive_copilot:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
+      user: "{{ env_var('SNOWFLAKE_USER') }}"
+      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+      role: "{{ env_var('SNOWFLAKE_ROLE', 'CORTEX_DEV_ROLE') }}"
+      database: "{{ env_var('SNOWFLAKE_DATABASE', 'AI_PROJECT_DB') }}"
+      warehouse: "{{ env_var('SNOWFLAKE_WAREHOUSE', 'AI_PROJECT_WH') }}"
+      schema: "DBT_MODELS"
+      threads: 4
