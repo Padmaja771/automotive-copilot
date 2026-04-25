@@ -26,27 +26,65 @@ def get_llm_provider(provider_name: str):
         return OpenAIProvider()
     return SnowflakeProvider()
 
-async def execute_ai_query(question: str, vin: str, prompt_version: str, provider: str, experiment_id: str = None) -> tuple:
-    """Core Orchestration: Asynchronous Client -> Retriever -> Snowflake Search -> Prompt -> LLM"""
-    logger.info(f"⚡ Executing Query | Experiment: {experiment_id or 'NONE'}")
+import json
+from app.models.schemas import DiagnosticResult
+
+async def execute_ai_query(symptoms: str, vin: str = None, error_code: str = None, experiment_id: str = None, provider: str = "SNOWFLAKE") -> tuple:
+    """Core Orchestration: Produces validated Pydantic models from LLM JSON output."""
+    logger.info(f"⚡ Executing Diagnostic AI | Experiment: {experiment_id or 'NONE'}")
+    
+    prompt_version = "diagnostic_expert_json"
     
     if experiment_id:
         config = exp_manager.get_experiment_config(experiment_id)
         if config:
             provider = config.get("llm_provider", provider)
             prompt_version = config.get("prompt_version", prompt_version)
-            logger.info(f"📈 Experiment {experiment_id} applied: Using {provider} + {prompt_version}")
 
-    # 1. RETRIEVER STAGE (Use Snowflake Hybrid Search Asynchronously)
+    # 1. RETRIEVER STAGE (Snowflake Hybrid Search)
     retriever = RAGRetriever()
-    retrieved_context, retrieval_latency, confidence = await retriever.get_context_for_query_async(question=question, vin=vin)
+    retrieved_context, retrieval_latency, search_confidence = await retriever.get_context_for_query_async(
+        question=f"{symptoms} {error_code or ''}", 
+        vin=vin or "GENERAL"
+    )
     
     # 2. PROMPT INJECTION STAGE
     template = load_prompt_template(prompt_version)
-    final_prompt = template.format(context=retrieved_context, question=question)
+    final_prompt = template.format(
+        context=retrieved_context, 
+        symptoms=symptoms, 
+        error_code=error_code or "NONE"
+    )
     
     # 3. LLM GENERATION STAGE 
     llm = get_llm_provider(provider)
-    answer, token_count, llm_latency = await llm.generate_async(final_prompt)
+    raw_answer, token_count, llm_latency = await llm.generate_async(final_prompt)
     
-    return answer, token_count, retrieval_latency, llm_latency, confidence
+    # 💥 STRUCTURED OUTPUT ENFORCEMENT
+    # We parse the LLM's string response into a Pydantic model. 
+    # If it fails, we have our "Senior Gate" logic here.
+    try:
+        # If Snowflake Cortex returns a string, we ensure it's valid JSON
+        if "[Simulated" in raw_answer:
+            # Mock for local dev if no Snowflake connection
+            structured_answer = DiagnosticResult(
+                diagnosis="Potential Fuel Injector Clog",
+                confidence_score=0.85,
+                supporting_evidence="Page 12: Misfire symptoms match clogged injectors.",
+                recommended_actions=[{"action": "Check pressure", "acceptance_criteria": "45 PSI"}]
+            )
+        else:
+            clean_json = raw_answer.strip().replace("```json", "").replace("```", "")
+            structured_answer = DiagnosticResult(**json.loads(clean_json))
+            
+    except Exception as e:
+        logger.error(f"Structured Output Parse Failed: {e}")
+        # Return a "Safe Fallback" instead of a 500 error!
+        structured_answer = DiagnosticResult(
+            diagnosis="Analysis Incomplete",
+            confidence_score=0.0,
+            supporting_evidence="Could not parse LLM response.",
+            recommended_actions=[]
+        )
+    
+    return structured_answer, token_count, retrieval_latency, llm_latency, search_confidence

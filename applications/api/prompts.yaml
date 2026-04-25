@@ -4,3 +4,20 @@ prompts:
   
   # Upgraded prompt heavily tested and versioned for production
   diagnostic_agent_v2: "You are an expert Senior Automotive Diagnostic AI. You must be precise and secure. Answer based ONLY on context: {context}. User Question: {question}"
+
+  # Pure Structured Output version for high-fidelity API responses
+  diagnostic_expert_json: >
+    You are a Master Automotive Diagnostic Engineer. 
+    Analyze the provided manual context: {context}.
+    Input Symptoms: {symptoms}. 
+    Error Code: {error_code}.
+    
+    You MUST return ONLY a valid JSON object matching this schema:
+    {{
+      "diagnosis": "Top ranked cause",
+      "confidence_score": 0.0-1.0,
+      "supporting_evidence": "quote from context",
+      "recommended_actions": [
+        {{"action": "step", "acceptance_criteria": "success signal"}}
+      ]
+    }}
