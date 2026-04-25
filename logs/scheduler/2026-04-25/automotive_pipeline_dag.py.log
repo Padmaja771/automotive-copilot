@@ -1,0 +1,175 @@
+[2026-04-25T00:00:06.647+0000] {processor.py:157} INFO - Started process (PID=2634) to work on /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:00:06.649+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/automotive_pipeline_dag.py for tasks to queue
+[2026-04-25T00:00:06.649+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:00:06.649+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:00:06.656+0000] {processor.py:839} INFO - DAG(s) dict_keys(['automotive_copilot_pipeline']) retrieved from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:00:06.667+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:00:06.667+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:00:06.678+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:00:06.677+0000] {dag.py:3696} INFO - Setting next_dagrun for automotive_copilot_pipeline to 2026-04-24T23:00:06.677865+00:00, run_after=2026-04-25T00:00:06.677865+00:00
+[2026-04-25T00:00:06.689+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/automotive_pipeline_dag.py took 0.043 seconds
+[2026-04-25T00:00:36.914+0000] {processor.py:157} INFO - Started process (PID=2644) to work on /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:00:36.915+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/automotive_pipeline_dag.py for tasks to queue
+[2026-04-25T00:00:36.917+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:00:36.917+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:00:36.920+0000] {processor.py:839} INFO - DAG(s) dict_keys(['automotive_copilot_pipeline']) retrieved from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:00:36.939+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:00:36.939+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:00:36.947+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:00:36.947+0000] {dag.py:3696} INFO - Setting next_dagrun for automotive_copilot_pipeline to 2026-04-24T23:00:36.947590+00:00, run_after=2026-04-25T00:00:36.947590+00:00
+[2026-04-25T00:00:36.956+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/automotive_pipeline_dag.py took 0.043 seconds
+[2026-04-25T00:01:07.209+0000] {processor.py:157} INFO - Started process (PID=2654) to work on /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:01:07.209+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/automotive_pipeline_dag.py for tasks to queue
+[2026-04-25T00:01:07.212+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:01:07.212+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:01:07.216+0000] {processor.py:839} INFO - DAG(s) dict_keys(['automotive_copilot_pipeline']) retrieved from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:01:07.229+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:01:07.228+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:01:07.235+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:01:07.235+0000] {dag.py:3696} INFO - Setting next_dagrun for automotive_copilot_pipeline to 2026-04-24T23:01:07.235646+00:00, run_after=2026-04-25T00:01:07.235646+00:00
+[2026-04-25T00:01:07.244+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/automotive_pipeline_dag.py took 0.037 seconds
+[2026-04-25T00:01:37.455+0000] {processor.py:157} INFO - Started process (PID=2664) to work on /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:01:37.456+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/automotive_pipeline_dag.py for tasks to queue
+[2026-04-25T00:01:37.458+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:01:37.458+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:01:37.462+0000] {processor.py:839} INFO - DAG(s) dict_keys(['automotive_copilot_pipeline']) retrieved from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:01:37.474+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:01:37.474+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:01:37.485+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:01:37.485+0000] {dag.py:3696} INFO - Setting next_dagrun for automotive_copilot_pipeline to 2026-04-24T23:01:37.485731+00:00, run_after=2026-04-25T00:01:37.485731+00:00
+[2026-04-25T00:01:37.498+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/automotive_pipeline_dag.py took 0.044 seconds
+[2026-04-25T00:02:07.666+0000] {processor.py:157} INFO - Started process (PID=2674) to work on /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:02:07.667+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/automotive_pipeline_dag.py for tasks to queue
+[2026-04-25T00:02:07.668+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:02:07.668+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:02:07.675+0000] {processor.py:839} INFO - DAG(s) dict_keys(['automotive_copilot_pipeline']) retrieved from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:02:07.685+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:02:07.685+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:02:07.693+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:02:07.692+0000] {dag.py:3696} INFO - Setting next_dagrun for automotive_copilot_pipeline to 2026-04-24T23:02:07.692792+00:00, run_after=2026-04-25T00:02:07.692792+00:00
+[2026-04-25T00:02:07.704+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/automotive_pipeline_dag.py took 0.039 seconds
+[2026-04-25T00:02:37.930+0000] {processor.py:157} INFO - Started process (PID=2684) to work on /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:02:37.931+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/automotive_pipeline_dag.py for tasks to queue
+[2026-04-25T00:02:37.933+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:02:37.933+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:02:37.940+0000] {processor.py:839} INFO - DAG(s) dict_keys(['automotive_copilot_pipeline']) retrieved from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:02:37.951+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:02:37.950+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:02:37.960+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:02:37.960+0000] {dag.py:3696} INFO - Setting next_dagrun for automotive_copilot_pipeline to 2026-04-24T23:02:37.960538+00:00, run_after=2026-04-25T00:02:37.960538+00:00
+[2026-04-25T00:02:37.968+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/automotive_pipeline_dag.py took 0.039 seconds
+[2026-04-25T00:03:08.208+0000] {processor.py:157} INFO - Started process (PID=2694) to work on /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:03:08.208+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/automotive_pipeline_dag.py for tasks to queue
+[2026-04-25T00:03:08.210+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:03:08.210+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:03:08.217+0000] {processor.py:839} INFO - DAG(s) dict_keys(['automotive_copilot_pipeline']) retrieved from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:03:08.228+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:03:08.228+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:03:08.237+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:03:08.237+0000] {dag.py:3696} INFO - Setting next_dagrun for automotive_copilot_pipeline to 2026-04-24T23:03:08.237652+00:00, run_after=2026-04-25T00:03:08.237652+00:00
+[2026-04-25T00:03:08.250+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/automotive_pipeline_dag.py took 0.044 seconds
+[2026-04-25T00:03:38.503+0000] {processor.py:157} INFO - Started process (PID=2704) to work on /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:03:38.504+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/automotive_pipeline_dag.py for tasks to queue
+[2026-04-25T00:03:38.507+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:03:38.507+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:03:38.511+0000] {processor.py:839} INFO - DAG(s) dict_keys(['automotive_copilot_pipeline']) retrieved from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:03:38.527+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:03:38.527+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:03:38.535+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:03:38.535+0000] {dag.py:3696} INFO - Setting next_dagrun for automotive_copilot_pipeline to 2026-04-24T23:03:38.535222+00:00, run_after=2026-04-25T00:03:38.535222+00:00
+[2026-04-25T00:03:38.551+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/automotive_pipeline_dag.py took 0.049 seconds
+[2026-04-25T00:04:08.723+0000] {processor.py:157} INFO - Started process (PID=2714) to work on /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:04:08.726+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/automotive_pipeline_dag.py for tasks to queue
+[2026-04-25T00:04:08.727+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:04:08.727+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:04:08.731+0000] {processor.py:839} INFO - DAG(s) dict_keys(['automotive_copilot_pipeline']) retrieved from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:04:08.744+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:04:08.744+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:04:08.753+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:04:08.753+0000] {dag.py:3696} INFO - Setting next_dagrun for automotive_copilot_pipeline to 2026-04-24T23:04:08.753317+00:00, run_after=2026-04-25T00:04:08.753317+00:00
+[2026-04-25T00:04:08.766+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/automotive_pipeline_dag.py took 0.045 seconds
+[2026-04-25T00:04:39.003+0000] {processor.py:157} INFO - Started process (PID=2724) to work on /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:04:39.003+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/automotive_pipeline_dag.py for tasks to queue
+[2026-04-25T00:04:39.004+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:04:39.004+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:04:39.008+0000] {processor.py:839} INFO - DAG(s) dict_keys(['automotive_copilot_pipeline']) retrieved from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:04:39.023+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:04:39.023+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:04:39.032+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:04:39.032+0000] {dag.py:3696} INFO - Setting next_dagrun for automotive_copilot_pipeline to 2026-04-24T23:04:39.032412+00:00, run_after=2026-04-25T00:04:39.032412+00:00
+[2026-04-25T00:04:39.043+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/automotive_pipeline_dag.py took 0.042 seconds
+[2026-04-25T00:05:09.291+0000] {processor.py:157} INFO - Started process (PID=2734) to work on /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:05:09.291+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/automotive_pipeline_dag.py for tasks to queue
+[2026-04-25T00:05:09.294+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:05:09.294+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:05:09.297+0000] {processor.py:839} INFO - DAG(s) dict_keys(['automotive_copilot_pipeline']) retrieved from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:05:09.309+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:05:09.309+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:05:09.319+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:05:09.319+0000] {dag.py:3696} INFO - Setting next_dagrun for automotive_copilot_pipeline to 2026-04-24T23:05:09.318989+00:00, run_after=2026-04-25T00:05:09.318989+00:00
+[2026-04-25T00:05:09.327+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/automotive_pipeline_dag.py took 0.038 seconds
+[2026-04-25T00:05:39.508+0000] {processor.py:157} INFO - Started process (PID=2744) to work on /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:05:39.509+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/automotive_pipeline_dag.py for tasks to queue
+[2026-04-25T00:05:39.511+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:05:39.511+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:05:39.515+0000] {processor.py:839} INFO - DAG(s) dict_keys(['automotive_copilot_pipeline']) retrieved from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:05:39.529+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:05:39.529+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:05:39.538+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:05:39.538+0000] {dag.py:3696} INFO - Setting next_dagrun for automotive_copilot_pipeline to 2026-04-24T23:05:39.538396+00:00, run_after=2026-04-25T00:05:39.538396+00:00
+[2026-04-25T00:05:39.547+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/automotive_pipeline_dag.py took 0.041 seconds
+[2026-04-25T00:06:09.808+0000] {processor.py:157} INFO - Started process (PID=2754) to work on /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:06:09.810+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/automotive_pipeline_dag.py for tasks to queue
+[2026-04-25T00:06:09.812+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:06:09.812+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:06:09.815+0000] {processor.py:839} INFO - DAG(s) dict_keys(['automotive_copilot_pipeline']) retrieved from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:06:09.826+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:06:09.826+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:06:09.835+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:06:09.835+0000] {dag.py:3696} INFO - Setting next_dagrun for automotive_copilot_pipeline to 2026-04-24T23:06:09.835781+00:00, run_after=2026-04-25T00:06:09.835781+00:00
+[2026-04-25T00:06:09.844+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/automotive_pipeline_dag.py took 0.038 seconds
+[2026-04-25T00:06:40.047+0000] {processor.py:157} INFO - Started process (PID=2764) to work on /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:06:40.047+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/automotive_pipeline_dag.py for tasks to queue
+[2026-04-25T00:06:40.050+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:06:40.050+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:06:40.054+0000] {processor.py:839} INFO - DAG(s) dict_keys(['automotive_copilot_pipeline']) retrieved from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:06:40.070+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:06:40.070+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:06:40.077+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:06:40.077+0000] {dag.py:3696} INFO - Setting next_dagrun for automotive_copilot_pipeline to 2026-04-24T23:06:40.077781+00:00, run_after=2026-04-25T00:06:40.077781+00:00
+[2026-04-25T00:06:40.090+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/automotive_pipeline_dag.py took 0.045 seconds
+[2026-04-25T00:07:10.289+0000] {processor.py:157} INFO - Started process (PID=2774) to work on /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:07:10.289+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/automotive_pipeline_dag.py for tasks to queue
+[2026-04-25T00:07:10.291+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:07:10.291+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:07:10.297+0000] {processor.py:839} INFO - DAG(s) dict_keys(['automotive_copilot_pipeline']) retrieved from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:07:10.313+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:07:10.312+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:07:10.321+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:07:10.321+0000] {dag.py:3696} INFO - Setting next_dagrun for automotive_copilot_pipeline to 2026-04-24T23:07:10.320770+00:00, run_after=2026-04-25T00:07:10.320770+00:00
+[2026-04-25T00:07:10.331+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/automotive_pipeline_dag.py took 0.043 seconds
+[2026-04-25T00:07:40.542+0000] {processor.py:157} INFO - Started process (PID=2784) to work on /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:07:40.542+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/automotive_pipeline_dag.py for tasks to queue
+[2026-04-25T00:07:40.546+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:07:40.545+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:07:40.549+0000] {processor.py:839} INFO - DAG(s) dict_keys(['automotive_copilot_pipeline']) retrieved from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:07:40.561+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:07:40.560+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:07:40.571+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:07:40.571+0000] {dag.py:3696} INFO - Setting next_dagrun for automotive_copilot_pipeline to 2026-04-24T23:07:40.571183+00:00, run_after=2026-04-25T00:07:40.571183+00:00
+[2026-04-25T00:07:40.580+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/automotive_pipeline_dag.py took 0.039 seconds
+[2026-04-25T00:08:10.784+0000] {processor.py:157} INFO - Started process (PID=2793) to work on /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:08:10.785+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/automotive_pipeline_dag.py for tasks to queue
+[2026-04-25T00:08:10.786+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:08:10.786+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:08:10.794+0000] {processor.py:839} INFO - DAG(s) dict_keys(['automotive_copilot_pipeline']) retrieved from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:08:10.805+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:08:10.805+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:08:10.812+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:08:10.812+0000] {dag.py:3696} INFO - Setting next_dagrun for automotive_copilot_pipeline to 2026-04-24T23:08:10.812091+00:00, run_after=2026-04-25T00:08:10.812091+00:00
+[2026-04-25T00:08:10.821+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/automotive_pipeline_dag.py took 0.038 seconds
+[2026-04-25T00:08:41.023+0000] {processor.py:157} INFO - Started process (PID=2804) to work on /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:08:41.024+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/automotive_pipeline_dag.py for tasks to queue
+[2026-04-25T00:08:41.029+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:08:41.029+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:08:41.032+0000] {processor.py:839} INFO - DAG(s) dict_keys(['automotive_copilot_pipeline']) retrieved from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:08:41.044+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:08:41.044+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:08:41.052+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:08:41.052+0000] {dag.py:3696} INFO - Setting next_dagrun for automotive_copilot_pipeline to 2026-04-24T23:08:41.052221+00:00, run_after=2026-04-25T00:08:41.052221+00:00
+[2026-04-25T00:08:41.061+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/automotive_pipeline_dag.py took 0.039 seconds
+[2026-04-25T00:09:11.270+0000] {processor.py:157} INFO - Started process (PID=2813) to work on /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:09:11.271+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/automotive_pipeline_dag.py for tasks to queue
+[2026-04-25T00:09:11.273+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:09:11.273+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:09:11.277+0000] {processor.py:839} INFO - DAG(s) dict_keys(['automotive_copilot_pipeline']) retrieved from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:09:11.290+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:09:11.290+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:09:11.299+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:09:11.299+0000] {dag.py:3696} INFO - Setting next_dagrun for automotive_copilot_pipeline to 2026-04-24T23:09:11.299232+00:00, run_after=2026-04-25T00:09:11.299232+00:00
+[2026-04-25T00:09:11.311+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/automotive_pipeline_dag.py took 0.042 seconds
+[2026-04-25T00:09:41.542+0000] {processor.py:157} INFO - Started process (PID=2824) to work on /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:09:41.545+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/automotive_pipeline_dag.py for tasks to queue
+[2026-04-25T00:09:41.546+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:09:41.546+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:09:41.549+0000] {processor.py:839} INFO - DAG(s) dict_keys(['automotive_copilot_pipeline']) retrieved from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:09:41.559+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:09:41.559+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:09:41.567+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:09:41.567+0000] {dag.py:3696} INFO - Setting next_dagrun for automotive_copilot_pipeline to 2026-04-24T23:09:41.567841+00:00, run_after=2026-04-25T00:09:41.567841+00:00
+[2026-04-25T00:09:41.577+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/automotive_pipeline_dag.py took 0.037 seconds
+[2026-04-25T00:10:11.823+0000] {processor.py:157} INFO - Started process (PID=2833) to work on /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:10:11.823+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/automotive_pipeline_dag.py for tasks to queue
+[2026-04-25T00:10:11.825+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:10:11.825+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:10:11.831+0000] {processor.py:839} INFO - DAG(s) dict_keys(['automotive_copilot_pipeline']) retrieved from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:10:11.844+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:10:11.843+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:10:11.851+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:10:11.851+0000] {dag.py:3696} INFO - Setting next_dagrun for automotive_copilot_pipeline to 2026-04-24T23:10:11.851498+00:00, run_after=2026-04-25T00:10:11.851498+00:00
+[2026-04-25T00:10:11.862+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/automotive_pipeline_dag.py took 0.041 seconds
+[2026-04-25T00:10:42.080+0000] {processor.py:157} INFO - Started process (PID=2844) to work on /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:10:42.081+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/automotive_pipeline_dag.py for tasks to queue
+[2026-04-25T00:10:42.084+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:10:42.084+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:10:42.087+0000] {processor.py:839} INFO - DAG(s) dict_keys(['automotive_copilot_pipeline']) retrieved from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:10:42.104+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:10:42.103+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:10:42.111+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:10:42.111+0000] {dag.py:3696} INFO - Setting next_dagrun for automotive_copilot_pipeline to 2026-04-24T23:10:42.111492+00:00, run_after=2026-04-25T00:10:42.111492+00:00
+[2026-04-25T00:10:42.119+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/automotive_pipeline_dag.py took 0.040 seconds
+[2026-04-25T00:11:12.418+0000] {processor.py:157} INFO - Started process (PID=2854) to work on /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:11:12.419+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/automotive_pipeline_dag.py for tasks to queue
+[2026-04-25T00:11:12.421+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:11:12.421+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:11:12.426+0000] {processor.py:839} INFO - DAG(s) dict_keys(['automotive_copilot_pipeline']) retrieved from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:11:12.443+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:11:12.443+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:11:12.451+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:11:12.451+0000] {dag.py:3696} INFO - Setting next_dagrun for automotive_copilot_pipeline to 2026-04-24T23:11:12.451072+00:00, run_after=2026-04-25T00:11:12.451072+00:00
+[2026-04-25T00:11:12.460+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/automotive_pipeline_dag.py took 0.042 seconds
+[2026-04-25T00:11:42.710+0000] {processor.py:157} INFO - Started process (PID=2864) to work on /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:11:42.711+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/automotive_pipeline_dag.py for tasks to queue
+[2026-04-25T00:11:42.714+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:11:42.713+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:11:42.717+0000] {processor.py:839} INFO - DAG(s) dict_keys(['automotive_copilot_pipeline']) retrieved from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:11:42.732+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:11:42.732+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:11:42.741+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:11:42.741+0000] {dag.py:3696} INFO - Setting next_dagrun for automotive_copilot_pipeline to 2026-04-24T23:11:42.741111+00:00, run_after=2026-04-25T00:11:42.741111+00:00
+[2026-04-25T00:11:42.749+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/automotive_pipeline_dag.py took 0.041 seconds
+[2026-04-25T00:12:13.002+0000] {processor.py:157} INFO - Started process (PID=2874) to work on /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:12:13.003+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/automotive_pipeline_dag.py for tasks to queue
+[2026-04-25T00:12:13.006+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:12:13.006+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:12:13.013+0000] {processor.py:839} INFO - DAG(s) dict_keys(['automotive_copilot_pipeline']) retrieved from /opt/airflow/dags/automotive_pipeline_dag.py
+[2026-04-25T00:12:13.027+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:12:13.027+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:12:13.036+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:12:13.036+0000] {dag.py:3696} INFO - Setting next_dagrun for automotive_copilot_pipeline to 2026-04-24T23:12:13.036445+00:00, run_after=2026-04-25T00:12:13.036445+00:00
+[2026-04-25T00:12:13.050+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/automotive_pipeline_dag.py took 0.049 seconds

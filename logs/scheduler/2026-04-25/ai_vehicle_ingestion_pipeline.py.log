@@ -1,0 +1,175 @@
+[2026-04-25T00:00:06.647+0000] {processor.py:157} INFO - Started process (PID=2631) to work on /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:00:06.648+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py for tasks to queue
+[2026-04-25T00:00:06.650+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:00:06.649+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:00:06.657+0000] {processor.py:839} INFO - DAG(s) dict_keys(['enterprise_multi_cloud_ai_pipeline']) retrieved from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:00:06.668+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:00:06.668+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:00:06.676+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:00:06.676+0000] {dag.py:3696} INFO - Setting next_dagrun for enterprise_multi_cloud_ai_pipeline to 2026-04-24T00:00:00+00:00, run_after=2026-04-25T00:00:00+00:00
+[2026-04-25T00:00:06.686+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py took 0.040 seconds
+[2026-04-25T00:00:36.911+0000] {processor.py:157} INFO - Started process (PID=2641) to work on /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:00:36.912+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py for tasks to queue
+[2026-04-25T00:00:36.913+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:00:36.913+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:00:36.922+0000] {processor.py:839} INFO - DAG(s) dict_keys(['enterprise_multi_cloud_ai_pipeline']) retrieved from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:00:36.935+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:00:36.935+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:00:36.945+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:00:36.945+0000] {dag.py:3696} INFO - Setting next_dagrun for enterprise_multi_cloud_ai_pipeline to 2026-04-24T00:00:00+00:00, run_after=2026-04-25T00:00:00+00:00
+[2026-04-25T00:00:36.955+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py took 0.046 seconds
+[2026-04-25T00:01:07.207+0000] {processor.py:157} INFO - Started process (PID=2651) to work on /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:01:07.207+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py for tasks to queue
+[2026-04-25T00:01:07.208+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:01:07.208+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:01:07.217+0000] {processor.py:839} INFO - DAG(s) dict_keys(['enterprise_multi_cloud_ai_pipeline']) retrieved from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:01:07.229+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:01:07.229+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:01:07.238+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:01:07.238+0000] {dag.py:3696} INFO - Setting next_dagrun for enterprise_multi_cloud_ai_pipeline to 2026-04-24T00:00:00+00:00, run_after=2026-04-25T00:00:00+00:00
+[2026-04-25T00:01:07.248+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py took 0.043 seconds
+[2026-04-25T00:01:37.452+0000] {processor.py:157} INFO - Started process (PID=2661) to work on /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:01:37.453+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py for tasks to queue
+[2026-04-25T00:01:37.455+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:01:37.455+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:01:37.464+0000] {processor.py:839} INFO - DAG(s) dict_keys(['enterprise_multi_cloud_ai_pipeline']) retrieved from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:01:37.474+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:01:37.474+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:01:37.487+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:01:37.487+0000] {dag.py:3696} INFO - Setting next_dagrun for enterprise_multi_cloud_ai_pipeline to 2026-04-24T00:00:00+00:00, run_after=2026-04-25T00:00:00+00:00
+[2026-04-25T00:01:37.498+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py took 0.047 seconds
+[2026-04-25T00:02:07.665+0000] {processor.py:157} INFO - Started process (PID=2671) to work on /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:02:07.665+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py for tasks to queue
+[2026-04-25T00:02:07.666+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:02:07.666+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:02:07.674+0000] {processor.py:839} INFO - DAG(s) dict_keys(['enterprise_multi_cloud_ai_pipeline']) retrieved from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:02:07.689+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:02:07.688+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:02:07.698+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:02:07.698+0000] {dag.py:3696} INFO - Setting next_dagrun for enterprise_multi_cloud_ai_pipeline to 2026-04-24T00:00:00+00:00, run_after=2026-04-25T00:00:00+00:00
+[2026-04-25T00:02:07.708+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py took 0.045 seconds
+[2026-04-25T00:02:37.926+0000] {processor.py:157} INFO - Started process (PID=2681) to work on /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:02:37.927+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py for tasks to queue
+[2026-04-25T00:02:37.929+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:02:37.929+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:02:37.935+0000] {processor.py:839} INFO - DAG(s) dict_keys(['enterprise_multi_cloud_ai_pipeline']) retrieved from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:02:37.949+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:02:37.948+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:02:37.957+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:02:37.957+0000] {dag.py:3696} INFO - Setting next_dagrun for enterprise_multi_cloud_ai_pipeline to 2026-04-24T00:00:00+00:00, run_after=2026-04-25T00:00:00+00:00
+[2026-04-25T00:02:37.968+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py took 0.044 seconds
+[2026-04-25T00:03:08.204+0000] {processor.py:157} INFO - Started process (PID=2691) to work on /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:03:08.205+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py for tasks to queue
+[2026-04-25T00:03:08.207+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:03:08.207+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:03:08.214+0000] {processor.py:839} INFO - DAG(s) dict_keys(['enterprise_multi_cloud_ai_pipeline']) retrieved from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:03:08.229+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:03:08.229+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:03:08.240+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:03:08.240+0000] {dag.py:3696} INFO - Setting next_dagrun for enterprise_multi_cloud_ai_pipeline to 2026-04-24T00:00:00+00:00, run_after=2026-04-25T00:00:00+00:00
+[2026-04-25T00:03:08.250+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py took 0.048 seconds
+[2026-04-25T00:03:38.500+0000] {processor.py:157} INFO - Started process (PID=2701) to work on /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:03:38.501+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py for tasks to queue
+[2026-04-25T00:03:38.503+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:03:38.503+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:03:38.513+0000] {processor.py:839} INFO - DAG(s) dict_keys(['enterprise_multi_cloud_ai_pipeline']) retrieved from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:03:38.526+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:03:38.526+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:03:38.538+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:03:38.538+0000] {dag.py:3696} INFO - Setting next_dagrun for enterprise_multi_cloud_ai_pipeline to 2026-04-24T00:00:00+00:00, run_after=2026-04-25T00:00:00+00:00
+[2026-04-25T00:03:38.551+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py took 0.053 seconds
+[2026-04-25T00:04:08.719+0000] {processor.py:157} INFO - Started process (PID=2711) to work on /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:04:08.720+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py for tasks to queue
+[2026-04-25T00:04:08.721+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:04:08.721+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:04:08.729+0000] {processor.py:839} INFO - DAG(s) dict_keys(['enterprise_multi_cloud_ai_pipeline']) retrieved from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:04:08.747+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:04:08.747+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:04:08.757+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:04:08.757+0000] {dag.py:3696} INFO - Setting next_dagrun for enterprise_multi_cloud_ai_pipeline to 2026-04-24T00:00:00+00:00, run_after=2026-04-25T00:00:00+00:00
+[2026-04-25T00:04:08.771+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py took 0.053 seconds
+[2026-04-25T00:04:39.000+0000] {processor.py:157} INFO - Started process (PID=2721) to work on /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:04:39.001+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py for tasks to queue
+[2026-04-25T00:04:39.002+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:04:39.002+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:04:39.008+0000] {processor.py:839} INFO - DAG(s) dict_keys(['enterprise_multi_cloud_ai_pipeline']) retrieved from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:04:39.027+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:04:39.027+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:04:39.037+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:04:39.037+0000] {dag.py:3696} INFO - Setting next_dagrun for enterprise_multi_cloud_ai_pipeline to 2026-04-24T00:00:00+00:00, run_after=2026-04-25T00:00:00+00:00
+[2026-04-25T00:04:39.047+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py took 0.049 seconds
+[2026-04-25T00:05:09.288+0000] {processor.py:157} INFO - Started process (PID=2731) to work on /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:05:09.288+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py for tasks to queue
+[2026-04-25T00:05:09.290+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:05:09.290+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:05:09.299+0000] {processor.py:839} INFO - DAG(s) dict_keys(['enterprise_multi_cloud_ai_pipeline']) retrieved from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:05:09.309+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:05:09.309+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:05:09.317+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:05:09.317+0000] {dag.py:3696} INFO - Setting next_dagrun for enterprise_multi_cloud_ai_pipeline to 2026-04-24T00:00:00+00:00, run_after=2026-04-25T00:00:00+00:00
+[2026-04-25T00:05:09.327+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py took 0.041 seconds
+[2026-04-25T00:05:39.505+0000] {processor.py:157} INFO - Started process (PID=2741) to work on /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:05:39.506+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py for tasks to queue
+[2026-04-25T00:05:39.507+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:05:39.507+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:05:39.517+0000] {processor.py:839} INFO - DAG(s) dict_keys(['enterprise_multi_cloud_ai_pipeline']) retrieved from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:05:39.535+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:05:39.535+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:05:39.544+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:05:39.544+0000] {dag.py:3696} INFO - Setting next_dagrun for enterprise_multi_cloud_ai_pipeline to 2026-04-24T00:00:00+00:00, run_after=2026-04-25T00:00:00+00:00
+[2026-04-25T00:05:39.553+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py took 0.050 seconds
+[2026-04-25T00:06:09.805+0000] {processor.py:157} INFO - Started process (PID=2751) to work on /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:06:09.806+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py for tasks to queue
+[2026-04-25T00:06:09.807+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:06:09.807+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:06:09.812+0000] {processor.py:839} INFO - DAG(s) dict_keys(['enterprise_multi_cloud_ai_pipeline']) retrieved from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:06:09.824+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:06:09.824+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:06:09.835+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:06:09.835+0000] {dag.py:3696} INFO - Setting next_dagrun for enterprise_multi_cloud_ai_pipeline to 2026-04-24T00:00:00+00:00, run_after=2026-04-25T00:00:00+00:00
+[2026-04-25T00:06:09.844+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py took 0.041 seconds
+[2026-04-25T00:06:40.044+0000] {processor.py:157} INFO - Started process (PID=2761) to work on /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:06:40.045+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py for tasks to queue
+[2026-04-25T00:06:40.046+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:06:40.046+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:06:40.055+0000] {processor.py:839} INFO - DAG(s) dict_keys(['enterprise_multi_cloud_ai_pipeline']) retrieved from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:06:40.067+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:06:40.067+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:06:40.077+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:06:40.077+0000] {dag.py:3696} INFO - Setting next_dagrun for enterprise_multi_cloud_ai_pipeline to 2026-04-24T00:00:00+00:00, run_after=2026-04-25T00:00:00+00:00
+[2026-04-25T00:06:40.090+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py took 0.048 seconds
+[2026-04-25T00:07:10.286+0000] {processor.py:157} INFO - Started process (PID=2771) to work on /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:07:10.287+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py for tasks to queue
+[2026-04-25T00:07:10.289+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:07:10.288+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:07:10.295+0000] {processor.py:839} INFO - DAG(s) dict_keys(['enterprise_multi_cloud_ai_pipeline']) retrieved from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:07:10.308+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:07:10.308+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:07:10.319+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:07:10.318+0000] {dag.py:3696} INFO - Setting next_dagrun for enterprise_multi_cloud_ai_pipeline to 2026-04-24T00:00:00+00:00, run_after=2026-04-25T00:00:00+00:00
+[2026-04-25T00:07:10.327+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py took 0.042 seconds
+[2026-04-25T00:07:40.540+0000] {processor.py:157} INFO - Started process (PID=2781) to work on /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:07:40.540+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py for tasks to queue
+[2026-04-25T00:07:40.541+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:07:40.541+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:07:40.550+0000] {processor.py:839} INFO - DAG(s) dict_keys(['enterprise_multi_cloud_ai_pipeline']) retrieved from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:07:40.561+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:07:40.561+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:07:40.572+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:07:40.572+0000] {dag.py:3696} INFO - Setting next_dagrun for enterprise_multi_cloud_ai_pipeline to 2026-04-24T00:00:00+00:00, run_after=2026-04-25T00:00:00+00:00
+[2026-04-25T00:07:40.580+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py took 0.042 seconds
+[2026-04-25T00:08:10.784+0000] {processor.py:157} INFO - Started process (PID=2791) to work on /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:08:10.786+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py for tasks to queue
+[2026-04-25T00:08:10.787+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:08:10.787+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:08:10.796+0000] {processor.py:839} INFO - DAG(s) dict_keys(['enterprise_multi_cloud_ai_pipeline']) retrieved from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:08:10.805+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:08:10.805+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:08:10.814+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:08:10.814+0000] {dag.py:3696} INFO - Setting next_dagrun for enterprise_multi_cloud_ai_pipeline to 2026-04-24T00:00:00+00:00, run_after=2026-04-25T00:00:00+00:00
+[2026-04-25T00:08:10.821+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py took 0.038 seconds
+[2026-04-25T00:08:41.021+0000] {processor.py:157} INFO - Started process (PID=2801) to work on /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:08:41.021+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py for tasks to queue
+[2026-04-25T00:08:41.023+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:08:41.023+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:08:41.032+0000] {processor.py:839} INFO - DAG(s) dict_keys(['enterprise_multi_cloud_ai_pipeline']) retrieved from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:08:41.042+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:08:41.042+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:08:41.050+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:08:41.050+0000] {dag.py:3696} INFO - Setting next_dagrun for enterprise_multi_cloud_ai_pipeline to 2026-04-24T00:00:00+00:00, run_after=2026-04-25T00:00:00+00:00
+[2026-04-25T00:08:41.060+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py took 0.040 seconds
+[2026-04-25T00:09:11.270+0000] {processor.py:157} INFO - Started process (PID=2811) to work on /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:09:11.272+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py for tasks to queue
+[2026-04-25T00:09:11.274+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:09:11.274+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:09:11.283+0000] {processor.py:839} INFO - DAG(s) dict_keys(['enterprise_multi_cloud_ai_pipeline']) retrieved from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:09:11.300+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:09:11.300+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:09:11.309+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:09:11.309+0000] {dag.py:3696} INFO - Setting next_dagrun for enterprise_multi_cloud_ai_pipeline to 2026-04-24T00:00:00+00:00, run_after=2026-04-25T00:00:00+00:00
+[2026-04-25T00:09:11.317+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py took 0.048 seconds
+[2026-04-25T00:09:41.538+0000] {processor.py:157} INFO - Started process (PID=2821) to work on /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:09:41.539+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py for tasks to queue
+[2026-04-25T00:09:41.540+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:09:41.540+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:09:41.549+0000] {processor.py:839} INFO - DAG(s) dict_keys(['enterprise_multi_cloud_ai_pipeline']) retrieved from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:09:41.562+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:09:41.562+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:09:41.569+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:09:41.569+0000] {dag.py:3696} INFO - Setting next_dagrun for enterprise_multi_cloud_ai_pipeline to 2026-04-24T00:00:00+00:00, run_after=2026-04-25T00:00:00+00:00
+[2026-04-25T00:09:41.578+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py took 0.041 seconds
+[2026-04-25T00:10:11.823+0000] {processor.py:157} INFO - Started process (PID=2831) to work on /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:10:11.824+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py for tasks to queue
+[2026-04-25T00:10:11.825+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:10:11.825+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:10:11.830+0000] {processor.py:839} INFO - DAG(s) dict_keys(['enterprise_multi_cloud_ai_pipeline']) retrieved from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:10:11.840+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:10:11.840+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:10:11.850+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:10:11.850+0000] {dag.py:3696} INFO - Setting next_dagrun for enterprise_multi_cloud_ai_pipeline to 2026-04-24T00:00:00+00:00, run_after=2026-04-25T00:00:00+00:00
+[2026-04-25T00:10:11.859+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py took 0.038 seconds
+[2026-04-25T00:10:42.077+0000] {processor.py:157} INFO - Started process (PID=2841) to work on /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:10:42.078+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py for tasks to queue
+[2026-04-25T00:10:42.079+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:10:42.079+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:10:42.084+0000] {processor.py:839} INFO - DAG(s) dict_keys(['enterprise_multi_cloud_ai_pipeline']) retrieved from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:10:42.101+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:10:42.101+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:10:42.110+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:10:42.110+0000] {dag.py:3696} INFO - Setting next_dagrun for enterprise_multi_cloud_ai_pipeline to 2026-04-24T00:00:00+00:00, run_after=2026-04-25T00:00:00+00:00
+[2026-04-25T00:10:42.119+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py took 0.043 seconds
+[2026-04-25T00:11:12.414+0000] {processor.py:157} INFO - Started process (PID=2851) to work on /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:11:12.417+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py for tasks to queue
+[2026-04-25T00:11:12.418+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:11:12.418+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:11:12.427+0000] {processor.py:839} INFO - DAG(s) dict_keys(['enterprise_multi_cloud_ai_pipeline']) retrieved from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:11:12.439+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:11:12.439+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:11:12.450+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:11:12.450+0000] {dag.py:3696} INFO - Setting next_dagrun for enterprise_multi_cloud_ai_pipeline to 2026-04-24T00:00:00+00:00, run_after=2026-04-25T00:00:00+00:00
+[2026-04-25T00:11:12.460+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py took 0.047 seconds
+[2026-04-25T00:11:42.707+0000] {processor.py:157} INFO - Started process (PID=2861) to work on /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:11:42.708+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py for tasks to queue
+[2026-04-25T00:11:42.709+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:11:42.709+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:11:42.718+0000] {processor.py:839} INFO - DAG(s) dict_keys(['enterprise_multi_cloud_ai_pipeline']) retrieved from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:11:42.728+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:11:42.728+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:11:42.739+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:11:42.739+0000] {dag.py:3696} INFO - Setting next_dagrun for enterprise_multi_cloud_ai_pipeline to 2026-04-24T00:00:00+00:00, run_after=2026-04-25T00:00:00+00:00
+[2026-04-25T00:11:42.749+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py took 0.043 seconds
+[2026-04-25T00:12:13.000+0000] {processor.py:157} INFO - Started process (PID=2871) to work on /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:12:13.001+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py for tasks to queue
+[2026-04-25T00:12:13.002+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:12:13.002+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:12:13.010+0000] {processor.py:839} INFO - DAG(s) dict_keys(['enterprise_multi_cloud_ai_pipeline']) retrieved from /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py
+[2026-04-25T00:12:13.026+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:12:13.026+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-04-25T00:12:13.039+0000] {logging_mixin.py:151} INFO - [2026-04-25T00:12:13.039+0000] {dag.py:3696} INFO - Setting next_dagrun for enterprise_multi_cloud_ai_pipeline to 2026-04-24T00:00:00+00:00, run_after=2026-04-25T00:00:00+00:00
+[2026-04-25T00:12:13.050+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ai_vehicle_ingestion_pipeline.py took 0.052 seconds
