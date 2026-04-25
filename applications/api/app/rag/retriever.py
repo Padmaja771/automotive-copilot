@@ -1,4 +1,5 @@
 import logging
+import asyncio
 from app.rag.indexer import SnowflakeVectorStore
 
 logger = logging.getLogger("AI_Backend_Retriever")
@@ -8,13 +9,18 @@ class RAGRetriever:
     def __init__(self):
         self.vector_store = SnowflakeVectorStore()
 
-    def get_context_for_query(self, question: str, vin: str) -> str:
-        logger.info(f"Staging Context Retrieval for VIN: {vin}")
+    async def get_context_for_query_async(self, question: str, vin: str) -> tuple:
+        import time
+        logger.info(f"Staging Asynchronous Hybrid Context Retrieval for VIN: {vin}")
         
-        # Here we could implement Re-Ranking, Query Expansion, or filtering
-        raw_context = self.vector_store.search_similar_documents(
+        start_time = time.time()
+        # Simulating external Latency to the DB
+        await asyncio.sleep(0.4)
+        
+        raw_context, confidence_score = self.vector_store.hybrid_search(
             semantic_query=question, 
             metadata_filter_vin=vin
         )
         
-        return raw_context
+        retrieval_latency = time.time() - start_time
+        return raw_context, retrieval_latency, confidence_score

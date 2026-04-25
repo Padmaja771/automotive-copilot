@@ -1,0 +1,18 @@
+experiments:
+  - id: "EXP_001_SNOWFLAKE_V2"
+    description: "Production LLM (Snowflake) with V2 diagnostic prompt"
+    llm_provider: "SNOWFLAKE"
+    prompt_version: "diagnostic_agent_v2"
+    rag_enabled: true
+
+  - id: "EXP_002_OPENAI_V2"
+    description: "Challenger LLM (OpenAI) with V2 diagnostic prompt"
+    llm_provider: "OPENAI"
+    prompt_version: "diagnostic_agent_v2"
+    rag_enabled: true
+
+  - id: "EXP_003_SNOWFLAKE_V1"
+    description: "Legacy Baseline (Snowflake) with V1 prompt"
+    llm_provider: "SNOWFLAKE"
+    prompt_version: "diagnostic_agent_v1"
+    rag_enabled: true

@@ -1,0 +1,10 @@
+{
+  "experiment_id": "EXP_002_OPENAI_V2",
+  "timestamp": "2026-04-24 20:03:07.810451",
+  "vin": "VIN_AWS_001",
+  "metrics": {
+    "tokens": 83,
+    "latency_total": 1.401242971420288,
+    "confidence": 0.7989999999999999
+  }
+}

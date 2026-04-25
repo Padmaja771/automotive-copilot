@@ -49,11 +49,40 @@ jobs:
       - name: Install dbt-snowflake
         run: pip install dbt-snowflake
 
-      - name: dbt Run (Deploy to Prod)
-        run: dbt run --target prod
+      - name: dbt Run & Test (Deploy to Prod)
+        run: |
+          dbt run --target prod
+          dbt test --target prod # 🔥 SIGNAL 1: Data Contract Validation
         working-directory: ./transformation/dbt_project
         env:
-          # GitHub SECRETS inject the .env passwords safely inside the GitHub computers
+          SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWFLAKE_ACCOUNT }}
+          SNOWFLAKE_USER: ${{ secrets.SNOWFLAKE_USER }}
+          SNOWFLAKE_PASSWORD: ${{ secrets.SNOWFLAKE_PASSWORD }}
+
+  # ===============================================
+  # JOB 3: AI EVALUATION GATING (Senior Signal)
+  # ===============================================
+  validate-ai-quality:
+    name: RAG Performance Gating
+    needs: dbt-deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install AI Dependencies
+        run: pip install fastapi uvicorn pytest httpx snowflake-snowpark-python pyyaml python-dotenv
+
+      - name: 🔥 SIGNAL 2: Execute RAG Evaluation Benchmark
+        run: |
+          cd applications/api
+          python eval/benchmark.py # Script will EXIT 1 if accuracy < 80%
+        env:
           SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWFLAKE_ACCOUNT }}
           SNOWFLAKE_USER: ${{ secrets.SNOWFLAKE_USER }}
           SNOWFLAKE_PASSWORD: ${{ secrets.SNOWFLAKE_PASSWORD }}

@@ -1,0 +1,10 @@
+{
+  "experiment_id": "EXP_002_OPENAI_V2",
+  "timestamp": "2026-04-24 20:03:10.222803",
+  "vin": "VIN_AZURE_002",
+  "metrics": {
+    "tokens": 88,
+    "latency_total": 1.4026751518249512,
+    "confidence": 0.7989999999999999
+  }
+}

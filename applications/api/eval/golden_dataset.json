@@ -1,0 +1,23 @@
+[
+    {
+        "id": "CASE_001",
+        "question": "What is the meaning of error code P0420?",
+        "vin": "VIN_AWS_001",
+        "expected_keywords": ["Catalyst", "Efficiency", "Bank 1"],
+        "min_confidence": 0.70
+    },
+    {
+        "id": "CASE_002",
+        "question": "The engine temperature is 120C, is this critical?",
+        "vin": "VIN_AZURE_002",
+        "expected_keywords": ["Critical", "Overheating", "Immediate"],
+        "min_confidence": 0.75
+    },
+    {
+        "id": "CASE_003",
+        "question": "How do I reset the oil maintenance light?",
+        "vin": "VIN_AWS_003",
+        "expected_keywords": ["Reset", "Maintenance", "Dashboard"],
+        "min_confidence": 0.60
+    }
+]

@@ -3,6 +3,8 @@ from typing import Optional
 
 class QueryRequest(BaseModel):
     question: str
-    vin: str  # We only ask the client for the VIN now!
+    vin: str  
     prompt_version: Optional[str] = "diagnostic_agent_v2"
     provider: Optional[str] = "SNOWFLAKE"
+    experiment_id: Optional[str] = None  # NEW: For A/B Testing and Versioning
+
