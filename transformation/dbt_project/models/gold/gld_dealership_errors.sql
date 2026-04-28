@@ -1,4 +1,10 @@
-{{ config(materialized='table') }}
+{{
+    config(
+        materialized='table',
+        cluster_by=['VIN_REFERENCE'],
+        query_tag='automotive_copilot.dbt'
+    )
+}}
 
 -- =========================================================================
 -- GOLD LAYER: Aggregated Business-Level Facts & Vector Store

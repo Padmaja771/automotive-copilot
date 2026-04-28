@@ -1,4 +1,10 @@
-{{ config(materialized='table') }}
+{{
+    config(
+        materialized='table',
+        cluster_by=['TO_DATE(RECORDED_AT)', 'VIN_MASKED'],
+        query_tag='automotive_copilot.dbt'
+    )
+}}
 
 -- =========================================================================
 -- SILVER LAYER: Cortex AI Fault Analysis
