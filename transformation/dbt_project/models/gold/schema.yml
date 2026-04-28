@@ -30,6 +30,23 @@ models:
               min_value: -40
               max_value: 300
 
+      - name: full_vehicle_history_summaries
+        description: Array of AI-generated summaries from mechanic notes (Cortex SUMMARIZE)
+        tests:
+          - not_null
+
+      - name: distinct_fault_categories
+        description: Array of AI-classified fault categories (Cortex COMPLETE)
+        tests:
+          - not_null
+
+      - name: vehicle_history_embedding
+        description: Pre-computed vector embeddings of the vehicle history (Cortex EMBED_TEXT_768)
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: VECTOR   # Ensures Snowflake recognizes this as a valid vector column
+
       - name: last_aggregated_at
         description: Timestamp of last dbt run — used for data freshness SLA
         tests:
