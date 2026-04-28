@@ -1,0 +1,36 @@
+# ============================================================
+# Cortex Agent Evaluation Configuration
+# Standard: Used by SNOWFLAKE.ML.EXECUTE_AI_EVALUATION (Controlled Availability)
+# and as documentation for CORTEX.EVALUATE-based pipelines.
+# ============================================================
+
+evaluation_name: automotive_copilot_eval_v1
+model: mistral-large2
+judge_model: mistral-large2   # Uses a separate LLM instance as the "judge"
+
+metrics:
+  - faithfulness:
+      description: "Did the AI answer only from the provided context? (0=hallucination, 1=grounded)"
+      threshold: 0.80           # CI/CD gate: block deployment if below this
+
+  - relevance:
+      description: "Is the answer relevant to the automotive diagnostic question?"
+      threshold: 0.75
+
+  - answer_correctness:
+      description: "Does the answer match the expert ground truth?"
+      threshold: 0.80           # Primary gate metric
+
+eval_data:
+  table: AI_PROJECT_DB.STAGING.AI_EVAL_DATA
+  input_column: input_query
+  expected_column: expected_answer
+  context_column: vin_context
+
+output:
+  results_table: AI_PROJECT_DB.STAGING.AI_EVAL_RESULTS
+  fail_on_threshold_breach: true   # Causes CALL to exit with error if any metric fails
+
+ci_gate:
+  block_merge_if_failed: true
+  notify_slack: false              # Set to true in production with Slack webhook

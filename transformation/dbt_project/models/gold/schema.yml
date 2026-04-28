@@ -10,14 +10,13 @@ models:
       - name: vin_reference
         description: Vehicle Identification Number (Primary Key)
         tests:
-          - unique             # dbt native: no duplicate VINs
-          - not_null           # dbt native: every row must have a VIN
+          - unique
+          - not_null
 
       - name: total_critical_errors
         description: Total count of critical diagnostic errors for this vehicle
         tests:
           - not_null
-          # ── Great Expectations (dbt_expectations package) ────────────────
           - dbt_expectations.expect_column_values_to_be_of_type:
               column_type: NUMBER
           - dbt_expectations.expect_column_values_to_be_between:
@@ -28,8 +27,8 @@ models:
         description: Highest recorded engine temperature in Celsius
         tests:
           - dbt_expectations.expect_column_values_to_be_between:
-              min_value: -40        # Valid engine temp lower bound
-              max_value: 300        # Valid engine temp upper bound (avoid bad data)
+              min_value: -40
+              max_value: 300
 
       - name: last_aggregated_at
         description: Timestamp of last dbt run — used for data freshness SLA
@@ -38,10 +37,9 @@ models:
           - dbt_expectations.expect_column_values_to_be_of_type:
               column_type: TIMESTAMP_LTZ
 
-    # ── Model-level Great Expectations ──────────────────────────────────────
     tests:
       - dbt_expectations.expect_table_row_count_to_be_between:
-          min_value: 1              # Gold table must never be empty
+          min_value: 1
           max_value: 1000000
       - dbt_expectations.expect_table_columns_to_match_ordered_list:
           column_list:
@@ -49,3 +47,47 @@ models:
             - total_critical_errors
             - max_engine_temp_recorded
             - last_aggregated_at
+
+  # ── Tier 2: AI Audit Report Model (New) ────────────────────────────────────
+  - name: gld_ai_audit_report
+    description: >
+      Gold Layer AI output quality table. Stores structured JSON responses from
+      SNOWFLAKE.CORTEX.COMPLETE for downstream accuracy evaluation.
+
+    columns:
+      - name: vin_reference
+        description: Vehicle identifier — foreign key to gld_dealership_errors
+        tests:
+          - not_null
+
+      - name: ai_response_json
+        description: Raw VARIANT JSON output from Cortex LLM — must be a valid object
+        tests:
+          - not_null
+          # ── Tier 2: dbt_expectations — Structural JSON Validation ────────
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: VARIANT   # Ensures output is parsed JSON, not a raw string
+
+      - name: confidence_score
+        description: Parsed confidence score from AI response (0.0 — 1.0)
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0.0
+              max_value: 1.0
+
+      - name: parsed_diagnosis
+        description: Extracted diagnosis string from the JSON VARIANT column
+        tests:
+          - not_null   # If diagnosis is NULL, the AI response was malformed
+
+      - name: evaluated_at
+        description: Timestamp when this AI response was evaluated
+        tests:
+          - not_null
+
+    tests:
+      - dbt_expectations.expect_table_row_count_to_be_between:
+          min_value: 1
+          max_value: 1000000
+
