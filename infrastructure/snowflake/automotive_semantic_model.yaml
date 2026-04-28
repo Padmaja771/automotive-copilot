@@ -1,0 +1,70 @@
+# =========================================================================
+# Cortex Analyst: Semantic Model Definition
+# Location: infrastructure/snowflake/automotive_semantic_model.yaml
+#
+# Standard: This powers SNOWFLAKE.CORTEX.ANALYST. 
+# It maps raw database schemas to natural language so executives can ask
+# "How many high frustration faults happened yesterday?" without writing SQL.
+# =========================================================================
+
+name: Automotive_Intelligence_Model
+description: "Semantic layer for conversational AI querying over vehicle telemetry and AI-extracted fault analysis."
+
+tables:
+  - name: SLV_FAULT_ANALYSIS
+    base_table: AI_PROJECT_DB.SILVER.SLV_FAULT_ANALYSIS
+    description: "Contains raw vehicle fault logs enriched with Cortex AI sentiment and summarization."
+    
+    dimensions:
+      - name: vehicle_vin
+        expr: vin_masked
+        description: "Masked Vehicle Identification Number"
+        synonyms: ["car", "vehicle", "truck"]
+        
+      - name: component_issue
+        expr: target_component_extracted
+        description: "The specific car part that failed, extracted by AI."
+        synonyms: ["broken part", "faulty component", "issue"]
+        
+      - name: fault_summary
+        expr: concise_fault_summary
+        description: "AI generated 1-sentence summary of the mechanic's notes."
+
+    metrics:
+      - name: total_faults
+        expr: count(fault_id)
+        description: "Total number of logged faults."
+        
+      - name: high_frustration_faults
+        expr: count(fault_id)
+        filter: "driver_frustration_score < -0.5" # Cortex Sentiment outputs [-1, 1]
+        description: "Number of faults where the AI detected high driver frustration/anger."
+        synonyms: ["angry customers", "critical complaints"]
+
+  - name: GLD_DEALERSHIP_ERRORS
+    base_table: AI_PROJECT_DB.GOLD.GLD_DEALERSHIP_ERRORS
+    description: "Aggregated business-level facts per vehicle."
+    
+    dimensions:
+      - name: vin
+        expr: vin_reference
+    
+    metrics:
+      - name: total_critical_errors
+        expr: sum(total_critical_errors)
+        description: "The absolute sum of critical P-Code errors logged."
+        synonyms: ["critical failures", "major errors"]
+        
+      - name: max_temperature
+        expr: max(max_engine_temp_recorded)
+        description: "The highest engine temperature recorded."
+
+# Verified Queries act as Few-Shot prompts for Cortex Analyst
+verified_queries:
+  - name: "Most Frustrated Customers"
+    question: "What are the summaries of the most frustrating vehicle faults?"
+    sql: "SELECT concise_fault_summary, driver_frustration_score FROM SLV_FAULT_ANALYSIS WHERE driver_frustration_score < -0.5 ORDER BY driver_frustration_score ASC LIMIT 10"
+
+  - name: "Critical Dealership Issues"
+    question: "Which vehicles have the highest number of critical errors?"
+    sql: "SELECT vin_reference, total_critical_errors FROM GLD_DEALERSHIP_ERRORS ORDER BY total_critical_errors DESC LIMIT 5"
