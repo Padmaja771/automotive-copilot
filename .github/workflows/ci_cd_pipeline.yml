@@ -10,11 +10,31 @@ on:
 
 jobs:
   # ===============================================
-  # JOB 0: CODE QUALITY (Standard 4 — Ruff + SQLFluff)
+  # JOB 0a: AI COMPLIANCE AUDIT (Runs first — blocks everything)
+  # 4-point checklist: Zero-Egress, Prompt Decoupling, Error Handling, RBAC
+  # ===============================================
+  ai-audit:
+    name: AI Code Quality Audit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install Audit Dependencies
+        run: pip install pytest fastapi uvicorn snowflake-snowpark-python pyyaml python-dotenv
+      - name: Run AI Compliance Audit (15 checks)
+        run: pytest tests/test_ai_audit.py -v
+
+  # ===============================================
+  # JOB 0b: CODE QUALITY (Standard 4 — Ruff + SQLFluff)
   # ===============================================
   code-quality:
     name: Code Style & SQL Linting
     runs-on: ubuntu-latest
+    needs: ai-audit
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3

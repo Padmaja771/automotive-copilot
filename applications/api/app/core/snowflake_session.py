@@ -10,7 +10,7 @@ def get_snowpark_session():
         "account": os.getenv("SNOWFLAKE_ACCOUNT"),
         "user": os.getenv("SNOWFLAKE_USER"),
         "password": os.getenv("SNOWFLAKE_PASSWORD"),
-        "role": os.getenv("SNOWFLAKE_ROLE", "ACCOUNTADMIN"),
+        "role": os.getenv("SNOWFLAKE_ROLE", "CORTEX_DEV_ROLE"),  # NEVER default to ACCOUNTADMIN
         "warehouse": os.getenv("SNOWFLAKE_WAREHOUSE"),
         "database": os.getenv("SNOWFLAKE_DATABASE", "AI_PROJECT_DB"),
         "schema": os.getenv("SNOWFLAKE_SCHEMA", "STAGING")
