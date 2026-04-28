@@ -10,49 +10,90 @@ on:
 
 jobs:
   # ===============================================
-  # JOB 1: INFRASTRUCTURE (Terraform)
+  # JOB 0: CODE QUALITY (Standard 4 — Ruff + SQLFluff)
   # ===============================================
-  terraform-deploy:
-    name: Terraform Validate & Plan
+  code-quality:
+    name: Code Style & SQL Linting
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install Linters
+        run: pip install ruff sqlfluff dbt-snowflake
+      - name: Ruff — Python Code Style Check
+        run: ruff check applications/ ingestion/ tests/
+      - name: SQLFluff — SQL Style Check
+        run: sqlfluff lint transformation/dbt_project/models/ --dialect snowflake
 
+  # ===============================================
+  # JOB 1: SNOWPARK UNIT TESTS (Standard 1)
+  # ===============================================
+  unit-tests:
+    name: PyTest + Snowpark Local Testing
+    runs-on: ubuntu-latest
+    needs: code-quality
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install Test Dependencies
+        run: pip install pytest httpx fastapi uvicorn snowflake-snowpark-python pyyaml python-dotenv
+      - name: Run Snowpark Unit Tests
+        run: pytest tests/test_snowpark_ingestion.py -v
+      - name: Run AI Accuracy Unit Tests
+        run: |
+          cd applications/api
+          pytest ../../tests/test_ai_accuracy.py -v
+
+  # ===============================================
+  # JOB 2: INFRASTRUCTURE (Terraform)
+  # ===============================================
+  terraform-deploy:
+    name: Terraform Validate & Plan
+    runs-on: ubuntu-latest
+    needs: unit-tests
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v2
-
       - name: Terraform Init
         run: terraform init
         working-directory: ./infrastructure/aws
-
       - name: Terraform Validate
         run: terraform validate
         working-directory: ./infrastructure/aws
 
   # ===============================================
-  # JOB 2: TRANSFORMATION (dbt)
+  # JOB 3: TRANSFORMATION (Standard 2 — dbt + Great Expectations)
   # ===============================================
   dbt-deploy:
-    name: dbt Analytics CI/CD
+    name: dbt Analytics + Data Integrity
     runs-on: ubuntu-latest
-    needs: terraform-deploy # Waits for Terraform to succeed first!
+    needs: terraform-deploy
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
-
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
-
       - name: Install dbt-snowflake
         run: pip install dbt-snowflake
-
-      - name: dbt Run & Test (Deploy to Prod)
+      - name: dbt deps (installs dbt_expectations / Great Expectations)
+        run: dbt deps
+        working-directory: ./transformation/dbt_project
+      - name: dbt Run & Test with Great Expectations
         run: |
           dbt run --target prod
-          dbt test --target prod # 🔥 SIGNAL 1: Data Contract Validation
+          dbt test --target prod
         working-directory: ./transformation/dbt_project
         env:
           SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWFLAKE_ACCOUNT }}
@@ -60,28 +101,25 @@ jobs:
           SNOWFLAKE_PASSWORD: ${{ secrets.SNOWFLAKE_PASSWORD }}
 
   # ===============================================
-  # JOB 3: AI EVALUATION GATING (Senior Signal)
+  # JOB 4: AI EVALUATION GATING (Standard 3 — Cortex Accuracy)
   # ===============================================
   validate-ai-quality:
-    name: RAG Performance Gating
+    name: Cortex AI Accuracy Gating
     needs: dbt-deploy
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
-
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
-
       - name: Install AI Dependencies
         run: pip install fastapi uvicorn pytest httpx snowflake-snowpark-python pyyaml python-dotenv
-
-      - name: 🔥 SIGNAL 2: Execute RAG Evaluation Benchmark
+      - name: Execute RAG Benchmark (exits 1 if accuracy < 80%)
         run: |
           cd applications/api
-          python eval/benchmark.py # Script will EXIT 1 if accuracy < 80%
+          python eval/benchmark.py
         env:
           SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWFLAKE_ACCOUNT }}
           SNOWFLAKE_USER: ${{ secrets.SNOWFLAKE_USER }}

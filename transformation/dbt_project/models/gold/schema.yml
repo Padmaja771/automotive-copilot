@@ -1,25 +1,51 @@
 version: 2
 
 models:
-  - name: parsed_vehicle_manuals
-    description: "The AI-parsed chunks from uploaded vehicle manuals. Acts as the knowledge base for our RAG Agent."
+  - name: gld_dealership_errors
+    description: >
+      Gold Layer aggregated vehicle diagnostics - the Source of Truth for
+      RAG retrieval and Cortex AI inference.
+
     columns:
-      - name: source_file
-        description: "The name of the original PDF uploaded to S3."
-        tests:
-          - not_null
       - name: vin_reference
-        description: "The Vehicle Identification Number extracted from the filename."
+        description: Vehicle Identification Number (Primary Key)
+        tests:
+          - unique             # dbt native: no duplicate VINs
+          - not_null           # dbt native: every row must have a VIN
+
+      - name: total_critical_errors
+        description: Total count of critical diagnostic errors for this vehicle
         tests:
           - not_null
-      - name: chunk_text
-        description: "The vectorized text chunk returned by Snowflake Cortex AI."
+          # ── Great Expectations (dbt_expectations package) ────────────────
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: NUMBER
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+              max_value: 10000
+
+      - name: max_engine_temp_recorded
+        description: Highest recorded engine temperature in Celsius
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: -40        # Valid engine temp lower bound
+              max_value: 300        # Valid engine temp upper bound (avoid bad data)
+
+      - name: last_aggregated_at
+        description: Timestamp of last dbt run — used for data freshness SLA
         tests:
           - not_null
-      - name: chunk_index
-        description: "The sequence index of the text block."
-        tests:
-          - not_null
-          - unique:
-              # A chunk index must be unique per source file
-              group_by: [source_file]
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: TIMESTAMP_LTZ
+
+    # ── Model-level Great Expectations ──────────────────────────────────────
+    tests:
+      - dbt_expectations.expect_table_row_count_to_be_between:
+          min_value: 1              # Gold table must never be empty
+          max_value: 1000000
+      - dbt_expectations.expect_table_columns_to_match_ordered_list:
+          column_list:
+            - vin_reference
+            - total_critical_errors
+            - max_engine_temp_recorded
+            - last_aggregated_at

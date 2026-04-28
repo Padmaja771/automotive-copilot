@@ -1,0 +1,14 @@
+[sqlfluff]
+dialect = snowflake
+templater = dbt
+runaway_limit = 10
+max_line_length = 120
+
+[sqlfluff:templater:dbt]
+project_dir = transformation/dbt_project
+profiles_dir = transformation/dbt_project
+target = dev
+
+[sqlfluff:rules:L016]
+# L016 = Line length
+ignore_comment_lines = True
