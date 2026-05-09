@@ -6,3 +6,45 @@ sources:
     schema: STAGING
     tables:
       - name: PENDING_INGESTION
+        description: "Legacy S3 document ingestion tracking table."
+
+      - name: BRONZE_TELEMATICS_RAW
+        description: >
+          Schema-on-read VARIANT landing table.
+          ALL raw sensor JSON is stored here without schema enforcement.
+          New sensor types (Gen-2, Gen-3) can be added without any pipeline change.
+        columns:
+          - name: INGESTION_ID
+            description: "UUID assigned at ingest time."
+            tests:
+              - not_null
+              - unique
+          - name: RAW_PAYLOAD
+            description: "Full raw JSON payload as VARIANT — schema-on-read."
+            tests:
+              - not_null
+          - name: RECEIVED_AT
+            description: "UTC timestamp when the record was written to Bronze."
+            tests:
+              - not_null
+
+models:
+  - name: brz_telematics_raw
+    description: >
+      Bronze view that flattens the VARIANT RAW_PAYLOAD using dot-notation.
+      Known fields are coerced to typed columns. Unknown future sensor fields
+      remain accessible via RAW_PAYLOAD['field_name'] without a model redeploy.
+    columns:
+      - name: ingestion_id
+        tests:
+          - not_null
+          - unique
+      - name: vin
+        tests:
+          - not_null
+      - name: raw_payload
+        description: "Full VARIANT escape hatch — always available for future fields."
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: VARIANT

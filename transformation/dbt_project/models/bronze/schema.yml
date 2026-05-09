@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: stg_azure_telematics
+    description: "Raw staging for extended Azure telematics data including service and parts details."
+    columns:
+      - name: vin_reference
+        tests:
+          - not_null
+      - name: engine_temp
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: -50
+              max_value: 300
+      - name: source_system
+        tests:
+          - accepted_values:
+              values: ['AZURE_BLOB', 'AZURE_EVENT_HUB']
+
+  - name: slv_azure_intelligence
+    description: "Silver layer for Azure data with AI-enriched customer sentiment and supply chain insights."
+    columns:
+      - name: customer_sentiment_score
+        tests:
+          - accepted_values:
+              values: ['POSITIVE', 'NEGATIVE', 'NEUTRAL', 'URGENT']
