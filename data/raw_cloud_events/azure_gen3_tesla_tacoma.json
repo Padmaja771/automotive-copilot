@@ -1,0 +1,1622 @@
+[
+  {
+    "vin": "VIN_AZURE_TES_001",
+    "engine_temp_c": 115.5,
+    "error_code": "P0401",
+    "log_text": "Transmission fluid dark and smells burnt. Service due, filter replaced, fluid flushed.",
+    "recorded_at": "2026-03-09T23:40:53.793952+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 29.4,
+      "FR": 30.0,
+      "RL": 30.5,
+      "RR": 31.3
+    },
+    "battery_voltage_v": 13.65,
+    "fuel_level_pct": 72,
+    "adas_event": {
+      "type": "FORWARD_COLLISION_WARNING",
+      "severity": "MEDIUM",
+      "timestamp_ms": 1778369213793,
+      "speed_kmh": 87
+    },
+    "odometer_km": 148202,
+    "gps": {
+      "lat": 33.502888,
+      "lon": -78.680613
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_002",
+    "engine_temp_c": 114.9,
+    "error_code": "P0700",
+    "log_text": "Oil pressure warning at idle. Oil level full. Suspect oil pump or pressure switch.",
+    "recorded_at": "2026-02-20T08:14:53.793966+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 35.7,
+      "FR": 31.0,
+      "RL": 31.1,
+      "RR": 35.6
+    },
+    "battery_voltage_v": 14.55,
+    "fuel_level_pct": 41,
+    "odometer_km": 185942,
+    "gps": {
+      "lat": 41.919718,
+      "lon": -105.977555
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_003",
+    "engine_temp_c": 107.3,
+    "error_code": "P0128",
+    "log_text": "Oil pressure warning at idle. Oil level full. Suspect oil pump or pressure switch.",
+    "recorded_at": "2026-04-03T19:50:53.793973+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 33.7,
+      "FR": 31.7,
+      "RL": 35.9,
+      "RR": 34.7
+    },
+    "battery_voltage_v": 14.47,
+    "fuel_level_pct": 23,
+    "adas_event": {
+      "type": "BLIND_SPOT_ALERT",
+      "severity": "HIGH",
+      "timestamp_ms": 1778369213793,
+      "speed_kmh": 20
+    },
+    "odometer_km": 95797,
+    "gps": {
+      "lat": 47.176231,
+      "lon": -85.641677
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_004",
+    "engine_temp_c": 102.2,
+    "error_code": "P0700",
+    "log_text": "Power steering assist reduced warning. Electric power steering module requires update.",
+    "recorded_at": "2026-04-05T05:42:53.793979+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 30.9,
+      "FR": 29.8,
+      "RL": 34.2,
+      "RR": 30.7
+    },
+    "battery_voltage_v": 11.94,
+    "fuel_level_pct": 72,
+    "adas_event": {
+      "type": "FORWARD_COLLISION_WARNING",
+      "severity": "LOW",
+      "timestamp_ms": 1778369213793,
+      "speed_kmh": 25
+    },
+    "odometer_km": 113344,
+    "gps": {
+      "lat": 32.927047,
+      "lon": -96.655766
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_005",
+    "engine_temp_c": "ERROR",
+    "error_code": "P0562",
+    "log_text": "Power steering assist reduced warning. Electric power steering module requires update.",
+    "recorded_at": "2026-04-19T09:45:53.793986+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 35.5,
+      "FR": 35.1,
+      "RL": 32.3,
+      "RR": 30.4
+    },
+    "battery_voltage_v": 14.5,
+    "fuel_level_pct": 46,
+    "adas_event": {
+      "type": "LANE_DEPARTURE",
+      "severity": "LOW",
+      "timestamp_ms": 1778369213793,
+      "speed_kmh": 59
+    },
+    "odometer_km": 145286,
+    "gps": {
+      "lat": 42.728477,
+      "lon": -73.980014
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_006",
+    "engine_temp_c": 129.5,
+    "error_code": "P0300",
+    "log_text": "Coolant temperature sensor replaced. Thermostat verified functional at 88 degrees.",
+    "recorded_at": "2026-05-05T10:36:53.793992+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 32.5,
+      "FR": 35.6,
+      "RL": 35.7,
+      "RR": 35.5
+    },
+    "battery_voltage_v": 14.25,
+    "fuel_level_pct": 6,
+    "adas_event": {
+      "type": "LANE_DEPARTURE",
+      "severity": "MEDIUM",
+      "timestamp_ms": 1778369213793,
+      "speed_kmh": 72
+    },
+    "odometer_km": 124104,
+    "gps": {
+      "lat": 48.738387,
+      "lon": -92.401971
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_007",
+    "engine_temp_c": 128.0,
+    "error_code": "P0507",
+    "log_text": "AC compressor not engaging. Refrigerant pressure low, leak found at condenser fitting.",
+    "recorded_at": "2026-03-11T15:14:53.793998+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 34.7,
+      "FR": 31.3,
+      "RL": 34.1,
+      "RR": 33.5
+    },
+    "battery_voltage_v": 13.81,
+    "fuel_level_pct": 6,
+    "odometer_km": 82338,
+    "gps": {
+      "lat": 38.626749,
+      "lon": -79.563035
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_008",
+    "engine_temp_c": 110.5,
+    "error_code": "P0171",
+    "log_text": "Brake pads worn to 2mm on front axle. Rotors show heat scoring, replacement recommended.",
+    "recorded_at": "2026-03-16T07:06:53.794004+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 29.6,
+      "FR": 33.7,
+      "RL": 30.3,
+      "RR": 30.0
+    },
+    "battery_voltage_v": 12.71,
+    "fuel_level_pct": 36,
+    "adas_event": {
+      "type": "AUTO_BRAKE",
+      "severity": "LOW",
+      "timestamp_ms": 1778369213794,
+      "speed_kmh": 114
+    },
+    "odometer_km": 74990,
+    "gps": {
+      "lat": 47.896836,
+      "lon": -106.88325
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_009",
+    "engine_temp_c": 108.1,
+    "error_code": "P0700",
+    "log_text": "EGR valve stuck open causing rough idle. Cleaned and tested, flow rate restored.",
+    "recorded_at": "2026-02-10T16:23:53.794012+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 33.7,
+      "FR": 32.3,
+      "RL": 30.1,
+      "RR": 33.8
+    },
+    "battery_voltage_v": 14.38,
+    "fuel_level_pct": 95,
+    "odometer_km": 185955,
+    "gps": {
+      "lat": 27.817978,
+      "lon": -70.032177
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_010",
+    "engine_temp_c": 95.2,
+    "error_code": "P0455",
+    "log_text": "Battery draining overnight. Parasitic draw test shows 350mA with all accessories off.",
+    "recorded_at": "2026-03-09T18:57:53.794017+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 34.2,
+      "FR": 33.2,
+      "RL": 31.9,
+      "RR": 32.8
+    },
+    "battery_voltage_v": 13.12,
+    "fuel_level_pct": 73,
+    "odometer_km": 62255,
+    "gps": {
+      "lat": 43.284631,
+      "lon": -84.179485
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_011",
+    "engine_temp_c": 127.0,
+    "error_code": "P0011",
+    "log_text": "Intermittent stall at stop lights. Idle air control valve cleaned, carbon buildup removed.",
+    "recorded_at": "2026-03-03T01:03:53.794022+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 29.5,
+      "FR": 32.9,
+      "RL": 29.4,
+      "RR": 32.8
+    },
+    "battery_voltage_v": 13.22,
+    "fuel_level_pct": 78,
+    "odometer_km": 48132,
+    "gps": {
+      "lat": 32.874823,
+      "lon": -93.779508
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_012",
+    "engine_temp_c": 114.9,
+    "error_code": "P0420",
+    "log_text": "Check engine and traction control lights on simultaneously. Wheel speed sensor faulty.",
+    "recorded_at": "2026-04-28T06:58:53.794026+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 34.7,
+      "FR": 32.2,
+      "RL": 32.6,
+      "RR": 32.2
+    },
+    "battery_voltage_v": 11.96,
+    "fuel_level_pct": 64,
+    "odometer_km": 85784,
+    "gps": {
+      "lat": 42.358722,
+      "lon": -101.243077
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_013",
+    "engine_temp_c": 72.2,
+    "error_code": "U0100",
+    "log_text": "Transmission slipping between 2nd and 3rd gear at highway speeds. Fluid level normal.",
+    "recorded_at": "2026-05-04T10:04:53.794031+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 33.9,
+      "FR": 32.8,
+      "RL": 29.4,
+      "RR": 35.3
+    },
+    "battery_voltage_v": 14.56,
+    "fuel_level_pct": 65,
+    "adas_event": {
+      "type": "AUTO_BRAKE",
+      "severity": "LOW",
+      "timestamp_ms": 1778369213794,
+      "speed_kmh": 34
+    },
+    "odometer_km": 173171,
+    "gps": {
+      "lat": 48.479999,
+      "lon": -86.247151
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_014",
+    "engine_temp_c": 95.6,
+    "error_code": "P0401",
+    "log_text": "Intermittent stall at stop lights. Idle air control valve cleaned, carbon buildup removed.",
+    "recorded_at": "2026-03-22T11:21:53.794037+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 33.8,
+      "FR": 33.6,
+      "RL": 32.8,
+      "RR": 33.6
+    },
+    "battery_voltage_v": 12.77,
+    "fuel_level_pct": 27,
+    "odometer_km": 108037,
+    "gps": {
+      "lat": 37.692221,
+      "lon": -81.328512
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_015",
+    "engine_temp_c": 124.6,
+    "error_code": "P0172",
+    "log_text": "Fuel injector cleaning performed. Fuel trim improved from +18% to +4%.",
+    "recorded_at": "2026-03-11T01:40:53.794042+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 32.8,
+      "FR": 32.7,
+      "RL": 34.8,
+      "RR": 30.7
+    },
+    "battery_voltage_v": 12.77,
+    "fuel_level_pct": 40,
+    "adas_event": {
+      "type": "LANE_DEPARTURE",
+      "severity": "LOW",
+      "timestamp_ms": 1778369213794,
+      "speed_kmh": 107
+    },
+    "odometer_km": 166198,
+    "gps": {
+      "lat": 43.385283,
+      "lon": -71.974603
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_016",
+    "engine_temp_c": 87.2,
+    "error_code": "P0300",
+    "log_text": "Transmission fluid dark and smells burnt. Service due, filter replaced, fluid flushed.",
+    "recorded_at": "2026-05-05T08:48:53.794048+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 33.7,
+      "FR": 35.1,
+      "RL": 30.7,
+      "RR": 29.3
+    },
+    "battery_voltage_v": 13.03,
+    "fuel_level_pct": 74,
+    "adas_event": {
+      "type": "LANE_DEPARTURE",
+      "severity": "LOW",
+      "timestamp_ms": 1778369213794,
+      "speed_kmh": 128
+    },
+    "odometer_km": 80828,
+    "gps": {
+      "lat": 30.619876,
+      "lon": -70.016178
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_017",
+    "engine_temp_c": 92.1,
+    "error_code": "P0011",
+    "log_text": "Lane keep assist disabling randomly. Camera calibration required after windshield replacement.",
+    "recorded_at": "2026-04-09T13:30:53.794054+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 30.0,
+      "FR": 33.6,
+      "RL": 30.5,
+      "RR": 31.1
+    },
+    "battery_voltage_v": 11.97,
+    "fuel_level_pct": 80,
+    "odometer_km": 50910,
+    "gps": {
+      "lat": 40.023835,
+      "lon": -99.367965
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_018",
+    "engine_temp_c": 75.0,
+    "error_code": "P0507",
+    "log_text": "Brake pads worn to 2mm on front axle. Rotors show heat scoring, replacement recommended.",
+    "recorded_at": "2026-03-03T12:42:53.794059+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 31.9,
+      "FR": 30.0,
+      "RL": 31.6,
+      "RR": 34.3
+    },
+    "battery_voltage_v": 13.13,
+    "fuel_level_pct": 33,
+    "adas_event": {
+      "type": "FORWARD_COLLISION_WARNING",
+      "severity": "MEDIUM",
+      "timestamp_ms": 1778369213794,
+      "speed_kmh": 14
+    },
+    "odometer_km": 152426,
+    "gps": {
+      "lat": 34.90426,
+      "lon": -100.009528
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_019",
+    "engine_temp_c": 80.4,
+    "error_code": "P0340",
+    "log_text": "Catalytic converter efficiency below threshold. O2 sensor readings within spec.",
+    "recorded_at": "2026-03-28T03:21:53.794065+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 35.5,
+      "FR": 34.9,
+      "RL": 29.6,
+      "RR": 34.1
+    },
+    "battery_voltage_v": 12.33,
+    "fuel_level_pct": 39,
+    "adas_event": {
+      "type": "LANE_DEPARTURE",
+      "severity": "LOW",
+      "timestamp_ms": 1778369213794,
+      "speed_kmh": 48
+    },
+    "odometer_km": 159031,
+    "gps": {
+      "lat": 42.383326,
+      "lon": -91.468971
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_020",
+    "engine_temp_c": 85.2,
+    "error_code": "P0507",
+    "log_text": "Fuel injector cleaning performed. Fuel trim improved from +18% to +4%.",
+    "recorded_at": "2026-05-08T16:27:53.794071+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 30.3,
+      "FR": 34.2,
+      "RL": 34.2,
+      "RR": 34.3
+    },
+    "battery_voltage_v": 14.36,
+    "fuel_level_pct": 94,
+    "odometer_km": 58611,
+    "gps": {
+      "lat": 34.519169,
+      "lon": -110.640142
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_021",
+    "engine_temp_c": 120.9,
+    "error_code": "P0128",
+    "log_text": "Power steering assist reduced warning. Electric power steering module requires update.",
+    "recorded_at": "2026-02-15T12:07:53.794076+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 30.8,
+      "FR": 32.6,
+      "RL": 32.5,
+      "RR": 29.7
+    },
+    "battery_voltage_v": 14.55,
+    "fuel_level_pct": 65,
+    "odometer_km": 88947,
+    "gps": {
+      "lat": 46.943932,
+      "lon": -102.757705
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_022",
+    "engine_temp_c": 74.9,
+    "error_code": "P0401",
+    "log_text": "Battery draining overnight. Parasitic draw test shows 350mA with all accessories off.",
+    "recorded_at": "2026-05-07T14:51:53.794081+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 35.5,
+      "FR": 33.1,
+      "RL": 31.9,
+      "RR": 30.1
+    },
+    "battery_voltage_v": 12.72,
+    "fuel_level_pct": 53,
+    "odometer_km": 69416,
+    "gps": {
+      "lat": 36.983236,
+      "lon": -85.723522
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_023",
+    "engine_temp_c": 93.3,
+    "error_code": "P0562",
+    "log_text": "Check engine and traction control lights on simultaneously. Wheel speed sensor faulty.",
+    "recorded_at": "2026-02-15T23:55:53.794085+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 32.2,
+      "FR": 34.1,
+      "RL": 31.5,
+      "RR": 30.0
+    },
+    "battery_voltage_v": 13.33,
+    "fuel_level_pct": 28,
+    "odometer_km": 147117,
+    "gps": {
+      "lat": 48.767765,
+      "lon": -67.565786
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_024",
+    "engine_temp_c": 74.1,
+    "error_code": "P0340",
+    "log_text": "Check engine light on. Vehicle running lean. Suspect vacuum leak near intake manifold.",
+    "recorded_at": "2026-05-09T10:18:53.794090+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 34.9,
+      "FR": 30.6,
+      "RL": 34.0,
+      "RR": 29.1
+    },
+    "battery_voltage_v": 13.22,
+    "fuel_level_pct": 52,
+    "adas_event": {
+      "type": "AUTO_BRAKE",
+      "severity": "HIGH",
+      "timestamp_ms": 1778369213794,
+      "speed_kmh": 124
+    },
+    "odometer_km": 9123,
+    "gps": {
+      "lat": 25.158697,
+      "lon": -91.901386
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_025",
+    "engine_temp_c": 73.1,
+    "error_code": "P0300",
+    "log_text": "Power steering assist reduced warning. Electric power steering module requires update.",
+    "recorded_at": "2026-04-03T22:54:53.794096+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 34.7,
+      "FR": 33.7,
+      "RL": 34.6,
+      "RR": 35.4
+    },
+    "battery_voltage_v": 12.1,
+    "fuel_level_pct": 17,
+    "odometer_km": 68168,
+    "gps": {
+      "lat": 29.606369,
+      "lon": -93.412641
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_026",
+    "engine_temp_c": 94.3,
+    "error_code": "U0100",
+    "log_text": "Transmission slipping between 2nd and 3rd gear at highway speeds. Fluid level normal.",
+    "recorded_at": "2026-03-23T10:57:53.794101+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 33.0,
+      "FR": 35.9,
+      "RL": 30.6,
+      "RR": 33.8
+    },
+    "battery_voltage_v": 14.17,
+    "fuel_level_pct": 88,
+    "odometer_km": 175365,
+    "gps": {
+      "lat": 43.23006,
+      "lon": -119.38997
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_027",
+    "engine_temp_c": 95.8,
+    "error_code": "P0401",
+    "log_text": "Customer reports rough idle and hesitation during acceleration. P0300 confirmed on scanner.",
+    "recorded_at": "2026-02-09T18:21:53.794106+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 32.5,
+      "FR": 32.0,
+      "RL": 34.5,
+      "RR": 33.0
+    },
+    "battery_voltage_v": 14.2,
+    "fuel_level_pct": 17,
+    "odometer_km": 16154,
+    "gps": {
+      "lat": 30.514396,
+      "lon": -70.923622
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_028",
+    "engine_temp_c": 127.9,
+    "error_code": "P0700",
+    "log_text": "Check engine light on. Vehicle running lean. Suspect vacuum leak near intake manifold.",
+    "recorded_at": "2026-04-30T01:27:53.794111+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 31.0,
+      "FR": 32.8,
+      "RL": 33.6,
+      "RR": 30.3
+    },
+    "battery_voltage_v": 14.18,
+    "fuel_level_pct": 7,
+    "odometer_km": 158887,
+    "gps": {
+      "lat": 28.460597,
+      "lon": -75.758556
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_029",
+    "engine_temp_c": 97.1,
+    "error_code": "U0100",
+    "log_text": "Coolant temperature sensor replaced. Thermostat verified functional at 88 degrees.",
+    "recorded_at": "2026-02-26T15:50:53.794116+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 34.8,
+      "FR": 31.7,
+      "RL": 35.3,
+      "RR": 31.3
+    },
+    "battery_voltage_v": 13.92,
+    "fuel_level_pct": 22,
+    "odometer_km": 185698,
+    "gps": {
+      "lat": 42.379926,
+      "lon": -94.952429
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_030",
+    "engine_temp_c": 75.4,
+    "error_code": "P0128",
+    "log_text": "Transmission slipping between 2nd and 3rd gear at highway speeds. Fluid level normal.",
+    "recorded_at": "2026-03-27T03:37:53.794121+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 33.3,
+      "FR": 33.2,
+      "RL": 35.8,
+      "RR": 31.3
+    },
+    "battery_voltage_v": 13.58,
+    "fuel_level_pct": 62,
+    "odometer_km": 98273,
+    "gps": {
+      "lat": 38.272905,
+      "lon": -102.47438
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_031",
+    "engine_temp_c": 114.8,
+    "error_code": "P0171",
+    "log_text": "Transmission slipping between 2nd and 3rd gear at highway speeds. Fluid level normal.",
+    "recorded_at": "2026-02-19T13:35:53.794126+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 30.7,
+      "FR": 29.5,
+      "RL": 30.9,
+      "RR": 31.7
+    },
+    "battery_voltage_v": 13.99,
+    "fuel_level_pct": 24,
+    "odometer_km": 88015,
+    "gps": {
+      "lat": 33.656805,
+      "lon": -119.508774
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_032",
+    "engine_temp_c": 100.0,
+    "error_code": "P0455",
+    "log_text": "ABS warning light active. Left front wheel speed sensor reading intermittently.",
+    "recorded_at": "2026-04-23T21:15:53.794131+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 32.0,
+      "FR": 32.9,
+      "RL": 32.6,
+      "RR": 29.7
+    },
+    "battery_voltage_v": 12.05,
+    "fuel_level_pct": 75,
+    "adas_event": {
+      "type": "BLIND_SPOT_ALERT",
+      "severity": "MEDIUM",
+      "timestamp_ms": 1778369213794,
+      "speed_kmh": 3
+    },
+    "odometer_km": 81506,
+    "gps": {
+      "lat": 34.931442,
+      "lon": -78.249854
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_033",
+    "engine_temp_c": 128.8,
+    "error_code": "P0700",
+    "log_text": "Customer complains of vibration at 65+ mph. Wheel balance and alignment checked.",
+    "recorded_at": "2026-02-25T07:16:53.794137+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 33.8,
+      "FR": 30.2,
+      "RL": 30.9,
+      "RR": 30.9
+    },
+    "battery_voltage_v": 12.21,
+    "fuel_level_pct": 26,
+    "odometer_km": 115389,
+    "gps": {
+      "lat": 32.194054,
+      "lon": -78.040003
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_034",
+    "engine_temp_c": 87.9,
+    "error_code": "P0128",
+    "log_text": "Check engine and traction control lights on simultaneously. Wheel speed sensor faulty.",
+    "recorded_at": "2026-02-22T04:14:53.794142+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 32.2,
+      "FR": 29.9,
+      "RL": 29.0,
+      "RR": 31.8
+    },
+    "battery_voltage_v": 14.16,
+    "fuel_level_pct": 53,
+    "odometer_km": 91387,
+    "gps": {
+      "lat": 35.56535,
+      "lon": -99.163027
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TES_035",
+    "engine_temp_c": 126.1,
+    "error_code": "U0100",
+    "log_text": "Battery draining overnight. Parasitic draw test shows 350mA with all accessories off.",
+    "recorded_at": "2026-04-01T12:48:53.794147+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 35.6,
+      "FR": 30.4,
+      "RL": 31.2,
+      "RR": 35.8
+    },
+    "battery_voltage_v": 14.51,
+    "fuel_level_pct": 42,
+    "odometer_km": 170911,
+    "gps": {
+      "lat": 36.784176,
+      "lon": -90.447243
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_001",
+    "engine_temp_c": 92.5,
+    "error_code": "P0172",
+    "log_text": "Brake pads worn to 2mm on front axle. Rotors show heat scoring, replacement recommended.",
+    "recorded_at": "2026-03-24T19:27:53.794152+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 32.9,
+      "FR": 33.1,
+      "RL": 32.8,
+      "RR": 33.8
+    },
+    "battery_voltage_v": 13.34,
+    "fuel_level_pct": 98,
+    "odometer_km": 190694,
+    "gps": {
+      "lat": 30.031562,
+      "lon": -77.138869
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_002",
+    "engine_temp_c": 115.6,
+    "error_code": "U0100",
+    "log_text": "TPMS sensor failure on right rear. Sensor replaced and system re-initialized.",
+    "recorded_at": "2026-02-12T08:18:53.794157+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 33.4,
+      "FR": 30.7,
+      "RL": 33.6,
+      "RR": 34.0
+    },
+    "battery_voltage_v": 14.01,
+    "fuel_level_pct": 14,
+    "odometer_km": 161744,
+    "gps": {
+      "lat": 36.501633,
+      "lon": -100.951694
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_003",
+    "engine_temp_c": 130.2,
+    "error_code": "P0340",
+    "log_text": "TPMS sensor failure on right rear. Sensor replaced and system re-initialized.",
+    "recorded_at": "2026-03-01T21:36:53.794162+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 35.8,
+      "FR": 33.9,
+      "RL": 34.7,
+      "RR": 33.2
+    },
+    "battery_voltage_v": 14.36,
+    "fuel_level_pct": 18,
+    "odometer_km": 177386,
+    "gps": {
+      "lat": 40.952653,
+      "lon": -115.01969
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_004",
+    "engine_temp_c": 74.8,
+    "error_code": "P0011",
+    "log_text": "Brake pads worn to 2mm on front axle. Rotors show heat scoring, replacement recommended.",
+    "recorded_at": "2026-03-28T10:20:53.794167+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 29.1,
+      "FR": 30.8,
+      "RL": 32.6,
+      "RR": 32.6
+    },
+    "battery_voltage_v": 13.43,
+    "fuel_level_pct": 78,
+    "adas_event": {
+      "type": "BLIND_SPOT_ALERT",
+      "severity": "MEDIUM",
+      "timestamp_ms": 1778369213794,
+      "speed_kmh": 118
+    },
+    "odometer_km": 183141,
+    "gps": {
+      "lat": 39.126159,
+      "lon": -94.972053
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_005",
+    "engine_temp_c": 134.9,
+    "error_code": "P0128",
+    "log_text": "Fuel injector cleaning performed. Fuel trim improved from +18% to +4%.",
+    "recorded_at": "2026-03-17T21:19:53.794173+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 34.8,
+      "FR": 34.1,
+      "RL": 31.4,
+      "RR": 31.4
+    },
+    "battery_voltage_v": 14.0,
+    "fuel_level_pct": 71,
+    "odometer_km": 129823,
+    "gps": {
+      "lat": 27.342953,
+      "lon": -81.680363
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_006",
+    "engine_temp_c": 92.1,
+    "error_code": "P0507",
+    "log_text": "ABS warning light active. Left front wheel speed sensor reading intermittently.",
+    "recorded_at": "2026-05-07T12:45:53.794178+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 29.8,
+      "FR": 34.6,
+      "RL": 35.5,
+      "RR": 34.2
+    },
+    "battery_voltage_v": 13.24,
+    "fuel_level_pct": 75,
+    "adas_event": {
+      "type": "AUTO_BRAKE",
+      "severity": "MEDIUM",
+      "timestamp_ms": 1778369213794,
+      "speed_kmh": 59
+    },
+    "odometer_km": 111180,
+    "gps": {
+      "lat": 40.114248,
+      "lon": -113.816784
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_007",
+    "engine_temp_c": "ERROR",
+    "error_code": "P0562",
+    "log_text": "Transmission fluid dark and smells burnt. Service due, filter replaced, fluid flushed.",
+    "recorded_at": "2026-04-14T08:49:53.794183+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 32.0,
+      "FR": 29.0,
+      "RL": 30.5,
+      "RR": 30.9
+    },
+    "battery_voltage_v": 13.77,
+    "fuel_level_pct": 13,
+    "odometer_km": 145742,
+    "gps": {
+      "lat": 29.487036,
+      "lon": -105.440905
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_008",
+    "engine_temp_c": 79.2,
+    "error_code": "P0507",
+    "log_text": "Check engine and traction control lights on simultaneously. Wheel speed sensor faulty.",
+    "recorded_at": "2026-03-03T03:06:53.794188+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 33.2,
+      "FR": 33.3,
+      "RL": 33.1,
+      "RR": 31.4
+    },
+    "battery_voltage_v": 14.17,
+    "fuel_level_pct": 84,
+    "adas_event": {
+      "type": "BLIND_SPOT_ALERT",
+      "severity": "HIGH",
+      "timestamp_ms": 1778369213794,
+      "speed_kmh": 21
+    },
+    "odometer_km": 181189,
+    "gps": {
+      "lat": 28.214746,
+      "lon": -117.928301
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_009",
+    "engine_temp_c": 79.4,
+    "error_code": "P0455",
+    "log_text": "Battery draining overnight. Parasitic draw test shows 350mA with all accessories off.",
+    "recorded_at": "2026-03-05T11:00:53.794194+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 33.2,
+      "FR": 33.0,
+      "RL": 32.0,
+      "RR": 32.4
+    },
+    "battery_voltage_v": 13.3,
+    "fuel_level_pct": 87,
+    "odometer_km": 50412,
+    "gps": {
+      "lat": 38.317902,
+      "lon": -95.621478
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_010",
+    "engine_temp_c": 83.8,
+    "error_code": "P0171",
+    "log_text": "Transmission fluid dark and smells burnt. Service due, filter replaced, fluid flushed.",
+    "recorded_at": "2026-05-03T12:26:53.794199+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 32.4,
+      "FR": 30.4,
+      "RL": 31.7,
+      "RR": 32.9
+    },
+    "battery_voltage_v": 13.63,
+    "fuel_level_pct": 57,
+    "odometer_km": 113955,
+    "gps": {
+      "lat": 42.043417,
+      "lon": -98.368895
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_011",
+    "engine_temp_c": "ERROR",
+    "error_code": "P0171",
+    "log_text": "Customer complains of vibration at 65+ mph. Wheel balance and alignment checked.",
+    "recorded_at": "2026-04-02T22:09:53.794204+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 30.6,
+      "FR": 31.0,
+      "RL": 34.5,
+      "RR": 33.0
+    },
+    "battery_voltage_v": 13.96,
+    "fuel_level_pct": 68,
+    "odometer_km": 34677,
+    "gps": {
+      "lat": 38.745137,
+      "lon": -108.926665
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_012",
+    "engine_temp_c": 123.9,
+    "error_code": "P0340",
+    "log_text": "Check engine light on. Vehicle running lean. Suspect vacuum leak near intake manifold.",
+    "recorded_at": "2026-03-14T06:13:53.794209+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 35.9,
+      "FR": 29.7,
+      "RL": 34.8,
+      "RR": 34.3
+    },
+    "battery_voltage_v": 12.63,
+    "fuel_level_pct": 9,
+    "odometer_km": 96377,
+    "gps": {
+      "lat": 45.692791,
+      "lon": -119.78102
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_013",
+    "engine_temp_c": 134.6,
+    "error_code": "U0100",
+    "log_text": "Customer complains of vibration at 65+ mph. Wheel balance and alignment checked.",
+    "recorded_at": "2026-04-12T23:49:53.794214+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 33.8,
+      "FR": 35.0,
+      "RL": 33.3,
+      "RR": 32.0
+    },
+    "battery_voltage_v": 13.53,
+    "fuel_level_pct": 31,
+    "odometer_km": 20560,
+    "gps": {
+      "lat": 38.681784,
+      "lon": -93.063152
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_014",
+    "engine_temp_c": 105.9,
+    "error_code": "P0011",
+    "log_text": "Fuel injector cleaning performed. Fuel trim improved from +18% to +4%.",
+    "recorded_at": "2026-04-02T05:09:53.794219+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 35.7,
+      "FR": 32.6,
+      "RL": 35.3,
+      "RR": 34.7
+    },
+    "battery_voltage_v": 12.18,
+    "fuel_level_pct": 57,
+    "odometer_km": 77698,
+    "gps": {
+      "lat": 45.809142,
+      "lon": -117.38671
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_015",
+    "engine_temp_c": 80.4,
+    "error_code": "U0100",
+    "log_text": "Lane keep assist disabling randomly. Camera calibration required after windshield replacement.",
+    "recorded_at": "2026-04-08T02:01:53.794224+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 32.4,
+      "FR": 33.0,
+      "RL": 30.9,
+      "RR": 31.9
+    },
+    "battery_voltage_v": 13.07,
+    "fuel_level_pct": 86,
+    "odometer_km": 29404,
+    "gps": {
+      "lat": 34.668419,
+      "lon": -80.011857
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_016",
+    "engine_temp_c": 131.0,
+    "error_code": "P0700",
+    "log_text": "Check engine and traction control lights on simultaneously. Wheel speed sensor faulty.",
+    "recorded_at": "2026-03-29T05:26:53.794229+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 35.1,
+      "FR": 34.9,
+      "RL": 29.7,
+      "RR": 35.8
+    },
+    "battery_voltage_v": 13.58,
+    "fuel_level_pct": 94,
+    "adas_event": {
+      "type": "LANE_DEPARTURE",
+      "severity": "HIGH",
+      "timestamp_ms": 1778369213794,
+      "speed_kmh": 101
+    },
+    "odometer_km": 62102,
+    "gps": {
+      "lat": 48.235086,
+      "lon": -75.509141
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_017",
+    "engine_temp_c": 88.9,
+    "error_code": "P0507",
+    "log_text": "Lane keep assist disabling randomly. Camera calibration required after windshield replacement.",
+    "recorded_at": "2026-02-28T05:18:53.794235+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 33.0,
+      "FR": 32.4,
+      "RL": 31.4,
+      "RR": 33.8
+    },
+    "battery_voltage_v": 11.94,
+    "fuel_level_pct": 17,
+    "odometer_km": 125476,
+    "gps": {
+      "lat": 25.390752,
+      "lon": -69.234027
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_018",
+    "engine_temp_c": "ERROR",
+    "error_code": "P0171",
+    "log_text": "TPMS sensor failure on right rear. Sensor replaced and system re-initialized.",
+    "recorded_at": "2026-04-14T00:28:53.794240+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 29.9,
+      "FR": 33.5,
+      "RL": 30.1,
+      "RR": 35.5
+    },
+    "battery_voltage_v": 12.57,
+    "fuel_level_pct": 88,
+    "adas_event": {
+      "type": "LANE_DEPARTURE",
+      "severity": "MEDIUM",
+      "timestamp_ms": 1778369213794,
+      "speed_kmh": 42
+    },
+    "odometer_km": 18575,
+    "gps": {
+      "lat": 34.512198,
+      "lon": -106.669445
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_019",
+    "engine_temp_c": 119.6,
+    "error_code": "P0700",
+    "log_text": "Transmission slipping between 2nd and 3rd gear at highway speeds. Fluid level normal.",
+    "recorded_at": "2026-02-08T20:26:53.794250+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 30.5,
+      "FR": 29.5,
+      "RL": 33.2,
+      "RR": 32.6
+    },
+    "battery_voltage_v": 13.05,
+    "fuel_level_pct": 6,
+    "odometer_km": 36612,
+    "gps": {
+      "lat": 48.715718,
+      "lon": -99.661164
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_020",
+    "engine_temp_c": 102.1,
+    "error_code": "P0171",
+    "log_text": "Transmission slipping between 2nd and 3rd gear at highway speeds. Fluid level normal.",
+    "recorded_at": "2026-04-26T20:06:53.794255+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 31.6,
+      "FR": 31.1,
+      "RL": 31.7,
+      "RR": 34.7
+    },
+    "battery_voltage_v": 14.25,
+    "fuel_level_pct": 87,
+    "odometer_km": 42448,
+    "gps": {
+      "lat": 26.641879,
+      "lon": -91.202527
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_021",
+    "engine_temp_c": 113.0,
+    "error_code": "P0011",
+    "log_text": "Catalytic converter efficiency below threshold. O2 sensor readings within spec.",
+    "recorded_at": "2026-02-18T00:17:53.794260+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 35.4,
+      "FR": 33.3,
+      "RL": 32.1,
+      "RR": 30.5
+    },
+    "battery_voltage_v": 14.31,
+    "fuel_level_pct": 22,
+    "odometer_km": 159553,
+    "gps": {
+      "lat": 42.52022,
+      "lon": -103.907862
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_022",
+    "engine_temp_c": 91.8,
+    "error_code": "P0401",
+    "log_text": "Oil pressure warning at idle. Oil level full. Suspect oil pump or pressure switch.",
+    "recorded_at": "2026-02-16T21:11:53.794265+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 32.9,
+      "FR": 33.2,
+      "RL": 33.3,
+      "RR": 34.5
+    },
+    "battery_voltage_v": 13.73,
+    "fuel_level_pct": 89,
+    "odometer_km": 58856,
+    "gps": {
+      "lat": 37.425979,
+      "lon": -94.428646
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_023",
+    "engine_temp_c": 96.7,
+    "error_code": "P0700",
+    "log_text": "Customer complains of vibration at 65+ mph. Wheel balance and alignment checked.",
+    "recorded_at": "2026-03-07T11:19:53.794269+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 30.7,
+      "FR": 33.5,
+      "RL": 29.5,
+      "RR": 35.2
+    },
+    "battery_voltage_v": 11.83,
+    "fuel_level_pct": 51,
+    "odometer_km": 39598,
+    "gps": {
+      "lat": 34.284118,
+      "lon": -74.661602
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_024",
+    "engine_temp_c": 95.0,
+    "error_code": "P0401",
+    "log_text": "Check engine and traction control lights on simultaneously. Wheel speed sensor faulty.",
+    "recorded_at": "2026-04-30T22:49:53.794274+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 29.5,
+      "FR": 30.8,
+      "RL": 29.3,
+      "RR": 29.4
+    },
+    "battery_voltage_v": 14.01,
+    "fuel_level_pct": 69,
+    "adas_event": {
+      "type": "AUTO_BRAKE",
+      "severity": "MEDIUM",
+      "timestamp_ms": 1778369213794,
+      "speed_kmh": 102
+    },
+    "odometer_km": 26607,
+    "gps": {
+      "lat": 40.372895,
+      "lon": -92.740679
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_025",
+    "engine_temp_c": 89.5,
+    "error_code": "P0171",
+    "log_text": "AC compressor not engaging. Refrigerant pressure low, leak found at condenser fitting.",
+    "recorded_at": "2026-04-13T18:52:53.794280+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 31.3,
+      "FR": 33.1,
+      "RL": 34.3,
+      "RR": 33.5
+    },
+    "battery_voltage_v": 13.6,
+    "fuel_level_pct": 44,
+    "odometer_km": 196354,
+    "gps": {
+      "lat": 47.882271,
+      "lon": -110.681757
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_026",
+    "engine_temp_c": 77.4,
+    "error_code": "P0172",
+    "log_text": "Intermittent stall at stop lights. Idle air control valve cleaned, carbon buildup removed.",
+    "recorded_at": "2026-02-20T04:23:53.794285+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 31.2,
+      "FR": 34.2,
+      "RL": 34.2,
+      "RR": 29.8
+    },
+    "battery_voltage_v": 13.78,
+    "fuel_level_pct": 94,
+    "adas_event": {
+      "type": "AUTO_BRAKE",
+      "severity": "MEDIUM",
+      "timestamp_ms": 1778369213794,
+      "speed_kmh": 66
+    },
+    "odometer_km": 48768,
+    "gps": {
+      "lat": 33.924866,
+      "lon": -80.013417
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_027",
+    "engine_temp_c": 88.9,
+    "error_code": "U0100",
+    "log_text": "Customer reports rough idle and hesitation during acceleration. P0300 confirmed on scanner.",
+    "recorded_at": "2026-03-28T10:09:53.794291+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 32.7,
+      "FR": 30.8,
+      "RL": 35.8,
+      "RR": 33.4
+    },
+    "battery_voltage_v": 13.19,
+    "fuel_level_pct": 70,
+    "adas_event": {
+      "type": "AUTO_BRAKE",
+      "severity": "HIGH",
+      "timestamp_ms": 1778369213794,
+      "speed_kmh": 42
+    },
+    "odometer_km": 101387,
+    "gps": {
+      "lat": 28.77544,
+      "lon": -78.600263
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_028",
+    "engine_temp_c": 108.2,
+    "error_code": "NONE",
+    "log_text": "Customer complains of vibration at 65+ mph. Wheel balance and alignment checked.",
+    "recorded_at": "2026-03-05T23:24:53.794297+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 35.0,
+      "FR": 29.1,
+      "RL": 29.3,
+      "RR": 31.5
+    },
+    "battery_voltage_v": 14.38,
+    "fuel_level_pct": 27,
+    "odometer_km": 14270,
+    "gps": {
+      "lat": 38.268755,
+      "lon": -70.16314
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_029",
+    "engine_temp_c": 113.3,
+    "error_code": "P0700",
+    "log_text": "Customer complains of vibration at 65+ mph. Wheel balance and alignment checked.",
+    "recorded_at": "2026-03-17T00:06:53.794302+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 30.9,
+      "FR": 29.5,
+      "RL": 31.6,
+      "RR": 32.5
+    },
+    "battery_voltage_v": 14.33,
+    "fuel_level_pct": 27,
+    "adas_event": {
+      "type": "LANE_DEPARTURE",
+      "severity": "MEDIUM",
+      "timestamp_ms": 1778369213794,
+      "speed_kmh": 17
+    },
+    "odometer_km": 126921,
+    "gps": {
+      "lat": 45.784774,
+      "lon": -78.588351
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_030",
+    "engine_temp_c": 92.6,
+    "error_code": "P0455",
+    "log_text": "Customer reports rough idle and hesitation during acceleration. P0300 confirmed on scanner.",
+    "recorded_at": "2026-03-23T17:08:53.794307+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 32.9,
+      "FR": 31.1,
+      "RL": 33.4,
+      "RR": 32.2
+    },
+    "battery_voltage_v": 13.46,
+    "fuel_level_pct": 68,
+    "odometer_km": 56228,
+    "gps": {
+      "lat": 42.57912,
+      "lon": -92.206445
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_031",
+    "engine_temp_c": "ERROR",
+    "error_code": "B1234",
+    "log_text": "TPMS sensor failure on right rear. Sensor replaced and system re-initialized.",
+    "recorded_at": "2026-05-06T15:52:53.794312+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 31.4,
+      "FR": 34.9,
+      "RL": 35.1,
+      "RR": 35.7
+    },
+    "battery_voltage_v": 11.8,
+    "fuel_level_pct": 89,
+    "adas_event": {
+      "type": "BLIND_SPOT_ALERT",
+      "severity": "LOW",
+      "timestamp_ms": 1778369213794,
+      "speed_kmh": 52
+    },
+    "odometer_km": 143887,
+    "gps": {
+      "lat": 48.594778,
+      "lon": -99.811049
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_032",
+    "engine_temp_c": 133.3,
+    "error_code": "P0300",
+    "log_text": "Oil pressure warning at idle. Oil level full. Suspect oil pump or pressure switch.",
+    "recorded_at": "2026-04-28T21:28:53.794318+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 30.6,
+      "FR": 34.9,
+      "RL": 31.9,
+      "RR": 35.3
+    },
+    "battery_voltage_v": 13.08,
+    "fuel_level_pct": 100,
+    "adas_event": {
+      "type": "LANE_DEPARTURE",
+      "severity": "HIGH",
+      "timestamp_ms": 1778369213794,
+      "speed_kmh": 34
+    },
+    "odometer_km": 172042,
+    "gps": {
+      "lat": 44.679109,
+      "lon": -120.510171
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_033",
+    "engine_temp_c": 75.9,
+    "error_code": "P0011",
+    "log_text": "Battery draining overnight. Parasitic draw test shows 350mA with all accessories off.",
+    "recorded_at": "2026-04-09T14:10:53.794324+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 35.0,
+      "FR": 35.5,
+      "RL": 31.8,
+      "RR": 34.8
+    },
+    "battery_voltage_v": 12.71,
+    "fuel_level_pct": 62,
+    "adas_event": {
+      "type": "LANE_DEPARTURE",
+      "severity": "LOW",
+      "timestamp_ms": 1778369213794,
+      "speed_kmh": 34
+    },
+    "odometer_km": 158277,
+    "gps": {
+      "lat": 27.615348,
+      "lon": -118.660535
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_034",
+    "engine_temp_c": 101.4,
+    "error_code": "P0507",
+    "log_text": "Power steering assist reduced warning. Electric power steering module requires update.",
+    "recorded_at": "2026-03-25T16:58:53.794329+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 31.2,
+      "FR": 30.9,
+      "RL": 29.8,
+      "RR": 30.1
+    },
+    "battery_voltage_v": 13.72,
+    "fuel_level_pct": 95,
+    "odometer_km": 15572,
+    "gps": {
+      "lat": 30.160499,
+      "lon": -73.605604
+    }
+  },
+  {
+    "vin": "VIN_AZURE_TAC_035",
+    "engine_temp_c": 77.7,
+    "error_code": "P0171",
+    "log_text": "EGR valve stuck open causing rough idle. Cleaned and tested, flow rate restored.",
+    "recorded_at": "2026-03-20T07:23:53.794334+00:00",
+    "cloud_source": "AZURE_BLOB",
+    "tire_pressure_psi": {
+      "FL": 33.7,
+      "FR": 30.8,
+      "RL": 35.9,
+      "RR": 29.2
+    },
+    "battery_voltage_v": 12.93,
+    "fuel_level_pct": 62,
+    "odometer_km": 149210,
+    "gps": {
+      "lat": 30.996463,
+      "lon": -97.277405
+    }
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "vin": "VIN_AWS_CRIT_001",
+    "engine_temp_c": 144.0,
+    "error_code": "P0300",
+    "log_text": "Brake pads worn to 2mm on front axle. Rotors show heat scoring, replacement recommended.",
+    "recorded_at": "2026-05-08T14:52:53.791790+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 29.9,
+      "FR": 31.6,
+      "RL": 34.2,
+      "RR": 30.8
+    },
+    "battery_voltage_v": 10.65,
+    "fuel_level_pct": 86
+  },
+  {
+    "vin": "VIN_AWS_CRIT_002",
+    "engine_temp_c": 130.4,
+    "error_code": "P0300",
+    "log_text": "Power steering assist reduced warning. Electric power steering module requires update.",
+    "recorded_at": "2026-03-29T04:12:53.791799+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 33.5,
+      "FR": 33.4,
+      "RL": 32.2,
+      "RR": 33.9
+    },
+    "battery_voltage_v": 10.02,
+    "fuel_level_pct": 19
+  },
+  {
+    "vin": "VIN_AWS_CRIT_003",
+    "engine_temp_c": 130.6,
+    "error_code": "P0700",
+    "log_text": "Power steering assist reduced warning. Electric power steering module requires update.",
+    "recorded_at": "2026-04-22T10:57:53.791806+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 31.6,
+      "FR": 35.6,
+      "RL": 33.9,
+      "RR": 32.8
+    },
+    "battery_voltage_v": 10.61,
+    "fuel_level_pct": 98
+  },
+  {
+    "vin": "VIN_AWS_CRIT_004",
+    "engine_temp_c": 137.3,
+    "error_code": "U0100",
+    "log_text": "Oil pressure warning at idle. Oil level full. Suspect oil pump or pressure switch.",
+    "recorded_at": "2026-05-05T01:03:53.791813+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 30.5,
+      "FR": 32.1,
+      "RL": 30.7,
+      "RR": 31.5
+    },
+    "battery_voltage_v": 10.11,
+    "fuel_level_pct": 52
+  },
+  {
+    "vin": "VIN_AWS_CRIT_005",
+    "engine_temp_c": 141.4,
+    "error_code": "P0300",
+    "log_text": "Intermittent stall at stop lights. Idle air control valve cleaned, carbon buildup removed.",
+    "recorded_at": "2026-04-28T02:13:53.791820+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 33.5,
+      "FR": 33.2,
+      "RL": 29.1,
+      "RR": 34.5
+    },
+    "battery_voltage_v": 9.62,
+    "fuel_level_pct": 21
+  },
+  {
+    "vin": "VIN_AWS_CRIT_006",
+    "engine_temp_c": 141.6,
+    "error_code": "P0300",
+    "log_text": "Customer complains of vibration at 65+ mph. Wheel balance and alignment checked.",
+    "recorded_at": "2026-03-28T18:36:53.791825+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 35.3,
+      "FR": 29.0,
+      "RL": 35.0,
+      "RR": 30.0
+    },
+    "battery_voltage_v": 10.62,
+    "fuel_level_pct": 37
+  },
+  {
+    "vin": "VIN_AWS_CRIT_007",
+    "engine_temp_c": 135.6,
+    "error_code": "P0700",
+    "log_text": "Customer complains of vibration at 65+ mph. Wheel balance and alignment checked.",
+    "recorded_at": "2026-02-23T13:25:53.791830+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 30.2,
+      "FR": 29.4,
+      "RL": 34.2,
+      "RR": 32.7
+    },
+    "battery_voltage_v": 10.37,
+    "fuel_level_pct": 65
+  },
+  {
+    "vin": "VIN_AWS_CRIT_008",
+    "engine_temp_c": 142.4,
+    "error_code": "P0700",
+    "log_text": "Transmission fluid dark and smells burnt. Service due, filter replaced, fluid flushed.",
+    "recorded_at": "2026-05-03T23:36:53.791835+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 35.4,
+      "FR": 33.6,
+      "RL": 31.1,
+      "RR": 33.5
+    },
+    "battery_voltage_v": 10.67,
+    "fuel_level_pct": 66
+  },
+  {
+    "vin": "VIN_AWS_CRIT_009",
+    "engine_temp_c": 137.0,
+    "error_code": "P0700",
+    "log_text": "Transmission slipping between 2nd and 3rd gear at highway speeds. Fluid level normal.",
+    "recorded_at": "2026-03-29T04:17:53.791840+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 29.5,
+      "FR": 30.9,
+      "RL": 33.4,
+      "RR": 32.8
+    },
+    "battery_voltage_v": 10.36,
+    "fuel_level_pct": 81
+  },
+  {
+    "vin": "VIN_AWS_CRIT_010",
+    "engine_temp_c": 135.3,
+    "error_code": "U0100",
+    "log_text": "Power steering assist reduced warning. Electric power steering module requires update.",
+    "recorded_at": "2026-04-12T09:58:53.791845+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 35.2,
+      "FR": 31.9,
+      "RL": 34.8,
+      "RR": 31.8
+    },
+    "battery_voltage_v": 9.93,
+    "fuel_level_pct": 45
+  }
+]

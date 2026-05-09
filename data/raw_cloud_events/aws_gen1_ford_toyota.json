@@ -1,0 +1,402 @@
+[
+  {
+    "vin": "VIN_AWS_F150_025",
+    "engine_temp_c": 120.0,
+    "error_code": "P0128",
+    "log_text": "AC compressor not engaging. Refrigerant pressure low, leak found at condenser fitting.",
+    "recorded_at": "2026-05-09T04:06:53.790133+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_F150_015",
+    "engine_temp_c": 97.3,
+    "error_code": "P0128",
+    "log_text": "Spark plugs at 98k miles, worn beyond spec. Full tune-up completed with NGK plugs.",
+    "recorded_at": "2026-03-30T16:45:53.790105+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_CAM_007",
+    "engine_temp_c": 85.9,
+    "error_code": "P0011",
+    "log_text": "Check engine light on. Vehicle running lean. Suspect vacuum leak near intake manifold.",
+    "recorded_at": "2026-04-10T20:29:53.790288+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_F150_006",
+    "engine_temp_c": 81.8,
+    "error_code": "P0455",
+    "log_text": "Lane keep assist disabling randomly. Camera calibration required after windshield replacement.",
+    "recorded_at": "2026-04-26T21:02:53.790071+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_CAM_017",
+    "engine_temp_c": 88.7,
+    "error_code": "P0401",
+    "log_text": "Intermittent stall at stop lights. Idle air control valve cleaned, carbon buildup removed.",
+    "recorded_at": "2026-04-03T09:42:53.790316+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_F150_003",
+    "engine_temp_c": 77.9,
+    "error_code": "P0300",
+    "log_text": "Transmission fluid dark and smells burnt. Service due, filter replaced, fluid flushed.",
+    "recorded_at": "2026-05-06T06:14:53.790010+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_CAM_021",
+    "engine_temp_c": 125.6,
+    "error_code": "P0420",
+    "log_text": "Transmission slipping between 2nd and 3rd gear at highway speeds. Fluid level normal.",
+    "recorded_at": "2026-02-12T16:01:53.790337+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_F150_012",
+    "engine_temp_c": 88.8,
+    "error_code": "P0562",
+    "log_text": "Transmission slipping between 2nd and 3rd gear at highway speeds. Fluid level normal.",
+    "recorded_at": "2026-02-21T03:16:53.790096+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_F150_013",
+    "engine_temp_c": 117.9,
+    "error_code": "P0340",
+    "log_text": "Brake pads worn to 2mm on front axle. Rotors show heat scoring, replacement recommended.",
+    "recorded_at": "2026-04-05T02:42:53.790099+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_CAM_019",
+    "engine_temp_c": 133.0,
+    "error_code": "P0172",
+    "log_text": "Power steering assist reduced warning. Electric power steering module requires update.",
+    "recorded_at": "2026-05-02T00:06:53.790322+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_F150_002",
+    "engine_temp_c": 114.6,
+    "error_code": "P0420",
+    "log_text": "Transmission slipping between 2nd and 3rd gear at highway speeds. Fluid level normal.",
+    "recorded_at": "2026-02-23T10:24:53.789986+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_CAM_020",
+    "engine_temp_c": 75.2,
+    "error_code": "P0300",
+    "log_text": "AC compressor not engaging. Refrigerant pressure low, leak found at condenser fitting.",
+    "recorded_at": "2026-04-19T21:54:53.790324+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_CAM_006",
+    "engine_temp_c": 87.6,
+    "error_code": "P0420",
+    "log_text": "Customer reports rough idle and hesitation during acceleration. P0300 confirmed on scanner.",
+    "recorded_at": "2026-02-23T06:12:53.790268+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_F150_008",
+    "engine_temp_c": 79.9,
+    "error_code": "P0340",
+    "log_text": "Transmission slipping between 2nd and 3rd gear at highway speeds. Fluid level normal.",
+    "recorded_at": "2026-02-28T13:33:53.790082+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_CAM_015",
+    "engine_temp_c": 124.7,
+    "error_code": "P0340",
+    "log_text": "Customer complains of vibration at 65+ mph. Wheel balance and alignment checked.",
+    "recorded_at": "2026-04-18T09:55:53.790311+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_F150_021",
+    "engine_temp_c": 131.4,
+    "error_code": "U0100",
+    "log_text": "ABS warning light active. Left front wheel speed sensor reading intermittently.",
+    "recorded_at": "2026-02-11T05:38:53.790122+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_CAM_013",
+    "engine_temp_c": 100.3,
+    "error_code": "P0340",
+    "log_text": "Oil pressure warning at idle. Oil level full. Suspect oil pump or pressure switch.",
+    "recorded_at": "2026-03-11T15:31:53.790306+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_CAM_025",
+    "engine_temp_c": 100.8,
+    "error_code": "P0455",
+    "log_text": "Transmission slipping between 2nd and 3rd gear at highway speeds. Fluid level normal.",
+    "recorded_at": "2026-05-08T08:47:53.790360+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_CAM_024",
+    "engine_temp_c": 117.1,
+    "error_code": "P0562",
+    "log_text": "Brake pads worn to 2mm on front axle. Rotors show heat scoring, replacement recommended.",
+    "recorded_at": "2026-04-23T01:45:53.790357+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_F150_010",
+    "engine_temp_c": 113.7,
+    "error_code": "P0300",
+    "log_text": "Transmission slipping between 2nd and 3rd gear at highway speeds. Fluid level normal.",
+    "recorded_at": "2026-04-10T20:02:53.790090+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_CAM_002",
+    "engine_temp_c": 107.7,
+    "error_code": "NONE",
+    "log_text": "Check engine and traction control lights on simultaneously. Wheel speed sensor faulty.",
+    "recorded_at": "2026-05-01T05:37:53.790139+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_CAM_003",
+    "engine_temp_c": 80.1,
+    "error_code": "P0171",
+    "log_text": "Power steering assist reduced warning. Electric power steering module requires update.",
+    "recorded_at": "2026-04-18T14:53:53.790142+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_F150_018",
+    "engine_temp_c": 85.8,
+    "error_code": "P0128",
+    "log_text": "AC compressor not engaging. Refrigerant pressure low, leak found at condenser fitting.",
+    "recorded_at": "2026-03-07T20:38:53.790113+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_CAM_014",
+    "engine_temp_c": 76.7,
+    "error_code": "NONE",
+    "log_text": "Power steering assist reduced warning. Electric power steering module requires update.",
+    "recorded_at": "2026-04-27T21:45:53.790308+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_CAM_001",
+    "engine_temp_c": 73.2,
+    "error_code": "P0507",
+    "log_text": "Fuel injector cleaning performed. Fuel trim improved from +18% to +4%.",
+    "recorded_at": "2026-04-09T22:11:53.790136+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_CAM_011",
+    "engine_temp_c": 98.7,
+    "error_code": "P0128",
+    "log_text": "Check engine light on. Vehicle running lean. Suspect vacuum leak near intake manifold.",
+    "recorded_at": "2026-02-12T02:45:53.790300+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_CAM_018",
+    "engine_temp_c": 134.7,
+    "error_code": "P0700",
+    "log_text": "Check engine and traction control lights on simultaneously. Wheel speed sensor faulty.",
+    "recorded_at": "2026-04-20T17:08:53.790319+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_CAM_016",
+    "engine_temp_c": 85.5,
+    "error_code": "P0507",
+    "log_text": "Check engine light on. Vehicle running lean. Suspect vacuum leak near intake manifold.",
+    "recorded_at": "2026-04-18T11:26:53.790313+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_F150_004",
+    "engine_temp_c": 112.9,
+    "error_code": "P0700",
+    "log_text": "Customer complains of vibration at 65+ mph. Wheel balance and alignment checked.",
+    "recorded_at": "2026-03-13T05:09:53.790059+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_F150_022",
+    "engine_temp_c": 120.4,
+    "error_code": "P0455",
+    "log_text": "Fuel injector cleaning performed. Fuel trim improved from +18% to +4%.",
+    "recorded_at": "2026-03-15T17:57:53.790125+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_CAM_005",
+    "engine_temp_c": 97.1,
+    "error_code": "P0455",
+    "log_text": "EGR valve stuck open causing rough idle. Cleaned and tested, flow rate restored.",
+    "recorded_at": "2026-03-14T06:58:53.790189+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_CAM_009",
+    "engine_temp_c": 106.0,
+    "error_code": "P0172",
+    "log_text": "Spark plugs at 98k miles, worn beyond spec. Full tune-up completed with NGK plugs.",
+    "recorded_at": "2026-02-25T08:11:53.790295+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_F150_001",
+    "engine_temp_c": 79.0,
+    "error_code": "P0562",
+    "log_text": "Customer complains of vibration at 65+ mph. Wheel balance and alignment checked.",
+    "recorded_at": "2026-04-11T18:39:53.789687+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_F150_020",
+    "engine_temp_c": 96.2,
+    "error_code": "P0420",
+    "log_text": "Intermittent stall at stop lights. Idle air control valve cleaned, carbon buildup removed.",
+    "recorded_at": "2026-03-03T14:51:53.790119+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_CAM_022",
+    "engine_temp_c": 131.3,
+    "error_code": "P0420",
+    "log_text": "Spark plugs at 98k miles, worn beyond spec. Full tune-up completed with NGK plugs.",
+    "recorded_at": "2026-02-22T21:47:53.790349+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_CAM_004",
+    "engine_temp_c": 110.2,
+    "error_code": "U0100",
+    "log_text": "Power steering assist reduced warning. Electric power steering module requires update.",
+    "recorded_at": "2026-02-10T16:41:53.790145+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_F150_011",
+    "engine_temp_c": 100.6,
+    "error_code": "P0455",
+    "log_text": "Coolant temperature sensor replaced. Thermostat verified functional at 88 degrees.",
+    "recorded_at": "2026-03-23T12:13:53.790093+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_F150_019",
+    "engine_temp_c": 126.2,
+    "error_code": "P0300",
+    "log_text": "Coolant temperature sensor replaced. Thermostat verified functional at 88 degrees.",
+    "recorded_at": "2026-02-11T09:48:53.790116+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_F150_024",
+    "engine_temp_c": 78.7,
+    "error_code": "NONE",
+    "log_text": "AC compressor not engaging. Refrigerant pressure low, leak found at condenser fitting.",
+    "recorded_at": "2026-02-21T17:17:53.790130+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_F150_016",
+    "engine_temp_c": 96.9,
+    "error_code": "P0507",
+    "log_text": "Intermittent stall at stop lights. Idle air control valve cleaned, carbon buildup removed.",
+    "recorded_at": "2026-04-21T15:18:53.790108+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_CAM_023",
+    "engine_temp_c": 98.4,
+    "error_code": "P0420",
+    "log_text": "AC compressor not engaging. Refrigerant pressure low, leak found at condenser fitting.",
+    "recorded_at": "2026-03-30T15:13:53.790353+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_F150_023",
+    "engine_temp_c": 132.1,
+    "error_code": "P0300",
+    "log_text": "Oil pressure warning at idle. Oil level full. Suspect oil pump or pressure switch.",
+    "recorded_at": "2026-03-06T17:54:53.790127+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_F150_009",
+    "engine_temp_c": 111.0,
+    "error_code": "P0562",
+    "log_text": "Spark plugs at 98k miles, worn beyond spec. Full tune-up completed with NGK plugs.",
+    "recorded_at": "2026-04-15T01:22:53.790087+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_F150_017",
+    "engine_temp_c": 118.9,
+    "error_code": "P0172",
+    "log_text": "Spark plugs at 98k miles, worn beyond spec. Full tune-up completed with NGK plugs.",
+    "recorded_at": "2026-03-16T05:01:53.790110+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_CAM_008",
+    "engine_temp_c": 126.2,
+    "error_code": "P0300",
+    "log_text": "Customer complains of vibration at 65+ mph. Wheel balance and alignment checked.",
+    "recorded_at": "2026-04-04T01:55:53.790292+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_F150_014",
+    "engine_temp_c": 85.8,
+    "error_code": "P0340",
+    "log_text": "Check engine light on. Vehicle running lean. Suspect vacuum leak near intake manifold.",
+    "recorded_at": "2026-04-10T21:35:53.790102+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_CAM_010",
+    "engine_temp_c": 101.8,
+    "error_code": "B1234",
+    "log_text": "ABS warning light active. Left front wheel speed sensor reading intermittently.",
+    "recorded_at": "2026-04-27T01:59:53.790298+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_F150_005",
+    "engine_temp_c": 126.8,
+    "error_code": "B1234",
+    "log_text": "Coolant temperature sensor replaced. Thermostat verified functional at 88 degrees.",
+    "recorded_at": "2026-02-09T10:05:53.790067+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_F150_007",
+    "engine_temp_c": 94.6,
+    "error_code": "P0420",
+    "log_text": "Oil pressure warning at idle. Oil level full. Suspect oil pump or pressure switch.",
+    "recorded_at": "2026-05-03T23:57:53.790075+00:00",
+    "cloud_source": "AWS_S3"
+  },
+  {
+    "vin": "VIN_AWS_CAM_012",
+    "engine_temp_c": 75.8,
+    "error_code": "P0420",
+    "log_text": "ABS warning light active. Left front wheel speed sensor reading intermittently.",
+    "recorded_at": "2026-04-08T17:14:53.790303+00:00",
+    "cloud_source": "AWS_S3"
+  }
+]

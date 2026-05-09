@@ -1,0 +1,962 @@
+[
+  {
+    "vin": "VIN_AWS_SIL_001",
+    "engine_temp_c": 116.5,
+    "error_code": "P0340",
+    "log_text": "ABS warning light active. Left front wheel speed sensor reading intermittently.",
+    "recorded_at": "2026-04-30T00:29:53.790891+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 30.0,
+      "FR": 29.3,
+      "RL": 31.6,
+      "RR": 32.9
+    },
+    "battery_voltage_v": 13.0,
+    "fuel_level_pct": 10
+  },
+  {
+    "vin": "VIN_AWS_SIL_002",
+    "engine_temp_c": 95.0,
+    "error_code": "P0455",
+    "log_text": "Check engine light on. Vehicle running lean. Suspect vacuum leak near intake manifold.",
+    "recorded_at": "2026-03-25T16:43:53.790901+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 30.7,
+      "FR": 29.7,
+      "RL": 34.5,
+      "RR": 35.2
+    },
+    "battery_voltage_v": 12.94,
+    "fuel_level_pct": 84
+  },
+  {
+    "vin": "VIN_AWS_SIL_003",
+    "engine_temp_c": 81.7,
+    "error_code": "P0700",
+    "log_text": "Coolant temperature sensor replaced. Thermostat verified functional at 88 degrees.",
+    "recorded_at": "2026-04-17T10:25:53.790907+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 30.3,
+      "FR": 35.5,
+      "RL": 34.5,
+      "RR": 31.9
+    },
+    "battery_voltage_v": 13.68,
+    "fuel_level_pct": 99
+  },
+  {
+    "vin": "VIN_AWS_SIL_004",
+    "engine_temp_c": 87.6,
+    "error_code": "B1234",
+    "log_text": "ABS warning light active. Left front wheel speed sensor reading intermittently.",
+    "recorded_at": "2026-03-22T21:32:53.790913+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 32.3,
+      "FR": 30.4,
+      "RL": 35.4,
+      "RR": 31.4
+    },
+    "battery_voltage_v": 14.1,
+    "fuel_level_pct": 34
+  },
+  {
+    "vin": "VIN_AWS_SIL_005",
+    "engine_temp_c": 73.5,
+    "error_code": "P0172",
+    "log_text": "Lane keep assist disabling randomly. Camera calibration required after windshield replacement.",
+    "recorded_at": "2026-04-04T20:37:53.790918+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 31.0,
+      "FR": 33.5,
+      "RL": 31.8,
+      "RR": 35.9
+    },
+    "battery_voltage_v": 13.3,
+    "fuel_level_pct": 8
+  },
+  {
+    "vin": "VIN_AWS_SIL_006",
+    "engine_temp_c": 127.3,
+    "error_code": "P0420",
+    "log_text": "Spark plugs at 98k miles, worn beyond spec. Full tune-up completed with NGK plugs.",
+    "recorded_at": "2026-04-06T22:20:53.790923+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 33.2,
+      "FR": 31.4,
+      "RL": 34.5,
+      "RR": 32.1
+    },
+    "battery_voltage_v": 14.56,
+    "fuel_level_pct": 19
+  },
+  {
+    "vin": "VIN_AWS_SIL_007",
+    "engine_temp_c": 128.7,
+    "error_code": "P0401",
+    "log_text": "Check engine light on. Vehicle running lean. Suspect vacuum leak near intake manifold.",
+    "recorded_at": "2026-02-08T10:26:53.790929+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 32.6,
+      "FR": 34.6,
+      "RL": 33.8,
+      "RR": 35.6
+    },
+    "battery_voltage_v": 13.86,
+    "fuel_level_pct": 30
+  },
+  {
+    "vin": "VIN_AWS_SIL_008",
+    "engine_temp_c": 99.2,
+    "error_code": "P0128",
+    "log_text": "Lane keep assist disabling randomly. Camera calibration required after windshield replacement.",
+    "recorded_at": "2026-02-19T12:44:53.790935+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 34.9,
+      "FR": 34.0,
+      "RL": 31.1,
+      "RR": 31.2
+    },
+    "battery_voltage_v": 12.94,
+    "fuel_level_pct": 56
+  },
+  {
+    "vin": "VIN_AWS_SIL_009",
+    "engine_temp_c": 90.6,
+    "error_code": "P0700",
+    "log_text": "TPMS sensor failure on right rear. Sensor replaced and system re-initialized.",
+    "recorded_at": "2026-02-13T10:43:53.790939+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 34.2,
+      "FR": 30.2,
+      "RL": 33.0,
+      "RR": 31.8
+    },
+    "battery_voltage_v": 14.13,
+    "fuel_level_pct": 43
+  },
+  {
+    "vin": "VIN_AWS_SIL_010",
+    "engine_temp_c": 85.2,
+    "error_code": "P0455",
+    "log_text": "Transmission fluid dark and smells burnt. Service due, filter replaced, fluid flushed.",
+    "recorded_at": "2026-02-15T12:57:53.790944+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 32.1,
+      "FR": 33.7,
+      "RL": 32.6,
+      "RR": 34.6
+    },
+    "battery_voltage_v": 14.49,
+    "fuel_level_pct": 99
+  },
+  {
+    "vin": "VIN_AWS_SIL_011",
+    "engine_temp_c": 113.5,
+    "error_code": "P0171",
+    "log_text": "Transmission fluid dark and smells burnt. Service due, filter replaced, fluid flushed.",
+    "recorded_at": "2026-03-28T20:34:53.790949+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 35.7,
+      "FR": 30.6,
+      "RL": 31.2,
+      "RR": 34.6
+    },
+    "battery_voltage_v": 12.21,
+    "fuel_level_pct": 10
+  },
+  {
+    "vin": "VIN_AWS_SIL_012",
+    "engine_temp_c": 134.0,
+    "error_code": "P0172",
+    "log_text": "Transmission slipping between 2nd and 3rd gear at highway speeds. Fluid level normal.",
+    "recorded_at": "2026-03-12T09:30:53.790953+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 33.4,
+      "FR": 30.4,
+      "RL": 33.9,
+      "RR": 32.5
+    },
+    "battery_voltage_v": 12.48,
+    "fuel_level_pct": 88
+  },
+  {
+    "vin": "VIN_AWS_SIL_013",
+    "engine_temp_c": 72.3,
+    "error_code": "P0700",
+    "log_text": "ABS warning light active. Left front wheel speed sensor reading intermittently.",
+    "recorded_at": "2026-03-16T16:15:53.790957+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 34.6,
+      "FR": 33.9,
+      "RL": 32.3,
+      "RR": 32.9
+    },
+    "battery_voltage_v": 14.37,
+    "fuel_level_pct": 20
+  },
+  {
+    "vin": "VIN_AWS_SIL_014",
+    "engine_temp_c": 80.4,
+    "error_code": "P0507",
+    "log_text": "AC compressor not engaging. Refrigerant pressure low, leak found at condenser fitting.",
+    "recorded_at": "2026-02-27T04:06:53.790962+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 35.7,
+      "FR": 35.2,
+      "RL": 33.3,
+      "RR": 34.0
+    },
+    "battery_voltage_v": 13.21,
+    "fuel_level_pct": 75
+  },
+  {
+    "vin": "VIN_AWS_SIL_015",
+    "engine_temp_c": 128.5,
+    "error_code": "P0507",
+    "log_text": "Check engine and traction control lights on simultaneously. Wheel speed sensor faulty.",
+    "recorded_at": "2026-03-13T14:38:53.790966+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 30.7,
+      "FR": 33.5,
+      "RL": 34.4,
+      "RR": 32.6
+    },
+    "battery_voltage_v": 13.55,
+    "fuel_level_pct": 40
+  },
+  {
+    "vin": "VIN_AWS_SIL_016",
+    "engine_temp_c": 76.9,
+    "error_code": "P0507",
+    "log_text": "Oil pressure warning at idle. Oil level full. Suspect oil pump or pressure switch.",
+    "recorded_at": "2026-03-28T12:29:53.790971+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 32.8,
+      "FR": 30.0,
+      "RL": 30.6,
+      "RR": 33.9
+    },
+    "battery_voltage_v": 13.78,
+    "fuel_level_pct": 13
+  },
+  {
+    "vin": "VIN_AWS_SIL_017",
+    "engine_temp_c": 97.7,
+    "error_code": "P0401",
+    "log_text": "TPMS sensor failure on right rear. Sensor replaced and system re-initialized.",
+    "recorded_at": "2026-05-02T16:33:53.790975+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 31.9,
+      "FR": 35.3,
+      "RL": 33.1,
+      "RR": 33.9
+    },
+    "battery_voltage_v": 14.2,
+    "fuel_level_pct": 78
+  },
+  {
+    "vin": "VIN_AWS_SIL_018",
+    "engine_temp_c": 102.0,
+    "error_code": "P0401",
+    "log_text": "Fuel injector cleaning performed. Fuel trim improved from +18% to +4%.",
+    "recorded_at": "2026-03-21T09:52:53.790979+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 34.2,
+      "FR": 32.8,
+      "RL": 33.2,
+      "RR": 30.5
+    },
+    "battery_voltage_v": 12.41,
+    "fuel_level_pct": 60
+  },
+  {
+    "vin": "VIN_AWS_SIL_019",
+    "engine_temp_c": 73.8,
+    "error_code": "P0507",
+    "log_text": "Brake pads worn to 2mm on front axle. Rotors show heat scoring, replacement recommended.",
+    "recorded_at": "2026-04-18T08:28:53.790984+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 29.9,
+      "FR": 33.4,
+      "RL": 29.2,
+      "RR": 31.8
+    },
+    "battery_voltage_v": 13.38,
+    "fuel_level_pct": 8
+  },
+  {
+    "vin": "VIN_AWS_SIL_020",
+    "engine_temp_c": 112.5,
+    "error_code": "P0420",
+    "log_text": "Intermittent stall at stop lights. Idle air control valve cleaned, carbon buildup removed.",
+    "recorded_at": "2026-04-16T22:10:53.790988+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 31.7,
+      "FR": 30.5,
+      "RL": 31.3,
+      "RR": 34.3
+    },
+    "battery_voltage_v": 12.86,
+    "fuel_level_pct": 58
+  },
+  {
+    "vin": "VIN_AWS_SIL_021",
+    "engine_temp_c": 124.6,
+    "error_code": "P0455",
+    "log_text": "Power steering assist reduced warning. Electric power steering module requires update.",
+    "recorded_at": "2026-05-03T12:12:53.790992+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 33.6,
+      "FR": 34.5,
+      "RL": 33.6,
+      "RR": 34.3
+    },
+    "battery_voltage_v": 14.46,
+    "fuel_level_pct": 30
+  },
+  {
+    "vin": "VIN_AWS_SIL_022",
+    "engine_temp_c": 73.3,
+    "error_code": "U0100",
+    "log_text": "Battery draining overnight. Parasitic draw test shows 350mA with all accessories off.",
+    "recorded_at": "2026-03-10T02:19:53.790996+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 32.9,
+      "FR": 30.5,
+      "RL": 33.9,
+      "RR": 34.4
+    },
+    "battery_voltage_v": 12.27,
+    "fuel_level_pct": 82
+  },
+  {
+    "vin": "VIN_AWS_SIL_023",
+    "engine_temp_c": 117.3,
+    "error_code": "P0700",
+    "log_text": "Coolant temperature sensor replaced. Thermostat verified functional at 88 degrees.",
+    "recorded_at": "2026-03-31T19:49:53.791000+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 29.2,
+      "FR": 31.2,
+      "RL": 33.7,
+      "RR": 35.7
+    },
+    "battery_voltage_v": 12.91,
+    "fuel_level_pct": 96
+  },
+  {
+    "vin": "VIN_AWS_SIL_024",
+    "engine_temp_c": 76.8,
+    "error_code": "P0172",
+    "log_text": "Customer complains of vibration at 65+ mph. Wheel balance and alignment checked.",
+    "recorded_at": "2026-04-26T00:37:53.791004+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 31.1,
+      "FR": 33.8,
+      "RL": 34.6,
+      "RR": 34.6
+    },
+    "battery_voltage_v": 13.38,
+    "fuel_level_pct": 10
+  },
+  {
+    "vin": "VIN_AWS_SIL_025",
+    "engine_temp_c": 105.6,
+    "error_code": "P0128",
+    "log_text": "Transmission slipping between 2nd and 3rd gear at highway speeds. Fluid level normal.",
+    "recorded_at": "2026-03-06T03:05:53.791008+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 29.1,
+      "FR": 31.9,
+      "RL": 32.4,
+      "RR": 32.0
+    },
+    "battery_voltage_v": 12.81,
+    "fuel_level_pct": 63
+  },
+  {
+    "vin": "VIN_AWS_SIL_026",
+    "engine_temp_c": 81.6,
+    "error_code": "P0700",
+    "log_text": "AC compressor not engaging. Refrigerant pressure low, leak found at condenser fitting.",
+    "recorded_at": "2026-02-15T14:47:53.791013+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 34.7,
+      "FR": 32.8,
+      "RL": 32.4,
+      "RR": 32.0
+    },
+    "battery_voltage_v": 13.85,
+    "fuel_level_pct": 39
+  },
+  {
+    "vin": "VIN_AWS_SIL_027",
+    "engine_temp_c": 125.7,
+    "error_code": "P0128",
+    "log_text": "Transmission slipping between 2nd and 3rd gear at highway speeds. Fluid level normal.",
+    "recorded_at": "2026-04-04T09:11:53.791017+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 34.3,
+      "FR": 33.0,
+      "RL": 33.7,
+      "RR": 31.4
+    },
+    "battery_voltage_v": 13.18,
+    "fuel_level_pct": 46
+  },
+  {
+    "vin": "VIN_AWS_SIL_028",
+    "engine_temp_c": 102.7,
+    "error_code": "P0171",
+    "log_text": "Oil pressure warning at idle. Oil level full. Suspect oil pump or pressure switch.",
+    "recorded_at": "2026-03-27T14:30:53.791021+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 33.2,
+      "FR": 35.2,
+      "RL": 32.9,
+      "RR": 32.6
+    },
+    "battery_voltage_v": 12.33,
+    "fuel_level_pct": 35
+  },
+  {
+    "vin": "VIN_AWS_SIL_029",
+    "engine_temp_c": 97.6,
+    "error_code": "P0700",
+    "log_text": "Customer complains of vibration at 65+ mph. Wheel balance and alignment checked.",
+    "recorded_at": "2026-02-10T07:45:53.791025+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 34.0,
+      "FR": 32.1,
+      "RL": 29.1,
+      "RR": 31.1
+    },
+    "battery_voltage_v": 12.93,
+    "fuel_level_pct": 36
+  },
+  {
+    "vin": "VIN_AWS_SIL_030",
+    "engine_temp_c": 113.8,
+    "error_code": "P0455",
+    "log_text": "Power steering assist reduced warning. Electric power steering module requires update.",
+    "recorded_at": "2026-03-03T11:59:53.791029+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 36.0,
+      "FR": 32.9,
+      "RL": 31.5,
+      "RR": 32.2
+    },
+    "battery_voltage_v": 12.66,
+    "fuel_level_pct": 34
+  },
+  {
+    "vin": "VIN_AWS_EXP_001",
+    "engine_temp_c": 117.4,
+    "error_code": "P0420",
+    "log_text": "Power steering assist reduced warning. Electric power steering module requires update.",
+    "recorded_at": "2026-02-10T18:14:53.791034+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 30.5,
+      "FR": 32.4,
+      "RL": 34.1,
+      "RR": 35.8
+    },
+    "battery_voltage_v": 13.27,
+    "fuel_level_pct": 41
+  },
+  {
+    "vin": "VIN_AWS_EXP_002",
+    "engine_temp_c": 124.5,
+    "error_code": "P0420",
+    "log_text": "EGR valve stuck open causing rough idle. Cleaned and tested, flow rate restored.",
+    "recorded_at": "2026-04-17T14:26:53.791038+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 34.0,
+      "FR": 29.9,
+      "RL": 29.3,
+      "RR": 29.4
+    },
+    "battery_voltage_v": 12.62,
+    "fuel_level_pct": 21
+  },
+  {
+    "vin": "VIN_AWS_EXP_003",
+    "engine_temp_c": 126.7,
+    "error_code": "P0562",
+    "log_text": "Customer reports rough idle and hesitation during acceleration. P0300 confirmed on scanner.",
+    "recorded_at": "2026-02-25T13:56:53.791043+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 32.4,
+      "FR": 31.4,
+      "RL": 35.8,
+      "RR": 30.8
+    },
+    "battery_voltage_v": 14.21,
+    "fuel_level_pct": 19
+  },
+  {
+    "vin": "VIN_AWS_EXP_004",
+    "engine_temp_c": 76.1,
+    "error_code": "U0100",
+    "log_text": "Spark plugs at 98k miles, worn beyond spec. Full tune-up completed with NGK plugs.",
+    "recorded_at": "2026-02-18T02:23:53.791047+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 30.1,
+      "FR": 34.7,
+      "RL": 35.6,
+      "RR": 29.6
+    },
+    "battery_voltage_v": 12.49,
+    "fuel_level_pct": 76
+  },
+  {
+    "vin": "VIN_AWS_EXP_005",
+    "engine_temp_c": 98.2,
+    "error_code": "B1234",
+    "log_text": "Transmission fluid dark and smells burnt. Service due, filter replaced, fluid flushed.",
+    "recorded_at": "2026-04-11T07:02:53.791051+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 32.2,
+      "FR": 32.1,
+      "RL": 35.0,
+      "RR": 35.9
+    },
+    "battery_voltage_v": 12.66,
+    "fuel_level_pct": 84
+  },
+  {
+    "vin": "VIN_AWS_EXP_006",
+    "engine_temp_c": 110.4,
+    "error_code": "P0300",
+    "log_text": "Catalytic converter efficiency below threshold. O2 sensor readings within spec.",
+    "recorded_at": "2026-02-18T17:10:53.791055+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 33.6,
+      "FR": 30.1,
+      "RL": 30.2,
+      "RR": 29.5
+    },
+    "battery_voltage_v": 11.81,
+    "fuel_level_pct": 62
+  },
+  {
+    "vin": "VIN_AWS_EXP_007",
+    "engine_temp_c": 109.4,
+    "error_code": "P0700",
+    "log_text": "Customer complains of vibration at 65+ mph. Wheel balance and alignment checked.",
+    "recorded_at": "2026-04-03T01:08:53.791059+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 33.9,
+      "FR": 32.2,
+      "RL": 33.8,
+      "RR": 35.5
+    },
+    "battery_voltage_v": 14.01,
+    "fuel_level_pct": 85
+  },
+  {
+    "vin": "VIN_AWS_EXP_008",
+    "engine_temp_c": 113.7,
+    "error_code": "P0011",
+    "log_text": "TPMS sensor failure on right rear. Sensor replaced and system re-initialized.",
+    "recorded_at": "2026-04-25T06:12:53.791063+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 33.5,
+      "FR": 35.4,
+      "RL": 34.8,
+      "RR": 29.5
+    },
+    "battery_voltage_v": 12.26,
+    "fuel_level_pct": 44
+  },
+  {
+    "vin": "VIN_AWS_EXP_009",
+    "engine_temp_c": 119.2,
+    "error_code": "P0011",
+    "log_text": "Fuel injector cleaning performed. Fuel trim improved from +18% to +4%.",
+    "recorded_at": "2026-03-14T19:57:53.791068+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 33.8,
+      "FR": 33.9,
+      "RL": 35.6,
+      "RR": 32.5
+    },
+    "battery_voltage_v": 13.18,
+    "fuel_level_pct": 15
+  },
+  {
+    "vin": "VIN_AWS_EXP_010",
+    "engine_temp_c": 74.5,
+    "error_code": "P0011",
+    "log_text": "Lane keep assist disabling randomly. Camera calibration required after windshield replacement.",
+    "recorded_at": "2026-02-21T15:25:53.791072+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 29.6,
+      "FR": 35.7,
+      "RL": 34.9,
+      "RR": 33.0
+    },
+    "battery_voltage_v": 14.46,
+    "fuel_level_pct": 91
+  },
+  {
+    "vin": "VIN_AWS_EXP_011",
+    "engine_temp_c": "ERROR",
+    "error_code": "U0100",
+    "log_text": "Coolant temperature sensor replaced. Thermostat verified functional at 88 degrees.",
+    "recorded_at": "2026-03-10T06:45:53.791077+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 32.1,
+      "FR": 30.9,
+      "RL": 36.0,
+      "RR": 32.1
+    },
+    "battery_voltage_v": 14.08,
+    "fuel_level_pct": 16
+  },
+  {
+    "vin": "VIN_AWS_EXP_012",
+    "engine_temp_c": 93.9,
+    "error_code": "P0507",
+    "log_text": "ABS warning light active. Left front wheel speed sensor reading intermittently.",
+    "recorded_at": "2026-04-19T13:00:53.791081+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 33.9,
+      "FR": 31.0,
+      "RL": 35.6,
+      "RR": 34.7
+    },
+    "battery_voltage_v": 13.34,
+    "fuel_level_pct": 63
+  },
+  {
+    "vin": "VIN_AWS_EXP_013",
+    "engine_temp_c": 91.8,
+    "error_code": "P0420",
+    "log_text": "Brake pads worn to 2mm on front axle. Rotors show heat scoring, replacement recommended.",
+    "recorded_at": "2026-03-05T22:44:53.791086+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 35.1,
+      "FR": 32.2,
+      "RL": 29.4,
+      "RR": 32.6
+    },
+    "battery_voltage_v": 13.54,
+    "fuel_level_pct": 68
+  },
+  {
+    "vin": "VIN_AWS_EXP_014",
+    "engine_temp_c": 99.8,
+    "error_code": "P0562",
+    "log_text": "Oil pressure warning at idle. Oil level full. Suspect oil pump or pressure switch.",
+    "recorded_at": "2026-02-28T18:27:53.791090+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 31.0,
+      "FR": 35.2,
+      "RL": 32.4,
+      "RR": 29.2
+    },
+    "battery_voltage_v": 13.56,
+    "fuel_level_pct": 35
+  },
+  {
+    "vin": "VIN_AWS_EXP_015",
+    "engine_temp_c": 82.0,
+    "error_code": "P0700",
+    "log_text": "Power steering assist reduced warning. Electric power steering module requires update.",
+    "recorded_at": "2026-03-18T21:12:53.791094+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 35.9,
+      "FR": 35.4,
+      "RL": 32.2,
+      "RR": 29.8
+    },
+    "battery_voltage_v": 14.13,
+    "fuel_level_pct": 68
+  },
+  {
+    "vin": "VIN_AWS_EXP_016",
+    "engine_temp_c": 117.1,
+    "error_code": "NONE",
+    "log_text": "Oil pressure warning at idle. Oil level full. Suspect oil pump or pressure switch.",
+    "recorded_at": "2026-03-17T07:56:53.791098+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 30.7,
+      "FR": 32.9,
+      "RL": 31.7,
+      "RR": 35.5
+    },
+    "battery_voltage_v": 13.22,
+    "fuel_level_pct": 22
+  },
+  {
+    "vin": "VIN_AWS_EXP_017",
+    "engine_temp_c": 76.4,
+    "error_code": "U0100",
+    "log_text": "TPMS sensor failure on right rear. Sensor replaced and system re-initialized.",
+    "recorded_at": "2026-03-27T07:09:53.791102+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 34.7,
+      "FR": 31.0,
+      "RL": 31.1,
+      "RR": 33.1
+    },
+    "battery_voltage_v": 14.6,
+    "fuel_level_pct": 67
+  },
+  {
+    "vin": "VIN_AWS_EXP_018",
+    "engine_temp_c": 81.4,
+    "error_code": "U0100",
+    "log_text": "EGR valve stuck open causing rough idle. Cleaned and tested, flow rate restored.",
+    "recorded_at": "2026-03-28T05:38:53.791106+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 32.8,
+      "FR": 32.2,
+      "RL": 31.3,
+      "RR": 30.3
+    },
+    "battery_voltage_v": 13.75,
+    "fuel_level_pct": 78
+  },
+  {
+    "vin": "VIN_AWS_EXP_019",
+    "engine_temp_c": 86.7,
+    "error_code": "P0401",
+    "log_text": "Check engine light on. Vehicle running lean. Suspect vacuum leak near intake manifold.",
+    "recorded_at": "2026-03-29T23:56:53.791111+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 33.9,
+      "FR": 34.7,
+      "RL": 31.7,
+      "RR": 33.6
+    },
+    "battery_voltage_v": 14.1,
+    "fuel_level_pct": 24
+  },
+  {
+    "vin": "VIN_AWS_EXP_020",
+    "engine_temp_c": 132.8,
+    "error_code": "P0507",
+    "log_text": "Spark plugs at 98k miles, worn beyond spec. Full tune-up completed with NGK plugs.",
+    "recorded_at": "2026-03-28T19:31:53.791115+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 34.9,
+      "FR": 29.7,
+      "RL": 35.4,
+      "RR": 29.1
+    },
+    "battery_voltage_v": 12.2,
+    "fuel_level_pct": 88
+  },
+  {
+    "vin": "VIN_AWS_EXP_021",
+    "engine_temp_c": 76.7,
+    "error_code": "P0171",
+    "log_text": "Oil pressure warning at idle. Oil level full. Suspect oil pump or pressure switch.",
+    "recorded_at": "2026-03-27T03:42:53.791119+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 31.8,
+      "FR": 29.6,
+      "RL": 31.3,
+      "RR": 33.7
+    },
+    "battery_voltage_v": 13.29,
+    "fuel_level_pct": 45
+  },
+  {
+    "vin": "VIN_AWS_EXP_022",
+    "engine_temp_c": 117.3,
+    "error_code": "P0562",
+    "log_text": "Power steering assist reduced warning. Electric power steering module requires update.",
+    "recorded_at": "2026-05-05T04:22:53.791123+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 30.6,
+      "FR": 33.8,
+      "RL": 31.0,
+      "RR": 30.6
+    },
+    "battery_voltage_v": 12.05,
+    "fuel_level_pct": 17
+  },
+  {
+    "vin": "VIN_AWS_EXP_023",
+    "engine_temp_c": 111.9,
+    "error_code": "B1234",
+    "log_text": "Intermittent stall at stop lights. Idle air control valve cleaned, carbon buildup removed.",
+    "recorded_at": "2026-04-18T01:07:53.791128+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 35.3,
+      "FR": 29.3,
+      "RL": 34.6,
+      "RR": 31.1
+    },
+    "battery_voltage_v": 12.85,
+    "fuel_level_pct": 23
+  },
+  {
+    "vin": "VIN_AWS_EXP_024",
+    "engine_temp_c": 105.5,
+    "error_code": "P0172",
+    "log_text": "Coolant temperature sensor replaced. Thermostat verified functional at 88 degrees.",
+    "recorded_at": "2026-04-18T18:21:53.791132+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 33.3,
+      "FR": 31.7,
+      "RL": 33.8,
+      "RR": 32.5
+    },
+    "battery_voltage_v": 13.43,
+    "fuel_level_pct": 34
+  },
+  {
+    "vin": "VIN_AWS_EXP_025",
+    "engine_temp_c": 112.2,
+    "error_code": "P0507",
+    "log_text": "Customer reports rough idle and hesitation during acceleration. P0300 confirmed on scanner.",
+    "recorded_at": "2026-03-11T13:43:53.791136+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 32.8,
+      "FR": 29.5,
+      "RL": 35.6,
+      "RR": 35.9
+    },
+    "battery_voltage_v": 12.64,
+    "fuel_level_pct": 59
+  },
+  {
+    "vin": "VIN_AWS_EXP_026",
+    "engine_temp_c": 87.8,
+    "error_code": "P0700",
+    "log_text": "Catalytic converter efficiency below threshold. O2 sensor readings within spec.",
+    "recorded_at": "2026-03-21T08:20:53.791141+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 30.7,
+      "FR": 33.0,
+      "RL": 33.0,
+      "RR": 35.9
+    },
+    "battery_voltage_v": 12.63,
+    "fuel_level_pct": 89
+  },
+  {
+    "vin": "VIN_AWS_EXP_027",
+    "engine_temp_c": 89.3,
+    "error_code": "P0401",
+    "log_text": "Check engine light on. Vehicle running lean. Suspect vacuum leak near intake manifold.",
+    "recorded_at": "2026-02-20T23:55:53.791145+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 34.8,
+      "FR": 35.3,
+      "RL": 34.4,
+      "RR": 30.6
+    },
+    "battery_voltage_v": 14.05,
+    "fuel_level_pct": 33
+  },
+  {
+    "vin": "VIN_AWS_EXP_028",
+    "engine_temp_c": 84.0,
+    "error_code": "P0562",
+    "log_text": "Battery draining overnight. Parasitic draw test shows 350mA with all accessories off.",
+    "recorded_at": "2026-02-18T19:29:53.791150+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 33.4,
+      "FR": 29.3,
+      "RL": 34.5,
+      "RR": 29.2
+    },
+    "battery_voltage_v": 12.82,
+    "fuel_level_pct": 21
+  },
+  {
+    "vin": "VIN_AWS_EXP_029",
+    "engine_temp_c": 129.3,
+    "error_code": "P0420",
+    "log_text": "TPMS sensor failure on right rear. Sensor replaced and system re-initialized.",
+    "recorded_at": "2026-04-17T17:18:53.791154+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 34.5,
+      "FR": 35.1,
+      "RL": 31.6,
+      "RR": 32.5
+    },
+    "battery_voltage_v": 12.56,
+    "fuel_level_pct": 26
+  },
+  {
+    "vin": "VIN_AWS_EXP_030",
+    "engine_temp_c": 129.6,
+    "error_code": "P0455",
+    "log_text": "Fuel injector cleaning performed. Fuel trim improved from +18% to +4%.",
+    "recorded_at": "2026-03-27T19:57:53.791158+00:00",
+    "cloud_source": "AWS_S3",
+    "tire_pressure_psi": {
+      "FL": 35.7,
+      "FR": 30.0,
+      "RL": 35.8,
+      "RR": 35.0
+    },
+    "battery_voltage_v": 13.83,
+    "fuel_level_pct": 55
+  }
+]

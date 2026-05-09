@@ -1,0 +1,32 @@
+[
+    {
+        "vin": "VIN_AZURE_WCS_001",
+        "engine_temp_c": 142.5,
+        "error_code": "P0300",
+        "cloud_source": "AZURE_EVENT_HUB",
+        "service_center_id": "AZ-PHX-01",
+        "mechanic_notes": "Engine misfire reported during heavy load. Customer mentions strange smell from exhaust. Urgent inspection required.",
+        "parts_on_order": ["SPARK_PLUG_X12", "IGNITION_COIL_B"],
+        "customer_sentiment_raw": "Very frustrated, car stalled on highway."
+    },
+    {
+        "vin": "VIN_AZURE_WCS_002",
+        "engine_temp_c": 92.0,
+        "error_code": "NONE",
+        "cloud_source": "AZURE_EVENT_HUB",
+        "service_center_id": "AZ-SEA-05",
+        "mechanic_notes": "Routine maintenance. Oil change and tire rotation performed. All systems nominal.",
+        "parts_on_order": [],
+        "customer_sentiment_raw": "Happy with the quick service."
+    },
+    {
+        "vin": "VIN_AZURE_WCS_003",
+        "engine_temp_c": 115.2,
+        "error_code": "P0101",
+        "cloud_source": "AZURE_EVENT_HUB",
+        "service_center_id": "AZ-CHI-02",
+        "mechanic_notes": "Mass air flow sensor reporting erratic values. Possible air leak in intake manifold.",
+        "parts_on_order": ["MAF_SENSOR_600"],
+        "customer_sentiment_raw": "Worried about repair costs."
+    }
+]
